@@ -1,0 +1,53 @@
+@using Backend.Service.View
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Backend.Service.ViewModel.AirportViewModel
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Thêm mới</span>
+        </h5>
+        @* <button type="button" class="close" data-dismiss="modal" aria-label="Close"> *@
+        @*     <span aria-hidden="true">×</span> *@
+        @* </button> *@
+    </div>
+    <div class="modal-body">
+        <form id="form" method="post" enctype="multipart/form-data">
+            @Html.HiddenFor(model => model.id)
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Sân bay</label>
+                        @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Mã sân bay</label>
+                        @Html.TextBoxFor(x => x.code, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Khu vực</label>
+                        @Html.DropDownListFor(x => x.zone_id, (SelectList)ViewBag.Zone, "Chọn khu vực", new { @class = "form-control" })
+                    </div>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doUpdate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/airport.js" defer=""></script>
+

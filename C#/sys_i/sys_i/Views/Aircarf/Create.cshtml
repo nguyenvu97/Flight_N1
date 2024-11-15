@@ -1,0 +1,81 @@
+@using Backend.Service.View
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Backend.Service.ViewModel.AircrarfViewModel
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Thêm mới</span>
+        </h5>
+    </div>
+    <div class="modal-body">
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "form" }))
+        {
+            <div class="row">
+                @Html.Hidden("airline_id")
+                
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Tên máy bay</label>
+                        @Html.TextBoxFor(x => x.type, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Mã máy bay</label>
+                        @Html.TextBoxFor(x => x.code, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Số ghế thương gia</label>
+                        @Html.TextBoxFor(x => x.businessseats, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Số ghế phổ thông</label>
+                        @Html.TextBoxFor(x => x.economySeats, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Hãng hàng không</label>
+                        <select id="select_airline" style="width: 100%;" onchange="changeTarget(this,'airline_id')"></select>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>VND/KM</label>
+                        @Html.TextBoxFor(x => x.price_per_km, new { @class = "form-control" })
+                    </div>
+                </div>
+                
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label for="status">Tình trạng</label>
+                        <select id="status" name="status" class="form-control">
+                            <option value="1">Sẵn sàng</option>
+                            <option value="2">Đang bảo trì</option>
+                            <option value="3">Hủy</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doCreate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/aircarf.js" defer=""></script>
+

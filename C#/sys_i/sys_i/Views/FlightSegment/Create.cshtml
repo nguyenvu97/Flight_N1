@@ -1,0 +1,159 @@
+@using Backend.Service.View
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Backend.Service.ViewModel.FlightSegmentViewModel
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Thêm mới</span>
+        </h5>
+    </div>
+    <div class="modal-body">
+        <form id="form" method="post" enctype="multipart/form-data">
+            @Html.Hidden("air_id")
+            @Html.Hidden("route_id")
+            @Html.Hidden("de_time")
+            @Html.Hidden("ar_time")
+            <input type="hidden" id="flightSegmentsJson" name="flightSegmentsJson" value="" />
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Máy bay</label>
+                        <select id="select_aircarf" style="width: 100%;" onchange="changeTarget(this,'air_id')"></select>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Tuyến bay</label>
+                        <select id="select_routes" style="width: 100%;" onchange="changeTarget(this,'route_id')"></select>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Thời gian xuất phát</label>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <input id="date" name="date" type="date" class="form-control" placeholder="Ngày xuất phát">
+                            </div>
+                            <div class="col-sm-4">
+                                <input id="time" name="time" type="time" class="form-control" placeholder="Giờ xuất phát">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Thời gian đến</label>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <input id="date1" name="date1" type="date" class="form-control" placeholder="Ngày đến">
+                            </div>
+                            <div class="col-sm-4">
+                                <input id="time1" name="time1" type="time" class="form-control" placeholder="Giờ đến">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Ghi chú</label>
+                        @Html.TextAreaFor(x => x.note, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label for="status">Tình trạng</label>
+                        <select id="status" name="status" class="form-control">
+                            <option value="1">Sẵn sàng</option>
+                            <option value="2">Thay đổi lịch trình</option>
+                            <option value="3">Bay</option>
+                            <option value="4">Hủy</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Checkbox to add connecting flight -->
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <input type="checkbox" id="addConnectingFlight" onclick="toggleConnectingFlightForm()" />
+                        <label for="addConnectingFlight">Thêm chuyến bay nối tiếp</label>
+                    </div>
+                </div>
+
+                <!-- Form for connecting flight, initially hidden -->
+                <div id="connectingFlightForm" style="display: none;">
+                    <h5>Chuyến bay nối tiếp</h5>
+                    <div class="col-sm-12">
+                        <div class="form-group form-group-default">
+                            <label>Máy bay nối tiếp</label>
+                            <select id="select_aircarf_connecting" style="width: 100%;" onchange="changeTarget(this,'connecting_air_id')"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="form-group form-group-default">
+                            <label>Tuyến bay nối tiếp</label>
+                            <select id="select_routes_connecting" style="width: 100%;" onchange="changeTarget(this,'connecting_route_id')"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="form-group form-group-default">
+                            <label>Thời gian xuất phát</label>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <input id="date_connecting" name="date_connecting" type="date" class="form-control" placeholder="Ngày xuất phát">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input id="time_connecting" name="time_connecting" type="time" class="form-control" placeholder="Giờ xuất phát">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="form-group form-group-default">
+                            <label>Thời gian đến</label>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <input id="date1_connecting" name="date1_connecting" type="date" class="form-control" placeholder="Ngày đến">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input id="time1_connecting" name="time1_connecting" type="time" class="form-control" placeholder="Giờ đến">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doCreate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+<script type="text/javascript" src="~/flightsegment.js" defer=""></script>
+
+<script type="text/javascript">
+    function toggleConnectingFlightForm() {
+        const checkBox = document.getElementById('addConnectingFlight');
+        const form = document.getElementById('connectingFlightForm');
+        if (checkBox.checked) {
+            form.style.display = 'block';
+        } else {
+            form.style.display = 'none';
+        }
+    }
+    
+</script >

@@ -1,0 +1,6 @@
+2024-09-18 18:44:48.066 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-18 18:44:48.723 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-18 18:44:49.412 +07:00 [DBG] 'Context' disposed.
+2024-09-18 18:45:43.587 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-18 18:45:44.222 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-18 18:45:44.860 +07:00 [DBG] 'Context' disposed.

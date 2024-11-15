@@ -1,0 +1,65 @@
+@* @using Backend.Service.View *@
+@* @model Backend.Service.ViewModel.FlightViewModel *@
+@* *@
+@* <div class="modal-content"> *@
+@*     <div class="modal-header border-0"> *@
+@*         <h5 class="modal-title"> *@
+@*             <span class="fw-mediumbold">Chi tiết máy bay</span> *@
+@*         </h5> *@
+@*     </div> *@
+@*     <div class="modal-body"> *@
+@*         <table class="table table-striped"> *@
+@*             <tbody> *@
+@*             <tr> *@
+@*                 <th>Mã Máy bay</th> *@
+@*                 <td>@Model.code</td> *@
+@*             </tr> *@
+@*             <tr> *@
+@*                 <th>Chuyến bay</th> *@
+@*                 <td>@Model.routes.search</td> *@
+@*             </tr> *@
+@*             <tr> *@
+@*                 <th>Mã chuyến bay</th> *@
+@*                 <td>@Model.aircarf.code</td> *@
+@*             </tr> *@
+@*             <tr> *@
+@*                 <th>Thời gian xuất phát</th> *@
+@*                 <td>@Model.de_time</td> *@
+@*             </tr> *@
+@*             <tr> *@
+@*                 <th>Thời gian đến</th> *@
+@*                 <td>@Model.ar_time</td> *@
+@*             </tr> *@
+@*             <tr> *@
+@*                 <th>Tình trạng</th> *@
+@*                 <td> *@
+@*                     @{ *@
+@*                         var statusText = Model.status switch *@
+@*                         { *@
+@*                             1 => "Sẵn sàng", *@
+@*                             2 => "Thay đổi lịch trình", *@
+@*                             3 => "Bay", *@
+@*                             4 => "Hủy" *@
+@*                         }; *@
+@*                         @statusText *@
+@*                     } *@
+@*                 </td> *@
+@*             </tr> *@
+@* *@
+@*             <tr> *@
+@*                 <th>Ghi chú</th> *@
+@*                 <td> *@
+@*                     <textarea class="form-control">@Model.note </textarea> *@
+@*                 </td> *@
+@*             </tr> *@
+@*             </tbody> *@
+@*         </table> *@
+@*     </div> *@
+@*     <div class="modal-footer border-0"> *@
+@*         <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')"> *@
+@*             Đóng *@
+@*         </button> *@
+@*     </div> *@
+@* </div> *@
+@* *@
+@* <script type="text/javascript" src="~/flight.js" defer=""></script> *@

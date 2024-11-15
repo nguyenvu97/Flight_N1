@@ -1,0 +1,1506 @@
+2024-09-12 16:06:14.428 +07:00 [INF] Application is shutting down...
+2024-09-12 16:06:14.458 +07:00 [DBG] Hosting stopping
+2024-09-12 16:06:14.599 +07:00 [DBG] Hosting stopped
+2024-09-12 16:12:46.368 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 16:12:46.913 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:12:47.575 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:12:58.308 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 16:12:58.779 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:12:58.794 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:12:58.800 +07:00 [DBG] Created DbConnection. (4ms).
+2024-09-12 16:12:58.812 +07:00 [DBG] Migrating using database 'db_sys_booking' on server 'my-master'.
+2024-09-12 16:12:58.815 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:12:58.815 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:12:58.816 +07:00 [DBG] Opening connection to database '' on server 'my-master'.
+2024-09-12 16:13:01.558 +07:00 [ERR] An error occurred using the connection to database '' on server 'my-master'.
+2024-09-12 16:13:01.560 +07:00 [DBG] Disposing connection to database '' on server 'my-master'.
+2024-09-12 16:13:01.564 +07:00 [DBG] Disposed connection to database '' on server 'my-master' (0ms).
+2024-09-12 16:13:01.568 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:13:01.569 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'my-master'.
+2024-09-12 16:13:01.569 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'my-master' (0ms).
+2024-09-12 16:15:24.518 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 16:15:24.957 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:15:24.970 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:15:24.974 +07:00 [DBG] Created DbConnection. (2ms).
+2024-09-12 16:15:24.980 +07:00 [DBG] Migrating using database 'db_sys_booking' on server 'my-master'.
+2024-09-12 16:15:24.983 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:15:24.983 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:15:24.985 +07:00 [DBG] Opening connection to database '' on server 'my-master'.
+2024-09-12 16:15:27.710 +07:00 [ERR] An error occurred using the connection to database '' on server 'my-master'.
+2024-09-12 16:15:27.713 +07:00 [DBG] Disposing connection to database '' on server 'my-master'.
+2024-09-12 16:15:27.716 +07:00 [DBG] Disposed connection to database '' on server 'my-master' (0ms).
+2024-09-12 16:15:27.720 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:15:27.721 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'my-master'.
+2024-09-12 16:15:27.721 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'my-master' (0ms).
+2024-09-12 16:22:19.956 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 16:22:20.418 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:22:20.434 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.438 +07:00 [DBG] Created DbConnection. (2ms).
+2024-09-12 16:22:20.444 +07:00 [DBG] Migrating using database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:20.447 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.447 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:22:20.448 +07:00 [DBG] Opening connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.610 +07:00 [DBG] Opened connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.634 +07:00 [DBG] Disposing connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.636 +07:00 [DBG] Disposed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:20.637 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.637 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:22:20.637 +07:00 [DBG] Opening connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.656 +07:00 [DBG] Opened connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.659 +07:00 [DBG] Disposing connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.659 +07:00 [DBG] Disposed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:20.706 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.706 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:22:20.706 +07:00 [DBG] Opening connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.723 +07:00 [DBG] Opened connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.726 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-12 16:22:20.736 +07:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-09-12 16:22:20.738 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:20.741 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:20.742 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (3ms).
+2024-09-12 16:22:20.745 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `db_sys_booking`;
+2024-09-12 16:22:20.777 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `db_sys_booking`;
+2024-09-12 16:22:20.778 +07:00 [DBG] Committing transaction.
+2024-09-12 16:22:20.781 +07:00 [DBG] Committed transaction.
+2024-09-12 16:22:20.782 +07:00 [DBG] Disposing transaction.
+2024-09-12 16:22:20.783 +07:00 [DBG] Closing connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.784 +07:00 [DBG] Closed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:20.785 +07:00 [DBG] Disposing connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.785 +07:00 [DBG] Disposed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:20.785 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.785 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:22:20.785 +07:00 [DBG] Opening connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.804 +07:00 [DBG] Opened connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.806 +07:00 [DBG] Disposing connection to database '' on server 'localhost'.
+2024-09-12 16:22:20.806 +07:00 [DBG] Disposed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:20.870 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:20.870 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:20.870 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:20.870 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:20.893 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:20.894 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:20.994 +07:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:20.994 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:20.996 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:22:20.997 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:22:20.997 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:22:20.997 +07:00 [DBG] Opening connection to database '' on server 'localhost'.
+2024-09-12 16:22:21.022 +07:00 [DBG] Opened connection to database '' on server 'localhost'.
+2024-09-12 16:22:21.024 +07:00 [DBG] Disposing connection to database '' on server 'localhost'.
+2024-09-12 16:22:21.024 +07:00 [DBG] Disposed connection to database '' on server 'localhost' (0ms).
+2024-09-12 16:22:21.026 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-09-12 16:22:21.026 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-09-12 16:22:21.026 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-09-12 16:22:21.026 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.030 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.030 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='db_sys_booking' AND TABLE_NAME='__EFMigrationsHistory';
+2024-09-12 16:22:21.041 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='db_sys_booking' AND TABLE_NAME='__EFMigrationsHistory';
+2024-09-12 16:22:21.041 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.041 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (0ms).
+2024-09-12 16:22:21.042 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.044 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.044 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:22:21.045 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 16:22:21.045 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 16:22:21.045 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-09-12 16:22:21.049 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-09-12 16:22:21.050 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.051 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 1ms reading results.
+2024-09-12 16:22:21.051 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.051 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (0ms).
+2024-09-12 16:22:21.058 +07:00 [INF] Applying migration '20240912091247_mydb'.
+2024-09-12 16:22:21.094 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.096 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:21.096 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-12 16:22:21.099 +07:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-09-12 16:22:21.099 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:21.099 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:21.099 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:21.099 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-09-12 16:22:21.117 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-09-12 16:22:21.117 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:21.117 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:21.117 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:21.118 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `airline` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `code` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_airline` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.217 +07:00 [INF] Executed DbCommand (1,100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `airline` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `code` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_airline` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.217 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:22.217 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.217 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.217 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `menu` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `parent_id` int NULL,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `url` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `controller` longtext CHARACTER SET utf8mb4 NULL,
+    `action` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `level` int NOT NULL,
+    `priority` int NOT NULL,
+    `class_name` varchar(45) CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_menu` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_menu_menu_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `menu` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.404 +07:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `menu` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `parent_id` int NULL,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `url` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `controller` longtext CHARACTER SET utf8mb4 NULL,
+    `action` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `level` int NOT NULL,
+    `priority` int NOT NULL,
+    `class_name` varchar(45) CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_menu` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_menu_menu_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `menu` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.405 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:22.405 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.405 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.405 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `transaction_log` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `user_id` bigint NOT NULL,
+    `action` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `table` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `record_id` int NOT NULL,
+    `json_data` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `create` datetime(6) NOT NULL,
+    CONSTRAINT `PK_transaction_log` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.547 +07:00 [INF] Executed DbCommand (142ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `transaction_log` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `user_id` bigint NOT NULL,
+    `action` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `table` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `record_id` int NOT NULL,
+    `json_data` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `create` datetime(6) NOT NULL,
+    CONSTRAINT `PK_transaction_log` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.547 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:22.547 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.547 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:22.547 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `zone` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` longtext CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_zone` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:22.696 +07:00 [INF] Executed DbCommand (149ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `zone` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` longtext CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_zone` PRIMARY KEY (`id`)
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.230 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:24.230 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.230 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.230 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `aircarf` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `type` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `code` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `totalSeats` int NULL,
+    `economySeats` int NOT NULL,
+    `businessseats` int NOT NULL,
+    `price_per_km` decimal(65,30) NOT NULL,
+    `status` int NOT NULL,
+    `airline_id` int NOT NULL,
+    CONSTRAINT `PK_aircarf` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_aircarf_airline_airline_id` FOREIGN KEY (`airline_id`) REFERENCES `airline` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.348 +07:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `aircarf` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `type` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `code` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `totalSeats` int NULL,
+    `economySeats` int NOT NULL,
+    `businessseats` int NOT NULL,
+    `price_per_km` decimal(65,30) NOT NULL,
+    `status` int NOT NULL,
+    `airline_id` int NOT NULL,
+    CONSTRAINT `PK_aircarf` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_aircarf_airline_airline_id` FOREIGN KEY (`airline_id`) REFERENCES `airline` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.348 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:24.348 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.348 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.348 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `airport` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `code` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `zone_id` int NOT NULL,
+    CONSTRAINT `PK_airport` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_airport_zone_zone_id` FOREIGN KEY (`zone_id`) REFERENCES `zone` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.514 +07:00 [INF] Executed DbCommand (166ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `airport` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `code` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `name` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `zone_id` int NOT NULL,
+    CONSTRAINT `PK_airport` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_airport_zone_zone_id` FOREIGN KEY (`zone_id`) REFERENCES `zone` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.514 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:24.514 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.514 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:24.514 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `routes` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `de_a_id` int NOT NULL,
+    `ar_a_id` int NOT NULL,
+    `distance` int NOT NULL,
+    `status` int NOT NULL,
+    `search` longtext CHARACTER SET utf8mb4 NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_routes` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_routes_airport_ar_a_id` FOREIGN KEY (`ar_a_id`) REFERENCES `airport` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_routes_airport_de_a_id` FOREIGN KEY (`de_a_id`) REFERENCES `airport` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:24.721 +07:00 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `routes` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `de_a_id` int NOT NULL,
+    `ar_a_id` int NOT NULL,
+    `distance` int NOT NULL,
+    `status` int NOT NULL,
+    `search` longtext CHARACTER SET utf8mb4 NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_routes` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_routes_airport_ar_a_id` FOREIGN KEY (`ar_a_id`) REFERENCES `airport` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_routes_airport_de_a_id` FOREIGN KEY (`de_a_id`) REFERENCES `airport` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:27.295 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:27.295 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.295 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.295 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `flight_segment` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `air_id` int NOT NULL,
+    `route_id` int NOT NULL,
+    `fromCity` longtext CHARACTER SET utf8mb4 NULL,
+    `toCity` longtext CHARACTER SET utf8mb4 NULL,
+    `de_time` datetime(6) NOT NULL,
+    `ar_time` datetime(6) NOT NULL,
+    `base_price` decimal(65,30) NOT NULL,
+    `r_eseats` int NULL,
+    `r_bseats` int NULL,
+    `status` int NOT NULL,
+    `code` longtext CHARACTER SET utf8mb4 NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    `order` int NULL,
+    `previousSegmentId` int NULL,
+    CONSTRAINT `PK_flight_segment` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_flight_segment_aircarf_air_id` FOREIGN KEY (`air_id`) REFERENCES `aircarf` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_flight_segment_flight_segment_previousSegmentId` FOREIGN KEY (`previousSegmentId`) REFERENCES `flight_segment` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_flight_segment_routes_route_id` FOREIGN KEY (`route_id`) REFERENCES `routes` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:27.455 +07:00 [INF] Executed DbCommand (160ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `flight_segment` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `air_id` int NOT NULL,
+    `route_id` int NOT NULL,
+    `fromCity` longtext CHARACTER SET utf8mb4 NULL,
+    `toCity` longtext CHARACTER SET utf8mb4 NULL,
+    `de_time` datetime(6) NOT NULL,
+    `ar_time` datetime(6) NOT NULL,
+    `base_price` decimal(65,30) NOT NULL,
+    `r_eseats` int NULL,
+    `r_bseats` int NULL,
+    `status` int NOT NULL,
+    `code` longtext CHARACTER SET utf8mb4 NULL,
+    `note` longtext CHARACTER SET utf8mb4 NULL,
+    `order` int NULL,
+    `previousSegmentId` int NULL,
+    CONSTRAINT `PK_flight_segment` PRIMARY KEY (`id`),
+    CONSTRAINT `FK_flight_segment_aircarf_air_id` FOREIGN KEY (`air_id`) REFERENCES `aircarf` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_flight_segment_flight_segment_previousSegmentId` FOREIGN KEY (`previousSegmentId`) REFERENCES `flight_segment` (`id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_flight_segment_routes_route_id` FOREIGN KEY (`route_id`) REFERENCES `routes` (`id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-09-12 16:22:27.455 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:27.455 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.455 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.456 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_aircarf_airline_id` ON `aircarf` (`airline_id`);
+2024-09-12 16:22:27.622 +07:00 [INF] Executed DbCommand (167ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_aircarf_airline_id` ON `aircarf` (`airline_id`);
+2024-09-12 16:22:27.623 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:27.623 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.623 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.623 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_airport_zone_id` ON `airport` (`zone_id`);
+2024-09-12 16:22:27.747 +07:00 [INF] Executed DbCommand (125ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_airport_zone_id` ON `airport` (`zone_id`);
+2024-09-12 16:22:27.748 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:27.748 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:27.748 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.329 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_air_id` ON `flight_segment` (`air_id`);
+2024-09-12 16:22:30.427 +07:00 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_air_id` ON `flight_segment` (`air_id`);
+2024-09-12 16:22:30.427 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:30.427 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.427 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.427 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_previousSegment_id` ON `flight_segment` (`previousSegmentId`);
+2024-09-12 16:22:30.531 +07:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_previousSegment_id` ON `flight_segment` (`previousSegmentId`);
+2024-09-12 16:22:30.531 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:30.531 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.531 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.531 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_route_id` ON `flight_segment` (`route_id`);
+2024-09-12 16:22:30.690 +07:00 [INF] Executed DbCommand (159ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_route_id` ON `flight_segment` (`route_id`);
+2024-09-12 16:22:30.690 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:30.691 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.691 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.691 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `idx_url` ON `menu` (`url`);
+2024-09-12 16:22:30.796 +07:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `idx_url` ON `menu` (`url`);
+2024-09-12 16:22:30.796 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:30.796 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.796 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.796 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `menu_parent` ON `menu` (`parent_id`);
+2024-09-12 16:22:30.925 +07:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `menu_parent` ON `menu` (`parent_id`);
+2024-09-12 16:22:30.926 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:30.926 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.926 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:30.926 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_ar_a` ON `routes` (`ar_a_id`);
+2024-09-12 16:22:31.041 +07:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_ar_a` ON `routes` (`ar_a_id`);
+2024-09-12 16:22:31.041 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:31.041 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:31.041 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:31.041 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_de_a` ON `routes` (`de_a_id`);
+2024-09-12 16:22:31.161 +07:00 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `Idx_de_a` ON `routes` (`de_a_id`);
+2024-09-12 16:22:31.161 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 16:22:31.161 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:31.161 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 16:22:31.161 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240912091247_mydb', '8.0.7');
+2024-09-12 16:22:31.185 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240912091247_mydb', '8.0.7');
+2024-09-12 16:22:31.185 +07:00 [DBG] Committing transaction.
+2024-09-12 16:22:31.187 +07:00 [DBG] Committed transaction.
+2024-09-12 16:22:31.187 +07:00 [DBG] Disposing transaction.
+2024-09-12 16:22:31.187 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:31.187 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (0ms).
+2024-09-12 16:22:32.481 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:22:32.482 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:22:32.482 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (0ms).
+2024-09-12 16:27:49.798 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Create.cshtml'.
+2024-09-12 16:27:49.833 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Edit.cshtml'.
+2024-09-12 16:27:49.836 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Index.cshtml'.
+2024-09-12 16:27:49.837 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Paging.cshtml'.
+2024-09-12 16:27:49.839 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/View.cshtml'.
+2024-09-12 16:27:49.840 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Create.cshtml'.
+2024-09-12 16:27:49.842 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Edit.cshtml'.
+2024-09-12 16:27:49.843 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Index.cshtml'.
+2024-09-12 16:27:49.844 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Paging.cshtml'.
+2024-09-12 16:27:49.846 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Create.cshtml'.
+2024-09-12 16:27:49.847 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Edit.cshtml'.
+2024-09-12 16:27:49.849 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Index.cshtml'.
+2024-09-12 16:27:49.850 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Paging.cshtml'.
+2024-09-12 16:27:49.851 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Create.cshtml'.
+2024-09-12 16:27:49.853 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Edit.cshtml'.
+2024-09-12 16:27:49.854 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Index.cshtml'.
+2024-09-12 16:27:49.856 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/IndexSegment.cshtml'.
+2024-09-12 16:27:49.857 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingSegment.cshtml'.
+2024-09-12 16:27:49.858 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingTrip.cshtml'.
+2024-09-12 16:27:49.859 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/View.cshtml'.
+2024-09-12 16:27:49.861 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Create.cshtml'.
+2024-09-12 16:27:49.862 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Edit.cshtml'.
+2024-09-12 16:27:49.863 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Index.cshtml'.
+2024-09-12 16:27:49.865 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Paging.cshtml'.
+2024-09-12 16:27:49.866 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/View.cshtml'.
+2024-09-12 16:27:49.868 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-09-12 16:27:49.869 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-09-12 16:27:49.871 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-09-12 16:27:49.873 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Create.cshtml'.
+2024-09-12 16:27:49.874 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Edit.cshtml'.
+2024-09-12 16:27:49.875 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Index.cshtml'.
+2024-09-12 16:27:49.877 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Create.cshtml'.
+2024-09-12 16:27:49.878 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Edit.cshtml'.
+2024-09-12 16:27:49.880 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Index.cshtml'.
+2024-09-12 16:27:49.882 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Paging.cshtml'.
+2024-09-12 16:27:49.884 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Aircarf/ShowName.cshtml'.
+2024-09-12 16:27:49.885 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airline/ShowName.cshtml'.
+2024-09-12 16:27:49.886 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airport/ShowName.cshtml'.
+2024-09-12 16:27:49.887 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Menu/Default.cshtml'.
+2024-09-12 16:27:49.889 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Routes/ShowName.cshtml'.
+2024-09-12 16:27:49.891 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Default.cshtml'.
+2024-09-12 16:27:49.892 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Setting.cshtml'.
+2024-09-12 16:27:49.894 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-09-12 16:27:49.895 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Panigation/Panigation.cshtml'.
+2024-09-12 16:27:49.897 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-09-12 16:27:49.898 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Create.cshtml'.
+2024-09-12 16:27:49.899 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Edit.cshtml'.
+2024-09-12 16:27:49.900 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Index.cshtml'.
+2024-09-12 16:27:49.902 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-09-12 16:27:49.903 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-09-12 16:27:49.905 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-09-12 16:27:49.911 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-12 16:27:49.976 +07:00 [DBG] Hosting starting
+2024-09-12 16:27:49.990 +07:00 [INF] User profile is available. Using 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-12 16:27:49.997 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-0deeedc3-7046-4815-9f93-7e3609acaf5b.xml'.
+2024-09-12 16:27:50.022 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-f216b99b-84f9-479a-b3d8-611eef3d090a.xml'.
+2024-09-12 16:27:50.042 +07:00 [DBG] Found key {0deeedc3-7046-4815-9f93-7e3609acaf5b}.
+2024-09-12 16:27:50.046 +07:00 [DBG] Found key {f216b99b-84f9-479a-b3d8-611eef3d090a}.
+2024-09-12 16:27:50.053 +07:00 [DBG] Considering key {0deeedc3-7046-4815-9f93-7e3609acaf5b} with expiration date 2024-11-22 14:13:26Z as default key.
+2024-09-12 16:27:50.058 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-12 16:27:50.060 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-12 16:27:50.062 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-12 16:27:50.067 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-12 16:27:50.070 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-12 16:27:50.073 +07:00 [DBG] Using key {0deeedc3-7046-4815-9f93-7e3609acaf5b} as the default key.
+2024-09-12 16:27:50.075 +07:00 [DBG] Key ring with default key {0deeedc3-7046-4815-9f93-7e3609acaf5b} was loaded during application startup.
+2024-09-12 16:27:50.112 +07:00 [INF] Now listening on: http://localhost:5158
+2024-09-12 16:27:50.114 +07:00 [DBG] Loaded hosting startup assembly sys_i
+2024-09-12 16:27:50.116 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-12 16:27:50.117 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-12 16:27:50.118 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-12 16:27:50.119 +07:00 [INF] Hosting environment: Development
+2024-09-12 16:27:50.121 +07:00 [INF] Content root path: C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i
+2024-09-12 16:27:50.122 +07:00 [DBG] Hosting started
+2024-09-12 16:27:50.380 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" accepted.
+2024-09-12 16:27:50.383 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" started.
+2024-09-12 16:27:50.384 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" accepted.
+2024-09-12 16:27:50.387 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" started.
+2024-09-12 16:27:50.417 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" received FIN.
+2024-09-12 16:27:50.417 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" received FIN.
+2024-09-12 16:27:50.420 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:27:50.421 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:27:50.423 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" disconnecting.
+2024-09-12 16:27:50.424 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" disconnecting.
+2024-09-12 16:27:50.426 +07:00 [DBG] Connection id "0HN6J1KLTSLRQ" stopped.
+2024-09-12 16:27:50.426 +07:00 [DBG] Connection id "0HN6J1KLTSLRP" stopped.
+2024-09-12 16:27:50.537 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" accepted.
+2024-09-12 16:27:50.538 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" started.
+2024-09-12 16:27:50.581 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/ - null null
+2024-09-12 16:27:50.597 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" accepted.
+2024-09-12 16:27:50.599 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" started.
+2024-09-12 16:27:51.321 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-12 16:27:51.323 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-09-12 16:27:51.325 +07:00 [DBG] The request path / does not match a supported file type
+2024-09-12 16:27:51.353 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-09-12 16:27:51.357 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-09-12 16:27:51.360 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:27:51.371 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:27:51.374 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:27:51.396 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SysAdmin.Controllers.HomeController (sys_i).
+2024-09-12 16:27:51.400 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:27:51.402 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:27:51.405 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:27:51.407 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:27:51.408 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:27:51.413 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-09-12 16:27:51.416 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-09-12 16:27:51.481 +07:00 [DBG] Request was short circuited at action filter 'SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute'.
+2024-09-12 16:27:51.494 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Login])
+2024-09-12 16:27:51.500 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login and 
+2024-09-12 16:27:51.504 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-09-12 16:27:51.506 +07:00 [INF] Executing RedirectResult, redirecting to /Login.
+2024-09-12 16:27:51.511 +07:00 [INF] Executed action SysAdmin.Controllers.HomeController.Index (sys_i) in 97.5431ms
+2024-09-12 16:27:51.515 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:27:51.523 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" completed keep alive response.
+2024-09-12 16:27:51.525 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/ - 302 0 null 947.5704ms
+2024-09-12 16:27:51.532 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-09-12 16:27:51.537 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-09-12 16:27:51.540 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-09-12 16:27:51.541 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-09-12 16:27:51.543 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:27:51.546 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:27:51.547 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:27:51.557 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-12 16:27:51.560 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:27:51.561 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:27:51.563 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-12 16:27:51.566 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:27:51.568 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:27:51.570 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:27:51.572 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:27:51.577 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-09-12 16:27:51.583 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-09-12 16:27:51.585 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:27:51.588 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:27:51.590 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:27:51.592 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-09-12 16:27:51.593 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:27:51.601 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Login'.
+2024-09-12 16:27:51.606 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-12 16:27:51.608 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 8.0819ms.
+2024-09-12 16:27:51.662 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-09-12 16:27:51.666 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-09-12 16:27:51.669 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-09-12 16:27:51.673 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-12 16:27:51.693 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:27:51.698 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:27:51.701 +07:00 [INF] Executed ViewResult - view Index executed in 101.8698ms.
+2024-09-12 16:27:51.704 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 134.8633ms
+2024-09-12 16:27:51.707 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:27:51.709 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:27:51.710 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:27:51.711 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" completed keep alive response.
+2024-09-12 16:27:51.714 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 182.1493ms
+2024-09-12 16:27:51.724 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:27:51.727 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:27:51.728 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" completed keep alive response.
+2024-09-12 16:27:51.732 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 8.2869ms
+2024-09-12 16:27:51.787 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" completed keep alive response.
+2024-09-12 16:27:51.789 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.0855ms
+2024-09-12 16:28:01.841 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Login/Login - application/x-www-form-urlencoded 221
+2024-09-12 16:28:01.847 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:28:01.849 +07:00 [DBG] 1 candidate(s) found for the request path '/Login/Login'
+2024-09-12 16:28:01.850 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login/Login'
+2024-09-12 16:28:01.852 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:01.856 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:28:01.858 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:01.864 +07:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SysAdmin.Models.UserRequest) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-12 16:28:01.866 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:28:01.868 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:28:01.871 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-12 16:28:01.874 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:28:01.876 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:28:01.877 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:28:01.879 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:28:01.883 +07:00 [DBG] Connection id "0HN6J1KLTSLRS", Request id "0HN6J1KLTSLRS:00000002": started reading request body.
+2024-09-12 16:28:01.885 +07:00 [DBG] Connection id "0HN6J1KLTSLRS", Request id "0HN6J1KLTSLRS:00000002": done reading request body.
+2024-09-12 16:28:01.890 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:28:01.893 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' using the name '' in request data ...
+2024-09-12 16:28:01.898 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String' using the name 'email' in request data ...
+2024-09-12 16:28:01.901 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String'.
+2024-09-12 16:28:01.904 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String' using the name 'password' in request data ...
+2024-09-12 16:28:01.906 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String'.
+2024-09-12 16:28:01.909 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:01.911 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:01.913 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:28:01.919 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:01.974 +07:00 [INF] Start processing HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:28:01.977 +07:00 [INF] Sending HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:28:04.729 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" received FIN.
+2024-09-12 16:28:04.731 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:28:04.734 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" disconnecting.
+2024-09-12 16:28:04.744 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Login/Login - application/x-www-form-urlencoded 221
+2024-09-12 16:28:04.750 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:28:04.753 +07:00 [DBG] 1 candidate(s) found for the request path '/Login/Login'
+2024-09-12 16:28:04.755 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login/Login'
+2024-09-12 16:28:04.757 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:04.758 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:28:04.759 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:04.761 +07:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SysAdmin.Models.UserRequest) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-12 16:28:04.761 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" accepted.
+2024-09-12 16:28:04.763 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:28:04.765 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" started.
+2024-09-12 16:28:04.767 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:28:04.770 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-12 16:28:04.772 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:28:04.773 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:28:04.774 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:28:04.776 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:28:04.777 +07:00 [DBG] Connection id "0HN6J1KLTSLRR", Request id "0HN6J1KLTSLRR:00000004": started reading request body.
+2024-09-12 16:28:04.778 +07:00 [DBG] Connection id "0HN6J1KLTSLRR", Request id "0HN6J1KLTSLRR:00000004": done reading request body.
+2024-09-12 16:28:04.781 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:28:04.783 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' using the name '' in request data ...
+2024-09-12 16:28:04.784 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String' using the name 'email' in request data ...
+2024-09-12 16:28:04.787 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String'.
+2024-09-12 16:28:04.789 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String' using the name 'password' in request data ...
+2024-09-12 16:28:04.790 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String'.
+2024-09-12 16:28:04.792 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:04.793 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:04.795 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:28:04.797 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:28:04.799 +07:00 [INF] Start processing HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:28:04.801 +07:00 [INF] Sending HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:28:29.963 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Login (sys_i) in 25188.8063ms
+2024-09-12 16:28:29.963 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Login (sys_i) in 28085.7978ms
+2024-09-12 16:28:29.966 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:29.967 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:28:29.970 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SysAdmin.Service.AuthenticationService.AuthenticateAsync(UserRequest request) in C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\Service\AuthenticationService.cs:line 95
+   at SysAdmin.Controllers.LoginController.Login(UserRequest request) in C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\Controllers\LoginController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-12 16:28:29.970 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SysAdmin.Service.AuthenticationService.AuthenticateAsync(UserRequest request) in C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\Service\AuthenticationService.cs:line 95
+   at SysAdmin.Controllers.LoginController.Login(UserRequest request) in C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\Controllers\LoginController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-12 16:28:30.027 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:28:30.027 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:28:30.029 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:28:30.030 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:28:30.031 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:28:30.032 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:28:30.033 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:28:30.034 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:28:30.035 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Login/Login - 500 null text/html; charset=utf-8 28193.6191ms
+2024-09-12 16:28:30.036 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" completed keep alive response.
+2024-09-12 16:28:30.039 +07:00 [DBG] Connection id "0HN6J1KLTSLRS" stopped.
+2024-09-12 16:28:30.040 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Login/Login - 500 null text/html; charset=utf-8 25296.008ms
+2024-09-12 16:28:30.051 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:28:30.051 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:28:30.054 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" completed keep alive response.
+2024-09-12 16:28:30.058 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.3945ms
+2024-09-12 16:28:30.061 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" completed keep alive response.
+2024-09-12 16:28:30.064 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1195ms
+2024-09-12 16:29:51.429 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-09-12 16:30:01.447 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:01.452 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0957ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:30:11.466 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:11.468 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.009ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:30:21.482 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:21.484 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:30:31.494 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:31.496 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:30:40.665 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" disconnecting.
+2024-09-12 16:30:40.665 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" disconnecting.
+2024-09-12 16:30:40.667 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" stopped.
+2024-09-12 16:30:40.668 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" stopped.
+2024-09-12 16:30:40.670 +07:00 [DBG] Connection id "0HN6J1KLTSLRR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:30:40.672 +07:00 [DBG] Connection id "0HN6J1KLTSLRT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:30:41.502 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:41.504 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:30:51.517 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:30:51.519 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:31:01.531 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:31:01.533 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:31:11.545 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:31:11.548 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:31:21.551 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:31:21.553 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:31:31.560 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:31:31.561 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1136ms - processed: 1 items - remaining: 0 items
+2024-09-12 16:34:49.305 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" accepted.
+2024-09-12 16:34:49.307 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" started.
+2024-09-12 16:34:49.342 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-09-12 16:34:49.349 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-09-12 16:34:49.351 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-09-12 16:34:49.352 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-09-12 16:34:49.354 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:34:49.356 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:34:49.356 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" accepted.
+2024-09-12 16:34:49.357 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:34:49.358 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" started.
+2024-09-12 16:34:49.359 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-12 16:34:49.362 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:34:49.364 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:34:49.366 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-12 16:34:49.368 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:34:49.371 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:34:49.372 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:34:49.375 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:34:49.376 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-09-12 16:34:49.378 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-09-12 16:34:49.380 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:34:49.382 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:34:49.383 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:34:49.386 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-09-12 16:34:49.387 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-09-12 16:34:49.390 +07:00 [DBG] View lookup cache hit for view 'Index' in controller 'Login'.
+2024-09-12 16:34:49.391 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-12 16:34:49.392 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 2.4167ms.
+2024-09-12 16:34:49.397 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-09-12 16:34:49.398 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-09-12 16:34:49.400 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-09-12 16:34:49.402 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-12 16:34:49.403 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:34:49.405 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:34:49.406 +07:00 [INF] Executed ViewResult - view Index executed in 16.2173ms.
+2024-09-12 16:34:49.407 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 34.9441ms
+2024-09-12 16:34:49.409 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-12 16:34:49.410 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:34:49.411 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:34:49.412 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" completed keep alive response.
+2024-09-12 16:34:49.414 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 71.9076ms
+2024-09-12 16:34:49.422 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:34:49.422 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:34:49.425 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" completed keep alive response.
+2024-09-12 16:34:49.429 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.0346ms
+2024-09-12 16:34:49.432 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:34:49.434 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.3806ms
+2024-09-12 16:34:55.560 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Login/Login - application/x-www-form-urlencoded 221
+2024-09-12 16:34:55.565 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:34:55.566 +07:00 [DBG] 1 candidate(s) found for the request path '/Login/Login'
+2024-09-12 16:34:55.568 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login/Login'
+2024-09-12 16:34:55.570 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:34:55.572 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:34:55.574 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:34:55.575 +07:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SysAdmin.Models.UserRequest) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-12 16:34:55.577 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:34:55.579 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:34:55.580 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-12 16:34:55.582 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:34:55.584 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:34:55.586 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:34:55.588 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-12 16:34:55.590 +07:00 [DBG] Connection id "0HN6J1KLTSLRV", Request id "0HN6J1KLTSLRV:00000002": started reading request body.
+2024-09-12 16:34:55.592 +07:00 [DBG] Connection id "0HN6J1KLTSLRV", Request id "0HN6J1KLTSLRV:00000002": done reading request body.
+2024-09-12 16:34:55.594 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:34:55.595 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' using the name '' in request data ...
+2024-09-12 16:34:55.597 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String' using the name 'email' in request data ...
+2024-09-12 16:34:55.600 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String'.
+2024-09-12 16:34:55.601 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String' using the name 'password' in request data ...
+2024-09-12 16:34:55.604 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String'.
+2024-09-12 16:34:55.606 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:34:55.607 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:34:55.609 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-12 16:34:55.610 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-12 16:34:55.612 +07:00 [INF] Start processing HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:34:55.614 +07:00 [INF] Sending HTTP request POST http://localhost:1001/api/v1/login
+2024-09-12 16:34:55.948 +07:00 [INF] Received HTTP response headers after 331.7074ms - 200
+2024-09-12 16:34:55.950 +07:00 [INF] End processing HTTP request after 338.2495ms - 200
+2024-09-12 16:34:55.985 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Home])
+2024-09-12 16:34:55.988 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-09-12 16:34:55.990 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-09-12 16:34:55.992 +07:00 [INF] Executing RedirectResult, redirecting to /.
+2024-09-12 16:34:55.994 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Login (sys_i) in 408.0395ms
+2024-09-12 16:34:55.996 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-12 16:34:55.997 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:34:55.999 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Login/Login - 302 0 null 438.8582ms
+2024-09-12 16:34:56.003 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/ - null null
+2024-09-12 16:34:56.008 +07:00 [DBG] The request path / does not match a supported file type
+2024-09-12 16:34:56.009 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-09-12 16:34:56.010 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-09-12 16:34:56.012 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:34:56.014 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:34:56.015 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:34:56.017 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SysAdmin.Controllers.HomeController (sys_i).
+2024-09-12 16:34:56.019 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:34:56.022 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:34:56.024 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:34:56.026 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:34:56.028 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:34:56.030 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-09-12 16:34:56.031 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-09-12 16:34:56.041 +07:00 [INF] User 3 has access to home with permission Read.
+2024-09-12 16:34:56.043 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-09-12 16:34:56.046 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-12 16:34:56.047 +07:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 4.1217ms.
+2024-09-12 16:34:56.062 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-09-12 16:34:56.312 +07:00 [DBG] Executing view component sys_i.Component.MenuViewComponent with arguments ([]).
+2024-09-12 16:34:56.540 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 16:34:57.093 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:34:57.124 +07:00 [DBG] Compiling query expression: 
+'DbSet<menu>()
+    .AsNoTracking()
+    .OrderBy(x => x.priority)
+    .ThenBy(x => x.name)
+    .Where(x => x.level > 0 && x.level < 3)'
+2024-09-12 16:34:57.285 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<menu>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: menu.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: menu.action (string) MaxLength(50), 1], [Property: menu.class_name (string) MaxLength(45), 2], [Property: menu.controller (string), 3], [Property: menu.level (int) Required, 4], [Property: menu.name (string) Required MaxLength(250), 5], [Property: menu.parent_id (int?) FK Index, 6], [Property: menu.priority (int) Required, 7], [Property: menu.url (string) Required Index MaxLength(50), 8] }
+        SELECT m.id, m.action, m.class_name, m.controller, m.level, m.name, m.parent_id, m.priority, m.url
+        FROM menu AS m
+        WHERE (m.level > 0) && (m.level < 3)
+        ORDER BY m.priority ASC, m.name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, menu>, 
+    Backend.Data.Db.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-09-12 16:34:57.311 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:34:57.315 +07:00 [DBG] Created DbConnection. (6ms).
+2024-09-12 16:34:57.321 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:34:57.454 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:34:57.459 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:34:57.464 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-09-12 16:34:57.467 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-09-12 16:34:57.476 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:34:57.495 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:34:57.504 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:34:57.512 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 11ms reading results.
+2024-09-12 16:34:57.517 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:34:57.522 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (4ms).
+2024-09-12 16:34:57.654 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:34:57.657 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:34:57.659 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:34:57.664 +07:00 [DBG] Executed view component sys_i.Component.MenuViewComponent in 1347.0633ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:34:57.668 +07:00 [DBG] View lookup cache miss for view 'Components/Menu/Default' in controller 'Home'.
+2024-09-12 16:34:57.679 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Default"]).
+2024-09-12 16:34:57.683 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 1.3416ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:34:57.685 +07:00 [DBG] View lookup cache miss for view 'Components/User/Default' in controller 'Home'.
+2024-09-12 16:34:57.690 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Setting"]).
+2024-09-12 16:34:57.693 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.7763ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:34:57.695 +07:00 [DBG] View lookup cache miss for view 'Components/User/Setting' in controller 'Home'.
+2024-09-12 16:34:57.702 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:34:57.704 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:34:57.706 +07:00 [INF] Executed ViewResult - view Index executed in 1663.3463ms.
+2024-09-12 16:34:57.709 +07:00 [INF] Executed action SysAdmin.Controllers.HomeController.Index (sys_i) in 1679.5908ms
+2024-09-12 16:34:57.711 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-09-12 16:34:57.713 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:34:57.714 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:34:57.715 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:34:57.717 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/ - 200 null text/html; charset=utf-8 1713.6901ms
+2024-09-12 16:34:57.790 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:34:57.793 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:34:57.793 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_main.js - null null
+2024-09-12 16:34:57.794 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 4.7183ms
+2024-09-12 16:34:57.801 +07:00 [INF] The file /_main.js was not modified
+2024-09-12 16:34:57.801 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:34:57.803 +07:00 [DBG] Handled. Status code: 304 File: /_main.js
+2024-09-12 16:34:57.808 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" completed keep alive response.
+2024-09-12 16:34:57.809 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:34:57.809 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_main.js - 304 null text/javascript 16.2657ms
+2024-09-12 16:34:57.810 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.9932ms
+2024-09-12 16:35:08.719 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Airline - null null
+2024-09-12 16:35:08.723 +07:00 [DBG] The request path /Airline does not match a supported file type
+2024-09-12 16:35:08.725 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline'
+2024-09-12 16:35:08.726 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline'
+2024-09-12 16:35:08.728 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:08.730 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:08.731 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:08.734 +07:00 [INF] Route matched with {action = "Index", controller = "Airline"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:08.736 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:08.738 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:08.740 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:08.742 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:08.744 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:08.747 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:08.749 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:08.752 +07:00 [INF] User 3 has access to airline with permission Read.
+2024-09-12 16:35:08.754 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Airline'.
+2024-09-12 16:35:08.756 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-12 16:35:08.758 +07:00 [DBG] The view path '/Views/Airline/Index.cshtml' was found in 4.2453ms.
+2024-09-12 16:35:08.763 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Create],controller=[Airline])
+2024-09-12 16:35:08.766 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Airline/Create and 
+2024-09-12 16:35:08.768 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Airline/Create
+2024-09-12 16:35:08.772 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-12 16:35:08.781 +07:00 [DBG] Executing view component sys_i.Component.MenuViewComponent with arguments ([]).
+2024-09-12 16:35:08.793 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:35:08.799 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:35:08.800 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-12 16:35:08.802 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:08.809 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:08.811 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:08.812 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:08.814 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-09-12 16:35:08.815 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:35:08.821 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:35:08.824 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:08.826 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-09-12 16:35:08.828 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:08.830 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:08.833 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:35:08.834 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:08.835 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:08.838 +07:00 [DBG] Executed view component sys_i.Component.MenuViewComponent in 54.5065ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:08.840 +07:00 [DBG] View lookup cache miss for view 'Components/Menu/Default' in controller 'Airline'.
+2024-09-12 16:35:08.842 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Default"]).
+2024-09-12 16:35:08.845 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.4315ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:08.846 +07:00 [DBG] View lookup cache miss for view 'Components/User/Default' in controller 'Airline'.
+2024-09-12 16:35:08.849 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Setting"]).
+2024-09-12 16:35:08.851 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.7004ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:08.853 +07:00 [DBG] View lookup cache miss for view 'Components/User/Setting' in controller 'Airline'.
+2024-09-12 16:35:08.856 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:35:08.857 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:35:08.858 +07:00 [INF] Executed ViewResult - view Index executed in 103.8334ms.
+2024-09-12 16:35:08.859 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.Index (sys_i) in 112.2279ms
+2024-09-12 16:35:08.861 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:08.862 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:35:08.862 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:35:08.863 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:35:08.865 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Airline - 200 null text/html; charset=utf-8 146.5002ms
+2024-09-12 16:35:08.878 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/airline.js - null null
+2024-09-12 16:35:08.879 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" accepted.
+2024-09-12 16:35:08.879 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:35:08.881 +07:00 [INF] The file /airline.js was not modified
+2024-09-12 16:35:08.882 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" started.
+2024-09-12 16:35:08.885 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" completed keep alive response.
+2024-09-12 16:35:08.887 +07:00 [DBG] Handled. Status code: 304 File: /airline.js
+2024-09-12 16:35:08.888 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:35:08.890 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 10.8425ms
+2024-09-12 16:35:08.891 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:35:08.897 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:08.899 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/airline.js - 304 null text/javascript 20.6484ms
+2024-09-12 16:35:08.900 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.5184ms
+2024-09-12 16:35:09.239 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Airline/Paging - multipart/form-data; boundary=----WebKitFormBoundaryg2f4hlnQPANcecJM 710
+2024-09-12 16:35:09.242 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:35:09.243 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline/Paging'
+2024-09-12 16:35:09.245 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline/Paging'
+2024-09-12 16:35:09.247 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:09.248 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:09.249 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:09.265 +07:00 [INF] Route matched with {action = "Paging", controller = "Airline"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Paging(Backend.Service.ViewModel.AirlinePagingResponse) on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:09.268 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:09.271 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:09.273 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:09.275 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:09.277 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:09.279 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:09.280 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:09.284 +07:00 [DBG] Connection id "0HN6J1KLTSLS0", Request id "0HN6J1KLTSLS0:00000002": started reading request body.
+2024-09-12 16:35:09.286 +07:00 [DBG] Connection id "0HN6J1KLTSLS0", Request id "0HN6J1KLTSLS0:00000002": done reading request body.
+2024-09-12 16:35:09.293 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' ...
+2024-09-12 16:35:09.295 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' using the name '' in request data ...
+2024-09-12 16:35:09.297 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingResponse' of type 'Backend.Service.ViewModel.AirlineResponse' using the name 'PagingResponse' in request data ...
+2024-09-12 16:35:09.300 +07:00 [DBG] Could not bind to model of type 'Backend.Service.ViewModel.AirlineResponse' as there were no values in the request for any of the properties.
+2024-09-12 16:35:09.302 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingModel' of type 'Backend.Service.ViewModel.AirlineRequest' using the name 'PagingModel' in request data ...
+2024-09-12 16:35:09.305 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.key' of type 'System.String' using the name 'PagingModel.key' in request data ...
+2024-09-12 16:35:09.307 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.key' of type 'System.String'.
+2024-09-12 16:35:09.310 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Idx' of type 'System.Int32' using the name 'PagingModel.Idx' in request data ...
+2024-09-12 16:35:09.312 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Idx' of type 'System.Int32'.
+2024-09-12 16:35:09.313 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Size' of type 'System.Int32' using the name 'PagingModel.Size' in request data ...
+2024-09-12 16:35:09.317 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Size' of type 'System.Int32'.
+2024-09-12 16:35:09.319 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32' using the name 'PagingModel.total' in request data ...
+2024-09-12 16:35:09.322 +07:00 [DBG] Could not find a value in the request with name 'PagingModel.total' for binding property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32'.
+2024-09-12 16:35:09.323 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32'.
+2024-09-12 16:35:09.325 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingModel' of type 'Backend.Service.ViewModel.AirlineRequest'.
+2024-09-12 16:35:09.327 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:09.330 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:09.331 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' ...
+2024-09-12 16:35:09.334 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:09.336 +07:00 [INF] User 3 has access to airline with permission Read.
+2024-09-12 16:35:09.377 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:35:09.382 +07:00 [DBG] Compiling query expression: 
+'DbSet<airline>()'
+2024-09-12 16:35:09.389 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<airline>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: airline.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: airline.code (string) Required MaxLength(50), 1], [Property: airline.name (string) Required MaxLength(250), 2], [Property: airline.note (string), 3] }
+        SELECT a.id, a.code, a.name, a.note
+        FROM airline AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, airline>, 
+    Backend.Data.Db.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-09-12 16:35:09.393 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:35:09.395 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-12 16:35:09.397 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.402 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.404 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:09.405 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:09.407 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-12 16:35:09.409 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:09.415 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:09.418 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.420 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-09-12 16:35:09.423 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.425 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (2ms).
+2024-09-12 16:35:09.428 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.432 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.433 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:09.434 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:09.436 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-12 16:35:09.438 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:09.442 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:09.445 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.447 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 1ms reading results.
+2024-09-12 16:35:09.449 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.450 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:09.456 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:35:09.457 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:09.459 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:09.462 +07:00 [DBG] View lookup cache miss for view 'Paging' in controller 'Airline'.
+2024-09-12 16:35:09.464 +07:00 [INF] Executing PartialViewResult, running view Paging.
+2024-09-12 16:35:09.465 +07:00 [DBG] The partial view path '/Views/Airline/Paging.cshtml' was found in 3.5446ms.
+2024-09-12 16:35:09.472 +07:00 [DBG] View lookup cache miss for view 'Panigation/Panigation' in controller 'Airline'.
+2024-09-12 16:35:09.477 +07:00 [INF] Executed PartialViewResult - view null executed in 15.5441ms.
+2024-09-12 16:35:09.479 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.Paging (sys_i) in 200.2834ms
+2024-09-12 16:35:09.480 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:09.481 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:09.483 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Airline/Paging - 200 null text/html; charset=utf-8 243.2576ms
+2024-09-12 16:35:11.752 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Airline/Create - null null
+2024-09-12 16:35:11.755 +07:00 [DBG] The request path /Airline/Create does not match a supported file type
+2024-09-12 16:35:11.758 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline/Create'
+2024-09-12 16:35:11.759 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.Create (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline/Create'
+2024-09-12 16:35:11.761 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.Create (sys_i)'
+2024-09-12 16:35:11.762 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:11.764 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.Create (sys_i)'
+2024-09-12 16:35:11.766 +07:00 [INF] Route matched with {action = "Create", controller = "Airline"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:11.769 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:11.771 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:11.773 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:11.775 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:11.777 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:11.779 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:11.780 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:11.782 +07:00 [INF] User 3 has access to airline with permission Read.
+2024-09-12 16:35:11.783 +07:00 [DBG] View lookup cache miss for view 'Create' in controller 'Airline'.
+2024-09-12 16:35:11.785 +07:00 [INF] Executing PartialViewResult, running view Create.
+2024-09-12 16:35:11.787 +07:00 [DBG] The partial view path '/Views/Airline/Create.cshtml' was found in 3.4059ms.
+2024-09-12 16:35:11.791 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-12 16:35:11.796 +07:00 [INF] Executed PartialViewResult - view null executed in 12.7804ms.
+2024-09-12 16:35:11.798 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.Create (sys_i) in 19.3426ms
+2024-09-12 16:35:11.799 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.Create (sys_i)'
+2024-09-12 16:35:11.800 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:11.802 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Airline/Create - 200 null text/html; charset=utf-8 50.0891ms
+2024-09-12 16:35:18.452 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Airline/DoCreate - multipart/form-data; boundary=----WebKitFormBoundaryAFCLrXFBxNyWX0TC 593
+2024-09-12 16:35:18.456 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:35:18.457 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline/DoCreate'
+2024-09-12 16:35:18.459 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.DoCreate (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline/DoCreate'
+2024-09-12 16:35:18.461 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.DoCreate (sys_i)'
+2024-09-12 16:35:18.463 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:18.465 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.DoCreate (sys_i)'
+2024-09-12 16:35:18.469 +07:00 [INF] Route matched with {action = "DoCreate", controller = "Airline"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DoCreate(Backend.Service.ViewModel.AirlineViewModel) on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:18.472 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:18.474 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:18.476 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:18.479 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:18.481 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:18.483 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:18.484 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:18.485 +07:00 [DBG] Connection id "0HN6J1KLTSLS0", Request id "0HN6J1KLTSLS0:00000004": started reading request body.
+2024-09-12 16:35:18.487 +07:00 [DBG] Connection id "0HN6J1KLTSLS0", Request id "0HN6J1KLTSLS0:00000004": done reading request body.
+2024-09-12 16:35:18.489 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel' ...
+2024-09-12 16:35:18.491 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel' using the name '' in request data ...
+2024-09-12 16:35:18.493 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.id' of type 'System.Int32' using the name 'id' in request data ...
+2024-09-12 16:35:18.496 +07:00 [DBG] Could not find a value in the request with name 'id' for binding property 'Backend.Service.ViewModel.AirlineViewModel.id' of type 'System.Int32'.
+2024-09-12 16:35:18.498 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.id' of type 'System.Int32'.
+2024-09-12 16:35:18.499 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.name' of type 'System.String' using the name 'name' in request data ...
+2024-09-12 16:35:18.502 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.name' of type 'System.String'.
+2024-09-12 16:35:18.505 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.code' of type 'System.String' using the name 'code' in request data ...
+2024-09-12 16:35:18.506 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.code' of type 'System.String'.
+2024-09-12 16:35:18.508 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.note' of type 'System.String' using the name 'note' in request data ...
+2024-09-12 16:35:18.511 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.note' of type 'System.String'.
+2024-09-12 16:35:18.514 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.aircarfs' of type 'System.Collections.Generic.ICollection`1[Backend.Data.model.aircarf]' using the name 'aircarfs' in request data ...
+2024-09-12 16:35:18.517 +07:00 [DBG] Could not find a value in the request with name 'aircarfs' for binding property 'Backend.Service.ViewModel.AirlineViewModel.aircarfs' of type 'System.Collections.Generic.ICollection`1[Backend.Data.model.aircarf]'.
+2024-09-12 16:35:18.520 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineViewModel.aircarfs' of type 'System.Collections.Generic.ICollection`1[Backend.Data.model.aircarf]'.
+2024-09-12 16:35:18.522 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel'.
+2024-09-12 16:35:18.523 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel'.
+2024-09-12 16:35:18.525 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel' ...
+2024-09-12 16:35:18.529 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlineViewModel'.
+2024-09-12 16:35:18.532 +07:00 [INF] User 3 has access to airline with permission Write.
+2024-09-12 16:35:18.539 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:35:18.546 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:35:18.547 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-12 16:35:18.549 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.552 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.557 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-12 16:35:18.569 +07:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-09-12 16:35:18.606 +07:00 [DBG] 'Context' generated a temporary value for the property 'airline.id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.644 +07:00 [DBG] Context 'Context' started tracking 'airline' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.648 +07:00 [DBG] SaveChanges starting for 'Context'.
+2024-09-12 16:35:18.652 +07:00 [DBG] DetectChanges starting for 'Context'.
+2024-09-12 16:35:18.659 +07:00 [DBG] DetectChanges completed for 'Context'.
+2024-09-12 16:35:18.716 +07:00 [DBG] Creating transaction savepoint.
+2024-09-12 16:35:18.721 +07:00 [DBG] Created transaction savepoint.
+2024-09-12 16:35:18.724 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:18.726 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-09-12 16:35:18.735 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2024-09-12 16:35:18.739 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 250), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `airline` (`code`, `name`, `note`)
+VALUES (@p0, @p1, @p2);
+SELECT `id`
+FROM `airline`
+WHERE ROW_COUNT() = 1 AND `id` = LAST_INSERT_ID();
+2024-09-12 16:35:18.760 +07:00 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 250), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `airline` (`code`, `name`, `note`)
+VALUES (@p0, @p1, @p2);
+SELECT `id`
+FROM `airline`
+WHERE ROW_COUNT() = 1 AND `id` = LAST_INSERT_ID();
+2024-09-12 16:35:18.774 +07:00 [DBG] The foreign key property 'airline.id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-12 16:35:18.779 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.781 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 16ms reading results.
+2024-09-12 16:35:18.785 +07:00 [DBG] Releasing transaction savepoint.
+2024-09-12 16:35:18.790 +07:00 [DBG] Released transaction savepoint.
+2024-09-12 16:35:18.797 +07:00 [DBG] An entity of type 'airline' tracked by 'Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.801 +07:00 [DBG] SaveChanges completed for 'Context' with 1 entities written to the database.
+2024-09-12 16:35:18.812 +07:00 [DBG] 'Context' generated a temporary value for the property 'transactionLog.id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.825 +07:00 [DBG] Context 'Context' started tracking 'transactionLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.827 +07:00 [DBG] SaveChanges starting for 'Context'.
+2024-09-12 16:35:18.829 +07:00 [DBG] DetectChanges starting for 'Context'.
+2024-09-12 16:35:18.837 +07:00 [DBG] DetectChanges completed for 'Context'.
+2024-09-12 16:35:18.839 +07:00 [DBG] Creating transaction savepoint.
+2024-09-12 16:35:18.843 +07:00 [DBG] Created transaction savepoint.
+2024-09-12 16:35:18.844 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:18.846 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:18.848 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-09-12 16:35:18.850 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `transaction_log` (`action`, `create`, `json_data`, `record_id`, `table`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `id`
+FROM `transaction_log`
+WHERE ROW_COUNT() = 1 AND `id` = LAST_INSERT_ID();
+2024-09-12 16:35:18.864 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `transaction_log` (`action`, `create`, `json_data`, `record_id`, `table`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `id`
+FROM `transaction_log`
+WHERE ROW_COUNT() = 1 AND `id` = LAST_INSERT_ID();
+2024-09-12 16:35:18.869 +07:00 [DBG] The foreign key property 'transactionLog.id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-12 16:35:18.871 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.873 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 5ms reading results.
+2024-09-12 16:35:18.875 +07:00 [DBG] Releasing transaction savepoint.
+2024-09-12 16:35:18.878 +07:00 [DBG] Released transaction savepoint.
+2024-09-12 16:35:18.879 +07:00 [DBG] An entity of type 'transactionLog' tracked by 'Context' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:18.881 +07:00 [DBG] SaveChanges completed for 'Context' with 1 entities written to the database.
+2024-09-12 16:35:18.885 +07:00 [DBG] Committing transaction.
+2024-09-12 16:35:18.905 +07:00 [DBG] Committed transaction.
+2024-09-12 16:35:18.907 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.909 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (2ms).
+2024-09-12 16:35:18.912 +07:00 [DBG] Disposing transaction.
+2024-09-12 16:35:18.913 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:35:18.915 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:18.916 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:18.922 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-12 16:35:18.927 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-12 16:35:18.928 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-12 16:35:18.929 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-12 16:35:18.931 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-12 16:35:18.934 +07:00 [INF] Executing OkObjectResult, writing value of type 'sys_i.Common.ResponseData'.
+2024-09-12 16:35:18.964 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.DoCreate (sys_i) in 480.9086ms
+2024-09-12 16:35:18.967 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.DoCreate (sys_i)'
+2024-09-12 16:35:18.969 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:18.970 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Airline/DoCreate - 200 null application/json; charset=utf-8 517.9464ms
+2024-09-12 16:35:18.979 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Airline - null null
+2024-09-12 16:35:18.983 +07:00 [DBG] The request path /Airline does not match a supported file type
+2024-09-12 16:35:18.985 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline'
+2024-09-12 16:35:18.986 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline'
+2024-09-12 16:35:18.988 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:18.990 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:18.991 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:18.992 +07:00 [INF] Route matched with {action = "Index", controller = "Airline"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:18.995 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:18.997 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:18.999 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:19.002 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:19.004 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:19.006 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:19.007 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:19.009 +07:00 [INF] User 3 has access to airline with permission Read.
+2024-09-12 16:35:19.011 +07:00 [DBG] View lookup cache hit for view 'Index' in controller 'Airline'.
+2024-09-12 16:35:19.012 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-12 16:35:19.014 +07:00 [DBG] The view path '/Views/Airline/Index.cshtml' was found in 2.9303ms.
+2024-09-12 16:35:19.016 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Create],controller=[Airline])
+2024-09-12 16:35:19.018 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Airline/Create and 
+2024-09-12 16:35:19.020 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Airline/Create
+2024-09-12 16:35:19.022 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-12 16:35:19.024 +07:00 [DBG] Executing view component sys_i.Component.MenuViewComponent with arguments ([]).
+2024-09-12 16:35:19.026 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:35:19.029 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:35:19.030 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-12 16:35:19.031 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.035 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.037 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:19.038 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:19.040 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-09-12 16:35:19.042 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:35:19.046 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-12 16:35:19.049 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.051 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 1ms reading results.
+2024-09-12 16:35:19.053 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.055 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:19.057 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:35:19.058 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.059 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:19.061 +07:00 [DBG] Executed view component sys_i.Component.MenuViewComponent in 36.0976ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:19.063 +07:00 [DBG] View lookup cache hit for view 'Components/Menu/Default' in controller 'Airline'.
+2024-09-12 16:35:19.065 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Default"]).
+2024-09-12 16:35:19.067 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.5218ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:19.068 +07:00 [DBG] View lookup cache hit for view 'Components/User/Default' in controller 'Airline'.
+2024-09-12 16:35:19.071 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Setting"]).
+2024-09-12 16:35:19.074 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.8452ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-12 16:35:19.076 +07:00 [DBG] View lookup cache hit for view 'Components/User/Setting' in controller 'Airline'.
+2024-09-12 16:35:19.078 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-12 16:35:19.079 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-12 16:35:19.080 +07:00 [INF] Executed ViewResult - view Index executed in 69.0841ms.
+2024-09-12 16:35:19.081 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.Index (sys_i) in 75.968ms
+2024-09-12 16:35:19.083 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.Index (sys_i)'
+2024-09-12 16:35:19.084 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-12 16:35:19.085 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-12 16:35:19.086 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:19.087 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Airline - 200 null text/html; charset=utf-8 108.533ms
+2024-09-12 16:35:19.097 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-12 16:35:19.097 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_vs/browserLink - null null
+2024-09-12 16:35:19.100 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" completed keep alive response.
+2024-09-12 16:35:19.104 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.0918ms
+2024-09-12 16:35:19.109 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:35:19.110 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.2358ms
+2024-09-12 16:35:19.455 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Airline/Paging - multipart/form-data; boundary=----WebKitFormBoundaryyxYxAMtlDqwxfuvh 710
+2024-09-12 16:35:19.459 +07:00 [DBG] POST requests are not supported
+2024-09-12 16:35:19.460 +07:00 [DBG] 1 candidate(s) found for the request path '/Airline/Paging'
+2024-09-12 16:35:19.461 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Airline/Paging'
+2024-09-12 16:35:19.462 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:19.464 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-12 16:35:19.465 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:19.466 +07:00 [INF] Route matched with {action = "Paging", controller = "Airline"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Paging(Backend.Service.ViewModel.AirlinePagingResponse) on controller SysAdmin.Controllers.AirlineController (sys_i).
+2024-09-12 16:35:19.468 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-12 16:35:19.470 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-12 16:35:19.472 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:19.474 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-12 16:35:19.476 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-12 16:35:19.479 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:19.481 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AirlineController (sys_i)
+2024-09-12 16:35:19.483 +07:00 [DBG] Connection id "0HN6J1KLTSLRV", Request id "0HN6J1KLTSLRV:00000009": started reading request body.
+2024-09-12 16:35:19.484 +07:00 [DBG] Connection id "0HN6J1KLTSLRV", Request id "0HN6J1KLTSLRV:00000009": done reading request body.
+2024-09-12 16:35:19.486 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' ...
+2024-09-12 16:35:19.488 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' using the name '' in request data ...
+2024-09-12 16:35:19.490 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingResponse' of type 'Backend.Service.ViewModel.AirlineResponse' using the name 'PagingResponse' in request data ...
+2024-09-12 16:35:19.491 +07:00 [DBG] Could not bind to model of type 'Backend.Service.ViewModel.AirlineResponse' as there were no values in the request for any of the properties.
+2024-09-12 16:35:19.493 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingModel' of type 'Backend.Service.ViewModel.AirlineRequest' using the name 'PagingModel' in request data ...
+2024-09-12 16:35:19.495 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.key' of type 'System.String' using the name 'PagingModel.key' in request data ...
+2024-09-12 16:35:19.497 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.key' of type 'System.String'.
+2024-09-12 16:35:19.499 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Idx' of type 'System.Int32' using the name 'PagingModel.Idx' in request data ...
+2024-09-12 16:35:19.501 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Idx' of type 'System.Int32'.
+2024-09-12 16:35:19.503 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Size' of type 'System.Int32' using the name 'PagingModel.Size' in request data ...
+2024-09-12 16:35:19.505 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.Size' of type 'System.Int32'.
+2024-09-12 16:35:19.507 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32' using the name 'PagingModel.total' in request data ...
+2024-09-12 16:35:19.509 +07:00 [DBG] Could not find a value in the request with name 'PagingModel.total' for binding property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32'.
+2024-09-12 16:35:19.511 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlineRequest.total' of type 'System.Int32'.
+2024-09-12 16:35:19.513 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.AirlinePagingResponse.PagingModel' of type 'Backend.Service.ViewModel.AirlineRequest'.
+2024-09-12 16:35:19.515 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:19.516 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:19.518 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse' ...
+2024-09-12 16:35:19.520 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.AirlinePagingResponse'.
+2024-09-12 16:35:19.524 +07:00 [INF] User 3 has access to airline with permission Read.
+2024-09-12 16:35:19.526 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-12 16:35:19.528 +07:00 [DBG] Creating DbConnection.
+2024-09-12 16:35:19.529 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 16:35:19.530 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.533 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.535 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:19.536 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:19.538 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-12 16:35:19.539 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:19.543 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:19.548 +07:00 [DBG] Context 'Context' started tracking 'airline' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-12 16:35:19.549 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.551 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 5ms reading results.
+2024-09-12 16:35:19.553 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.555 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:19.557 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.560 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.561 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 16:35:19.563 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-12 16:35:19.564 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-12 16:35:19.565 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:19.569 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`code`, `a`.`name`, `a`.`note`
+FROM `airline` AS `a`
+2024-09-12 16:35:19.572 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.574 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-09-12 16:35:19.576 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.577 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:19.581 +07:00 [DBG] 'Context' disposed.
+2024-09-12 16:35:19.582 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-12 16:35:19.584 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-12 16:35:19.586 +07:00 [DBG] View lookup cache hit for view 'Paging' in controller 'Airline'.
+2024-09-12 16:35:19.587 +07:00 [INF] Executing PartialViewResult, running view Paging.
+2024-09-12 16:35:19.588 +07:00 [DBG] The partial view path '/Views/Airline/Paging.cshtml' was found in 2.9034ms.
+2024-09-12 16:35:19.591 +07:00 [DBG] View lookup cache hit for view 'Panigation/Panigation' in controller 'Airline'.
+2024-09-12 16:35:19.593 +07:00 [INF] Executed PartialViewResult - view null executed in 7.8767ms.
+2024-09-12 16:35:19.595 +07:00 [INF] Executed action SysAdmin.Controllers.AirlineController.Paging (sys_i) in 116.6819ms
+2024-09-12 16:35:19.597 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AirlineController.Paging (sys_i)'
+2024-09-12 16:35:19.598 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" completed keep alive response.
+2024-09-12 16:35:19.599 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Airline/Paging - 200 null text/html; charset=utf-8 143.8827ms
+2024-09-12 16:36:49.389 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-09-12 16:36:59.393 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:36:59.395 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:09.412 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:09.415 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.008ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:19.431 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:19.432 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" disconnecting.
+2024-09-12 16:37:19.434 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:19.435 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" stopped.
+2024-09-12 16:37:19.439 +07:00 [DBG] Connection id "0HN6J1KLTSLRU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:37:29.451 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:29.454 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:29.528 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" disconnecting.
+2024-09-12 16:37:29.531 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" stopped.
+2024-09-12 16:37:29.533 +07:00 [DBG] Connection id "0HN6J1KLTSLS0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:37:30.536 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" disconnecting.
+2024-09-12 16:37:30.538 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" stopped.
+2024-09-12 16:37:30.541 +07:00 [DBG] Connection id "0HN6J1KLTSLRV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-12 16:37:39.458 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:39.459 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:49.469 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:49.472 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:37:59.488 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:37:59.491 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:09.503 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:09.506 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:19.522 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:19.524 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:29.528 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:29.530 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:39.542 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:39.544 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:49.561 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:49.565 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:38:59.575 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:38:59.578 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:09.590 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:09.592 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:19.597 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:19.598 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:29.610 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:29.612 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:39.620 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:39.623 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:49.637 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:49.639 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:39:59.643 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:39:59.646 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0144ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:09.654 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:09.656 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:19.673 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:19.676 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:29.681 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:29.682 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:39.686 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:39.688 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:49.695 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:49.697 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:40:59.711 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:40:59.713 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-12 16:41:09.728 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-12 16:41:09.730 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0347ms - processed: 1 items - remaining: 0 items

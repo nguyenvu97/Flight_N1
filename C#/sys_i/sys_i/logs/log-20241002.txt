@@ -1,0 +1,246 @@
+2024-10-02 22:03:18.734 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Create.cshtml'.
+2024-10-02 22:03:18.827 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Edit.cshtml'.
+2024-10-02 22:03:18.829 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Index.cshtml'.
+2024-10-02 22:03:18.831 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Paging.cshtml'.
+2024-10-02 22:03:18.833 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/View.cshtml'.
+2024-10-02 22:03:18.836 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Create.cshtml'.
+2024-10-02 22:03:18.838 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Edit.cshtml'.
+2024-10-02 22:03:18.840 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Index.cshtml'.
+2024-10-02 22:03:18.842 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Paging.cshtml'.
+2024-10-02 22:03:18.843 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Create.cshtml'.
+2024-10-02 22:03:18.845 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Edit.cshtml'.
+2024-10-02 22:03:18.847 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Index.cshtml'.
+2024-10-02 22:03:18.848 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Paging.cshtml'.
+2024-10-02 22:03:18.850 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Create.cshtml'.
+2024-10-02 22:03:18.851 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Edit.cshtml'.
+2024-10-02 22:03:18.852 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Index.cshtml'.
+2024-10-02 22:03:18.853 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/IndexSegment.cshtml'.
+2024-10-02 22:03:18.855 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingSegment.cshtml'.
+2024-10-02 22:03:18.856 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingTrip.cshtml'.
+2024-10-02 22:03:18.858 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/View.cshtml'.
+2024-10-02 22:03:18.859 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Create.cshtml'.
+2024-10-02 22:03:18.861 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Edit.cshtml'.
+2024-10-02 22:03:18.864 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Index.cshtml'.
+2024-10-02 22:03:18.865 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Paging.cshtml'.
+2024-10-02 22:03:18.866 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/View.cshtml'.
+2024-10-02 22:03:18.867 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-10-02 22:03:18.868 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-10-02 22:03:18.870 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-10-02 22:03:18.871 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Create.cshtml'.
+2024-10-02 22:03:18.873 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Edit.cshtml'.
+2024-10-02 22:03:18.874 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Index.cshtml'.
+2024-10-02 22:03:18.875 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Create.cshtml'.
+2024-10-02 22:03:18.877 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Edit.cshtml'.
+2024-10-02 22:03:18.879 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Index.cshtml'.
+2024-10-02 22:03:18.881 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Paging.cshtml'.
+2024-10-02 22:03:18.882 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Aircarf/ShowName.cshtml'.
+2024-10-02 22:03:18.884 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airline/ShowName.cshtml'.
+2024-10-02 22:03:18.885 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airport/ShowName.cshtml'.
+2024-10-02 22:03:18.886 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Menu/Default.cshtml'.
+2024-10-02 22:03:18.887 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Routes/ShowName.cshtml'.
+2024-10-02 22:03:18.888 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Default.cshtml'.
+2024-10-02 22:03:18.890 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Setting.cshtml'.
+2024-10-02 22:03:18.891 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-10-02 22:03:18.892 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Panigation/Panigation.cshtml'.
+2024-10-02 22:03:18.894 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-10-02 22:03:18.895 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Create.cshtml'.
+2024-10-02 22:03:18.897 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Edit.cshtml'.
+2024-10-02 22:03:18.900 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Index.cshtml'.
+2024-10-02 22:03:18.901 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-10-02 22:03:18.903 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-10-02 22:03:18.904 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-10-02 22:03:18.925 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-02 22:03:19.065 +07:00 [DBG] Hosting starting
+2024-10-02 22:03:19.150 +07:00 [INF] User profile is available. Using 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 22:03:19.163 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-0deeedc3-7046-4815-9f93-7e3609acaf5b.xml'.
+2024-10-02 22:03:19.186 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-f216b99b-84f9-479a-b3d8-611eef3d090a.xml'.
+2024-10-02 22:03:19.209 +07:00 [DBG] Found key {0deeedc3-7046-4815-9f93-7e3609acaf5b}.
+2024-10-02 22:03:19.215 +07:00 [DBG] Found key {f216b99b-84f9-479a-b3d8-611eef3d090a}.
+2024-10-02 22:03:19.227 +07:00 [DBG] Considering key {0deeedc3-7046-4815-9f93-7e3609acaf5b} with expiration date 2024-11-22 14:13:26Z as default key.
+2024-10-02 22:03:19.230 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-02 22:03:19.234 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-02 22:03:19.236 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-02 22:03:19.243 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-02 22:03:19.246 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-02 22:03:19.249 +07:00 [DBG] Using key {0deeedc3-7046-4815-9f93-7e3609acaf5b} as the default key.
+2024-10-02 22:03:19.251 +07:00 [DBG] Key ring with default key {0deeedc3-7046-4815-9f93-7e3609acaf5b} was loaded during application startup.
+2024-10-02 22:03:19.369 +07:00 [INF] Now listening on: http://localhost:5158
+2024-10-02 22:03:19.371 +07:00 [DBG] Loaded hosting startup assembly sys_i
+2024-10-02 22:03:19.373 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 22:03:19.374 +07:00 [INF] Hosting environment: Development
+2024-10-02 22:03:19.375 +07:00 [INF] Content root path: C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i
+2024-10-02 22:03:19.378 +07:00 [DBG] Hosting started
+2024-10-02 22:03:26.044 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" accepted.
+2024-10-02 22:03:26.049 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" started.
+2024-10-02 22:03:26.055 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" accepted.
+2024-10-02 22:03:26.056 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" started.
+2024-10-02 22:03:26.128 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/ - null null
+2024-10-02 22:03:26.137 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-02 22:03:26.141 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-02 22:03:26.147 +07:00 [DBG] The request path / does not match a supported file type
+2024-10-02 22:03:26.232 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-10-02 22:03:26.243 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-10-02 22:03:26.250 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-10-02 22:03:26.292 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-02 22:03:26.299 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-10-02 22:03:26.384 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SysAdmin.Controllers.HomeController (sys_i).
+2024-10-02 22:03:26.389 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-02 22:03:26.391 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:03:26.394 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-10-02 22:03:26.400 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-02 22:03:26.404 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-10-02 22:03:26.413 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-10-02 22:03:26.416 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.HomeController (sys_i)
+2024-10-02 22:03:26.601 +07:00 [DBG] Request was short circuited at action filter 'SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute'.
+2024-10-02 22:03:26.636 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Login])
+2024-10-02 22:03:26.647 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login and 
+2024-10-02 22:03:26.654 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-10-02 22:03:26.658 +07:00 [INF] Executing RedirectResult, redirecting to /Login.
+2024-10-02 22:03:26.669 +07:00 [INF] Executed action SysAdmin.Controllers.HomeController.Index (sys_i) in 255.4016ms
+2024-10-02 22:03:26.672 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.HomeController.Index (sys_i)'
+2024-10-02 22:03:26.743 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" completed keep alive response.
+2024-10-02 22:03:26.747 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/ - 302 0 null 627.9088ms
+2024-10-02 22:03:26.765 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-10-02 22:03:26.776 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-10-02 22:03:26.780 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-10-02 22:03:26.782 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-10-02 22:03:26.784 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:26.789 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-02 22:03:26.804 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:26.887 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-10-02 22:03:26.902 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-02 22:03:26.904 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:03:26.907 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-02 22:03:26.910 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-02 22:03:26.913 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:03:26.916 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:03:26.920 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:03:26.951 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:03:26.956 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-10-02 22:03:26.961 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:26.963 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:26.965 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:26.966 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:03:26.970 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:26.993 +07:00 [INF] Executing action method SysAdmin.Controllers.LoginController.Index (sys_i) - Validation state: "Valid"
+2024-10-02 22:03:27.019 +07:00 [INF] Executed action method SysAdmin.Controllers.LoginController.Index (sys_i), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.793ms.
+2024-10-02 22:03:27.051 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Login'.
+2024-10-02 22:03:27.071 +07:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 22:03:27.074 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 24.6084ms.
+2024-10-02 22:03:27.396 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-10-02 22:03:27.401 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-10-02 22:03:27.406 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-10-02 22:03:27.432 +07:00 [DBG] A new antiforgery cookie token was created.
+2024-10-02 22:03:27.473 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" received FIN.
+2024-10-02 22:03:27.520 +07:00 [INF] Executed ViewResult - view Index executed in 472.1144ms.
+2024-10-02 22:03:27.562 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 646.7148ms
+2024-10-02 22:03:27.563 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 22:03:27.564 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:27.767 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" completed keep alive response.
+2024-10-02 22:03:27.753 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" disconnecting.
+2024-10-02 22:03:27.789 +07:00 [DBG] Connection id "0HN72UDEUN0Q8" stopped.
+2024-10-02 22:03:27.789 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 1024.5115ms
+2024-10-02 22:03:27.845 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/img/maybay.jpg - null null
+2024-10-02 22:03:27.881 +07:00 [INF] The file /img/maybay.jpg was not modified
+2024-10-02 22:03:27.884 +07:00 [DBG] Handled. Status code: 304 File: /img/maybay.jpg
+2024-10-02 22:03:27.887 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" completed keep alive response.
+2024-10-02 22:03:27.890 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/img/maybay.jpg - 304 null image/jpeg 45.46ms
+2024-10-02 22:03:27.943 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/favicon.ico - null null
+2024-10-02 22:03:28.029 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\wwwroot\favicon.ico'
+2024-10-02 22:03:28.039 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" completed keep alive response.
+2024-10-02 22:03:28.041 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/favicon.ico - 200 5430 image/x-icon 98.4099ms
+2024-10-02 22:03:32.452 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" received FIN.
+2024-10-02 22:03:32.454 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 22:03:32.455 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" disconnecting.
+2024-10-02 22:03:32.464 +07:00 [DBG] Connection id "0HN72UDEUN0Q7" stopped.
+2024-10-02 22:03:48.840 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" accepted.
+2024-10-02 22:03:48.842 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" started.
+2024-10-02 22:03:48.844 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-10-02 22:03:48.845 +07:00 [DBG] Connection id "0HN72UDEUN0QA" accepted.
+2024-10-02 22:03:48.848 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-10-02 22:03:48.849 +07:00 [DBG] Connection id "0HN72UDEUN0QA" started.
+2024-10-02 22:03:48.852 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-10-02 22:03:48.853 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-10-02 22:03:48.856 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:48.866 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-02 22:03:48.868 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:48.870 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-10-02 22:03:48.872 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-02 22:03:48.874 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:03:48.876 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-02 22:03:48.878 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-02 22:03:48.880 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:03:48.882 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:03:48.885 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:03:48.887 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:03:48.890 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-10-02 22:03:48.892 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:48.894 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:48.895 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:48.897 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:03:48.899 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:03:48.901 +07:00 [INF] Executing action method SysAdmin.Controllers.LoginController.Index (sys_i) - Validation state: "Valid"
+2024-10-02 22:03:48.903 +07:00 [INF] Executed action method SysAdmin.Controllers.LoginController.Index (sys_i), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8697ms.
+2024-10-02 22:03:48.907 +07:00 [DBG] View lookup cache hit for view 'Index' in controller 'Login'.
+2024-10-02 22:03:48.910 +07:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 22:03:48.912 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 6.4116ms.
+2024-10-02 22:03:48.923 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-10-02 22:03:48.924 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-10-02 22:03:48.927 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-10-02 22:03:48.930 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-10-02 22:03:48.932 +07:00 [INF] Executed ViewResult - view Index executed in 27.1475ms.
+2024-10-02 22:03:48.934 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 51.7501ms
+2024-10-02 22:03:48.936 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:03:48.937 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" completed keep alive response.
+2024-10-02 22:03:48.943 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 98.1854ms
+2024-10-02 22:04:53.404 +07:00 [DBG] Connection id "0HN72UDEUN0QA" received FIN.
+2024-10-02 22:04:53.405 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-10-02 22:04:53.405 +07:00 [DBG] Connection id "0HN72UDEUN0QA" disconnecting.
+2024-10-02 22:04:53.408 +07:00 [DBG] Connection id "0HN72UDEUN0QB" accepted.
+2024-10-02 22:04:53.408 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-10-02 22:04:53.410 +07:00 [DBG] Connection id "0HN72UDEUN0QA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 22:04:53.411 +07:00 [DBG] Connection id "0HN72UDEUN0QB" started.
+2024-10-02 22:04:53.412 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-10-02 22:04:53.415 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-10-02 22:04:53.417 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:04:53.416 +07:00 [DBG] Connection id "0HN72UDEUN0QA" stopped.
+2024-10-02 22:04:53.418 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-02 22:04:53.420 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:04:53.422 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-10-02 22:04:53.424 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-02 22:04:53.426 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:04:53.428 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-02 22:04:53.430 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-02 22:04:53.432 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-02 22:04:53.434 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:04:53.435 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-10-02 22:04:53.436 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:04:53.438 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-10-02 22:04:53.439 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:04:53.441 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:04:53.442 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:04:53.444 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-10-02 22:04:53.446 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-10-02 22:04:53.448 +07:00 [INF] Executing action method SysAdmin.Controllers.LoginController.Index (sys_i) - Validation state: "Valid"
+2024-10-02 22:04:53.450 +07:00 [INF] Executed action method SysAdmin.Controllers.LoginController.Index (sys_i), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5692ms.
+2024-10-02 22:04:53.453 +07:00 [DBG] View lookup cache hit for view 'Index' in controller 'Login'.
+2024-10-02 22:04:53.454 +07:00 [INF] Executing ViewResult, running view Index.
+2024-10-02 22:04:53.455 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 2.9121ms.
+2024-10-02 22:04:53.508 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-10-02 22:04:53.511 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-10-02 22:04:53.512 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-10-02 22:04:53.514 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-10-02 22:04:53.516 +07:00 [INF] Executed ViewResult - view Index executed in 63.9378ms.
+2024-10-02 22:04:53.518 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 84.0404ms
+2024-10-02 22:04:53.519 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-10-02 22:04:53.520 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" completed keep alive response.
+2024-10-02 22:04:53.522 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 117.2333ms
+2024-10-02 22:05:17.363 +07:00 [INF] Application is shutting down...
+2024-10-02 22:05:17.369 +07:00 [DBG] Hosting stopping
+2024-10-02 22:05:17.388 +07:00 [DBG] Connection id "0HN72UDEUN0QB" disconnecting.
+2024-10-02 22:05:17.388 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" disconnecting.
+2024-10-02 22:05:17.389 +07:00 [DBG] Connection id "0HN72UDEUN0QB" stopped.
+2024-10-02 22:05:17.390 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" stopped.
+2024-10-02 22:05:17.392 +07:00 [DBG] Connection id "0HN72UDEUN0QB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 22:05:17.394 +07:00 [DBG] Connection id "0HN72UDEUN0Q9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 22:05:17.404 +07:00 [DBG] Hosting stopped

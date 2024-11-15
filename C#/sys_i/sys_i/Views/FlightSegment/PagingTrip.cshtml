@@ -1,0 +1,100 @@
+@model Backend.Service.ViewModel.FlightTripPagingResponse
+@{
+    var counter = 0;
+}
+@if (Model.PagingResponse.Items != null && Model.PagingResponse.Items.Any())
+{
+    @* <table id="add-row" class="display table table-striped table-hover"> *@
+    @*     <thead> *@
+    @*     <tr> *@
+    @*         <th>#</th> *@
+    @*         <th>Xuất Phát</th> *@
+    @*         <th>Đích đến</th> *@
+    @*         <th>Thời gian xuất phát</th> *@
+    @*         <th>Thời gian đến</th> *@
+    @*         <th>Tổng tiền</th> *@
+    @*         <th>Action</th> *@
+    @*     </tr> *@
+    @*     </thead> *@
+    @*     <tbody> *@
+    @*     @foreach (var trip in Model.PagingResponse.Items) *@
+    @*     { *@
+    @*         counter++; *@
+    @*         <tr data-id="@trip.TripId"> *@
+    @*             <td>@counter</td> *@
+    @*             <td>@trip.FromCity</td> *@
+    @*             <td>@trip.ToCity</td> *@
+    @*             <td>@trip.DepartureTime.ToString("d/M/yyyy h:mm:ss tt")</td> *@
+    @*             <td>@trip.ArrivalTime.ToString("d/M/yyyy h:mm:ss tt")</td> *@
+    @*             <td>@trip.TotalPrice.ToString("N0")</td> *@
+    @*             <td> *@
+    @*                 <div class="form-button-action"> *@
+    @*                     @if (trip.Segments.Any(s => s.status != 4)) *@
+    @*                     { *@
+    @*                         <button type="button" data-bs-toggle="tooltip" title="Edit Task" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task" onclick="viewEdit(@trip.TripId)"> *@
+    @*                             <i class="fa fa-edit"></i> *@
+    @*                         </button> *@
+    @*                         <button type="button" data-bs-toggle="tooltip" title="Remove" class="btn btn-link btn-danger" data-original-title="Remove" onclick="onDelete(@trip.TripId)"> *@
+    @*                             <i class="fa fa-times"></i> *@
+    @*                         </button> *@
+    @*                     } *@
+    @*                     <button type="button" data-bs-toggle="tooltip" title="View" class="btn btn-link btn-primary btn-lg" data-original-title="Remove" onclick="view(@trip.TripId)"> *@
+    @*                         <i class="fa-solid fa-circle-info"></i> *@
+    @*                     </button> *@
+    @*                 </div> *@
+    @*             </td> *@
+    @*         </tr> *@
+    @*     } *@
+    @*     </tbody> *@
+    @* </table> *@
+    
+    <table id="add-row" class="display table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>ID</th>
+            <th>Xuất Phát</th>
+            <th>Đích đến</th>
+            <th>Thời gian xuất phát</th>
+            <th>Thời gian đến</th>
+            <th>Tổng tiền</th>
+        </tr>
+        </thead>
+        <tbody>
+        @for (var i = 0; i < Model.PagingResponse.Items.Count; i++)
+        {
+        var item = Model.PagingResponse.Items[i];
+        <tr>
+            <td>@(i + 1)</td>
+            <td>@item.TripId</td>
+            <td>@item.FromCity</td>
+            <td>@item.ToCity</td>
+            <td>@item.DepartureTime.ToString("dd/MM/yyyy hh:mm:ss tt")</td>
+            <td>@item.ArrivalTime.ToString("dd/MM/yyyy hh:mm:ss tt")</td>
+            <td>@item.TotalPrice.ToString("N0")</td>
+            <td>@item.Segment</td>
+
+            <td>
+                <div class="form-button-action">
+                    <button type="button" data-bs-toggle="tooltip" title="View" class="btn btn-link btn-primary btn-lg" data-original-title="Remove" onclick="view(@item.TripId)">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </button>
+                </div>
+            </td>
+        </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info text-center">
+        No data available
+    </div>
+}
+
+@await Html.PartialAsync("Panigation/Panigation", new PaginationModel { TotalItems = Model.PagingResponse.total, PageSize = Model.PagingModel.Size, CurrentPageIndex = Model.PagingModel.Idx, CurrentResultCount = Model.PagingResponse.Items.Count })
+
+<script type="text/javascript">
+    setPageConfig('@Model.PagingModel.total', '@Model.PagingModel.Idx', '@Model.PagingModel.Size');
+</script>

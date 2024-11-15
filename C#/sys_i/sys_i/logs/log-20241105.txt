@@ -1,0 +1,5 @@
+2024-11-05 01:41:13.633 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-11-05 01:41:13.655 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2024-11-05 01:41:21.089 +07:00 [INF] Application is shutting down...
+2024-11-05 01:41:21.113 +07:00 [DBG] Hosting stopping
+2024-11-05 01:41:21.215 +07:00 [DBG] Hosting stopped

@@ -1,0 +1,63 @@
+@using Backend.Service.View
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Backend.Service.ViewModel.RoutesViewModel
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Thêm mới</span>
+        </h5>
+    </div>
+    <div class="modal-body">
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "form" }))
+        {
+            <div class="row">
+                @Html.Hidden("de_a_id")
+                @Html.Hidden("ar_a_id")
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Sân bay xuất phát</label>
+                        <select id="select_de_port" style="width: 100%;" onchange="changeTarget(this,'de_a_id')"></select>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Sân bay đến</label>
+                        <select id="select_ar_port" style="width: 100%;" onchange="changeTarget(this,'ar_a_id')"></select>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Khoảng cách</label>
+                        @Html.TextBoxFor(x => x.distance, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label for="status">Tình trạng</label>
+                        <select id="status" name="status" class="form-control">
+                            <option value="1">Sẵn sàng</option>
+                            <option value="2">Thay đổi lịch trình</option>
+                            <option value="3">Hủy</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doCreate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/routes.js" defer=""></script>
+

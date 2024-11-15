@@ -1,0 +1,75 @@
+2024-10-03 13:22:29.798 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Create.cshtml'.
+2024-10-03 13:22:29.871 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Edit.cshtml'.
+2024-10-03 13:22:29.872 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Index.cshtml'.
+2024-10-03 13:22:29.873 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Paging.cshtml'.
+2024-10-03 13:22:29.874 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/View.cshtml'.
+2024-10-03 13:22:29.876 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Create.cshtml'.
+2024-10-03 13:22:29.877 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Edit.cshtml'.
+2024-10-03 13:22:29.879 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Index.cshtml'.
+2024-10-03 13:22:29.880 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Paging.cshtml'.
+2024-10-03 13:22:29.881 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Create.cshtml'.
+2024-10-03 13:22:29.882 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Edit.cshtml'.
+2024-10-03 13:22:29.884 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Index.cshtml'.
+2024-10-03 13:22:29.885 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Paging.cshtml'.
+2024-10-03 13:22:29.887 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Create.cshtml'.
+2024-10-03 13:22:29.888 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Edit.cshtml'.
+2024-10-03 13:22:29.889 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Index.cshtml'.
+2024-10-03 13:22:29.891 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/IndexSegment.cshtml'.
+2024-10-03 13:22:29.892 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingSegment.cshtml'.
+2024-10-03 13:22:29.893 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingTrip.cshtml'.
+2024-10-03 13:22:29.894 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/View.cshtml'.
+2024-10-03 13:22:29.895 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Create.cshtml'.
+2024-10-03 13:22:29.896 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Edit.cshtml'.
+2024-10-03 13:22:29.897 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Index.cshtml'.
+2024-10-03 13:22:29.898 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Paging.cshtml'.
+2024-10-03 13:22:29.900 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/View.cshtml'.
+2024-10-03 13:22:29.902 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-10-03 13:22:29.903 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-10-03 13:22:29.904 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-10-03 13:22:29.905 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Create.cshtml'.
+2024-10-03 13:22:29.907 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Edit.cshtml'.
+2024-10-03 13:22:29.908 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Index.cshtml'.
+2024-10-03 13:22:29.909 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Create.cshtml'.
+2024-10-03 13:22:29.910 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Edit.cshtml'.
+2024-10-03 13:22:29.911 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Index.cshtml'.
+2024-10-03 13:22:29.912 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Paging.cshtml'.
+2024-10-03 13:22:29.915 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Aircarf/ShowName.cshtml'.
+2024-10-03 13:22:29.916 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airline/ShowName.cshtml'.
+2024-10-03 13:22:29.917 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airport/ShowName.cshtml'.
+2024-10-03 13:22:29.919 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Menu/Default.cshtml'.
+2024-10-03 13:22:29.920 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Routes/ShowName.cshtml'.
+2024-10-03 13:22:29.921 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Default.cshtml'.
+2024-10-03 13:22:29.921 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Setting.cshtml'.
+2024-10-03 13:22:29.922 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-10-03 13:22:29.923 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Panigation/Panigation.cshtml'.
+2024-10-03 13:22:29.925 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-10-03 13:22:29.926 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Create.cshtml'.
+2024-10-03 13:22:29.927 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Edit.cshtml'.
+2024-10-03 13:22:29.929 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Index.cshtml'.
+2024-10-03 13:22:29.930 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-10-03 13:22:29.931 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-10-03 13:22:29.932 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-10-03 13:22:29.985 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-03 13:22:30.084 +07:00 [DBG] Hosting starting
+2024-10-03 13:22:30.103 +07:00 [INF] User profile is available. Using 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-03 13:22:30.113 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-0deeedc3-7046-4815-9f93-7e3609acaf5b.xml'.
+2024-10-03 13:22:30.119 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-f216b99b-84f9-479a-b3d8-611eef3d090a.xml'.
+2024-10-03 13:22:30.128 +07:00 [DBG] Found key {0deeedc3-7046-4815-9f93-7e3609acaf5b}.
+2024-10-03 13:22:30.132 +07:00 [DBG] Found key {f216b99b-84f9-479a-b3d8-611eef3d090a}.
+2024-10-03 13:22:30.142 +07:00 [DBG] Considering key {0deeedc3-7046-4815-9f93-7e3609acaf5b} with expiration date 2024-11-22 14:13:26Z as default key.
+2024-10-03 13:22:30.146 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-03 13:22:30.149 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-03 13:22:30.151 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-03 13:22:30.161 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-03 13:22:30.163 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-03 13:22:30.166 +07:00 [DBG] Using key {0deeedc3-7046-4815-9f93-7e3609acaf5b} as the default key.
+2024-10-03 13:22:30.169 +07:00 [DBG] Key ring with default key {0deeedc3-7046-4815-9f93-7e3609acaf5b} was loaded during application startup.
+2024-10-03 13:22:30.248 +07:00 [INF] Now listening on: http://localhost:5158
+2024-10-03 13:22:30.249 +07:00 [DBG] Loaded hosting startup assembly sys_i
+2024-10-03 13:22:30.250 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 13:22:30.251 +07:00 [INF] Hosting environment: Development
+2024-10-03 13:22:30.252 +07:00 [INF] Content root path: C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i
+2024-10-03 13:22:30.253 +07:00 [DBG] Hosting started
+2024-10-03 13:22:39.112 +07:00 [INF] Application is shutting down...
+2024-10-03 13:22:39.114 +07:00 [DBG] Hosting stopping
+2024-10-03 13:22:39.141 +07:00 [DBG] Hosting stopped

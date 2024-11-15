@@ -1,0 +1,81 @@
+@model List<Backend.Service.ViewModel.MenuViewModel>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="card-title">Danh sách Menu</h4>
+            <div>
+                <button
+                    class="btn btn-sm btn-primary ms-2"
+                    onclick='loadModuleModal("@Url.Action("Create")")'>
+                    <i class="fa fa-plus"></i>
+                    Thêm mới Menu Cha
+                </button>
+                @* <a href="javascript:toggleDiv('.advanced-filter')" class="btn btn-sm btn-light ms-2"> *@
+                @*     Lọc <i class="fa fa-caret-down"></i> *@
+                @* </a> *@
+            </div>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                @foreach (var item in Model)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <strong class="me-3">@item.DisplayTreeName</strong>
+                            <a class="btn btn-sm btn-warning ms-2" onclick="viewEdit(@item.id)">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a  class="btn btn-sm btn-danger ms-2" onclick="onDelete(@item.id)">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                            <button class="btn btn-sm btn-success ms-2" onclick='loadModuleModal("@Url.Action("Create", new { parentId = item.id })")'>
+                                <i class="fa fa-plus"></i> Thêm Menu Con
+                            </button>
+                        </div>
+                        @if (item.children.Any())
+                        {
+                            <ul class="list-group mt-2">
+                                @foreach (var child in item.children)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        @child.name
+                                        <div class="d-flex align-items-center">
+                                            <a class="btn btn-sm btn-warning ms-2" onclick="viewEdit(@child.id)">
+                                                <i class="fa fa-edit"></i> Sửa
+                                            </a>
+                                            <a  class="btn btn-sm btn-danger ms-2" onclick="onDelete(@child.id)">
+                                                <i class="fa fa-trash"></i> Xóa
+                                            </a>
+                                        </div>
+                                    </li>
+                                    
+                                    <script type="text/javascript" src="~/menu.js" defer=""></script>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .d-flex {
+        display: flex;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .me-3 {
+        margin-right: 1rem;
+    }
+
+    .ms-2 {
+        margin-left: 0.5rem;
+    }
+</style>
+

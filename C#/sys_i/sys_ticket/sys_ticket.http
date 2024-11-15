@@ -1,0 +1,6 @@
+@sys_ticket_HostAddress = http://localhost:5102
+
+GET {{sys_ticket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

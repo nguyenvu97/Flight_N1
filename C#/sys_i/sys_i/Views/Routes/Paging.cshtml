@@ -1,0 +1,77 @@
+@model Backend.Service.ViewModel.RoutesPagingResponse
+@{
+var counter = 0;
+}
+
+@if (Model.PagingResponse.Items != null && Model.PagingResponse.Items.Any())
+{
+<table id="add-row" class="display table table-striped table-hover">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Điểm xuất phát</th>
+        <th>Điểm đến</th>
+        <th>Khoảng cách</th>
+        <th>Tình trạng</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.PagingResponse.Items)
+    {
+    counter++;
+    <tr data-id="@item.id">
+        <td>@counter</td>
+        <td>
+            @await Component.InvokeAsync("Airport", new { action = "ShowName", pr1 = item.de_a_id})
+        </td>
+        <td>
+            @await Component.InvokeAsync("Airport", new { action = "ShowName", pr1 = item.ar_a_id})
+        </td>
+        <td>@item.distance</td>
+        <td>
+            @{
+            var statusText = item.status switch
+            {
+            1 => "Sẵn sàng",
+            2 => "Thay đổi lịch trình",
+            3 => "Hủy",
+            _ => "Không xác định"
+            };
+            @statusText
+            }
+        </td>
+        @* <td> *@
+        @*     @await Component.InvokeAsync("Airline", new { action = "ShowName", pr1 = item.airline_id}) *@
+        @* </td> *@
+        <td>
+            <div class="form-button-action">
+                <button type="button" data-bs-toggle="tooltip" title="Edit Task" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task" onclick="viewEdit(@item.id)">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button type="button" data-bs-toggle="tooltip" title="Remove" class="btn btn-link btn-danger" data-original-title="Remove" onclick="onDelete(@item.id)">
+                    <i class="fa fa-times"></i>
+                </button>
+                @* <button type="button" data-bs-toggle="tooltip" title="View" class="btn btn-link btn-primary btn-lg" data-original-title="Remove" onclick="view(@item.id)"> *@
+                @*     <i class="fa-solid fa-circle-info"></i> *@
+                @* </button> *@
+            </div>
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
+}
+else
+{
+<div class="alert alert-info text-center">
+    No data available
+</div>
+}
+
+@await Html.PartialAsync("Panigation/Panigation", new PaginationModel { TotalItems = Model.PagingResponse.total, PageSize = Model.PagingModel.Size, CurrentPageIndex = Model.PagingModel.Idx, CurrentResultCount = Model.PagingResponse.Items.Count })
+
+<script type="text/javascript" src="~/routes.js" defer></script>
+<script type="text/javascript">
+    setPageConfig('@Model.PagingModel.total', '@Model.PagingModel.Idx', '@Model.PagingModel.Size');
+</script>

@@ -1,0 +1,79 @@
+﻿@model List<Backend.Service.ViewModel.MenuViewModel>
+
+<style>
+    .collapse {
+        display: none;
+    }
+
+    .collapse.show {
+        display: block;
+    }
+
+    .nav-collapse {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+</style>
+
+<div class="sidebar-wrapper scrollbar scrollbar-inner">
+    <div class="sidebar-content">
+        <ul class="nav nav-secondary">
+            @foreach (var item in Model)
+            {
+                <li class="nav-item @(item.children.Any() ? "" : "nav-item-no-children")">
+                    <a 
+                        data-bs-toggle="@((item.children.Any()) ? "collapse" : null)"
+                        href="@((item.children.Any()) ? $"#menu-{item.id}" : Url.Action(item.action, item.controller))">
+                        <i class="@item.class_name"></i> <!-- Assume you have an 'icon' property -->
+                        <p>@item.name</p>
+                        @if (item.children.Any())
+                        {
+                            <span class="caret"></span>
+                        }
+                    </a>
+                    @if (item.children.Any())
+                    {
+                        <div class="collapse" id="menu-@item.id">
+                            <ul class="nav nav-collapse">
+                                @foreach (var child in item.children)
+                                {
+                                    <li class="nav-item @(child.children.Any() ? "" : "nav-item-no-children")">
+                                        <a 
+                                            data-bs-toggle="@((child.children.Any()) ? "collapse" : null)"
+                                            href="@((child.children.Any()) ? $"#menu-{child.id}" : Url.Action(child.action, child.controller))">
+                                            
+                                            <i class="@child.class_name"></i> @child.name
+                                            
+                                            @if (child.children.Any())
+                                            {
+                                                <span class="caret"></span>
+                                            }
+                                        </a>
+                                        @if (child.children.Any())
+                                        {
+                                            <div class="collapse" id="menu-@child.id">
+                                                <ul class="nav nav-collapse">
+                                                    @foreach (var grandChild in child.children)
+                                                    {
+                                                        <li>
+                                                            <a href="@Url.Action(grandChild.action, grandChild.controller)">
+                                                                @grandChild.name
+                                                            </a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+

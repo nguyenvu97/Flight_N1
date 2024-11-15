@@ -1,0 +1,9 @@
+2024-09-17 00:54:37.437 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-17 00:54:37.485 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-17 00:54:47.504 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-17 00:54:47.505 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2024-09-17 00:54:57.511 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-17 00:54:57.512 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-17 00:55:05.596 +07:00 [INF] Application is shutting down...
+2024-09-17 00:55:05.597 +07:00 [DBG] Hosting stopping
+2024-09-17 00:55:05.608 +07:00 [DBG] Hosting stopped

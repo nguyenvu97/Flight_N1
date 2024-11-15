@@ -1,0 +1,17 @@
+﻿@model PaginationModel
+@if (Model.CurrentResultCount > 0 || Model.CurrentPageIndex > 1)
+{
+    var hasPrev = Model.CurrentPageIndex > 1;
+    var hasNext = Model.CurrentResultCount == Model.PageSize;
+    <div class="card-footer row">
+        <div class="col-sm-5">
+            <small>Trang</small>
+            <input type="text" value="@Model.CurrentPageIndex" class="btn btn-sm btn-default" id="current_page" style="width: 45px" />
+            <button type="button" class="btn btn-sm btn-default" onclick="loadPage()" title="đến nhanh">Đến nhanh <i class="fa fa-arrow-circle-o-right"></i></button>
+        </div>
+        <div class="col-sm-7 text-right">
+            <a href="javascript:;" class="btn btn-sm btn-default btn-prev-page" onclick="@(hasPrev?"loadPrev()":"javscript:;")" @(hasPrev ? "" : "disabled")><i class="fa fa-angle-left"></i> Trang trước</a>
+            <a href="javascript:;" class="btn btn-sm btn-default btn-next-page" onclick="@(hasNext?"loadNext()":"javscript:;")" @(hasNext ? "" : "disabled")>Trang sau <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+}

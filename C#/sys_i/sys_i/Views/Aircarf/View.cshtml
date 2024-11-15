@@ -1,0 +1,62 @@
+@using Backend.Service.View
+@model Backend.Service.ViewModel.AircrarfViewModel
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Chi tiết máy bay</span>
+        </h5>
+    </div>
+    <div class="modal-body">
+        <table class="table table-striped">
+            <tbody>
+            <tr>
+                <th>Tên máy bay</th>
+                <td>@Model.type</td>
+            </tr>
+            <tr>
+                <th>Mã máy bay</th>
+                <td>@Model.code</td>
+            </tr>
+            <tr>
+                <th>Tổng số ghế</th>
+                <td>@Model.totalSeats</td>
+            </tr>
+            <tr>
+                <th>Số ghế thương gia</th>
+                <td>@Model.businessseats</td>
+            </tr>
+            <tr>
+                <th>Số ghế phổ thông</th>
+                <td>@Model.economySeats</td>
+            </tr>
+            <tr>
+                <th>Hãng hàng không</th>
+                <td>@($"{Model.airline.name} ({Model.airline.code})")</td>
+            </tr>
+            <tr>
+                <th>Tình trạng</th>
+                <td>
+                    @{
+                    var statusText = Model.status switch
+                    {
+                    1 => "Sẵn sàng",
+                    2 => "Đang bảo trì",
+                    3 => "Hủy",
+                    _ => "Không xác định"
+                    };
+                    @statusText
+                    }
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Đóng
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/aircarf.js" defer=""></script>

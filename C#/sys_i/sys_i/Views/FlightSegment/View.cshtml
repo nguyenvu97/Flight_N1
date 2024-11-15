@@ -1,0 +1,50 @@
+@using Backend.Service.View
+@model List<Backend.Service.ViewModel.FlightSegmentViewModel>
+
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            <span class="fw-mediumbold">Chi tiết máy bay</span>
+        </h5>
+    </div>
+    <div class="modal-body">
+        @foreach (var segment in Model)
+        {
+        <table class="table table-bordered">
+            <tbody>
+            <tr>
+                <th>Mã chuyến bay</th>
+                <td>@segment.code</td>
+            </tr>
+            <tr>
+                <th>Từ Thành Phố</th>
+                <td>@segment.fromCity</td>
+            </tr>
+            <tr>
+                <th>Đến Thành Phố</th>
+                <td>@segment.toCity</td>
+            </tr>
+            <tr>
+                <th>Thời Gian Xuất Phát</th>
+                <td>@segment.de_time.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <th>Thời Gian Đến</th>
+                <td>@segment.ar_time.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+            <tr>
+                <th>Giá</th>
+                <td>@segment.base_price.ToString("C0")</td>
+            </tr>
+            </tbody>
+        </table>
+        }
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+        Đóng
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/flightsegment.js" defer=""></script>

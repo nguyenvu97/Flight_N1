@@ -1,0 +1,89 @@
+@model Backend.Service.ViewModel.MenuViewModel
+@{
+}
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            @if (Model?.parent_id != null)
+            {
+            <span class="fw-mediumbold">Thêm mới con</span>
+            }
+            else
+            {
+            <span class="fw-mediumbold">Thêm mới cha</span>
+            }
+
+        </h5>
+    </div>
+    <div class="modal-body">
+        <form id="form" method="post" enctype="multipart/form-data">
+            <div class="row">
+                @Html.HiddenFor(x => x.id)
+                @if (Model?.parent_id != null)
+                {
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        @Html.Hidden("parent_id")
+                        <label>Menu cha</label>
+                        <select id="select_menu" style="width: 100%;" onchange="changeTarget(this,'parent_id')">
+                            <option value="@Model.parent.id">@Model.parent.name</option>
+                        </select>
+                    </div>
+                </div>
+                }
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Tên menu</label>
+                        @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Controller</label>
+                        @Html.TextBoxFor(x => x.controller, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Action</label>
+                        @Html.TextBoxFor(x => x.action, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Ưu tiên</label>
+                        @Html.TextBoxFor(x => x.priority, new { @class = "form-control", type="number" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Cấp độ</label>
+                        @Html.TextBoxFor(x => x.level, new { @class = "form-control", type="number" })
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Class Name</label>
+                        @Html.TextBoxFor(x => x.class_name, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doUpdate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/menu.js" defer=""></script>

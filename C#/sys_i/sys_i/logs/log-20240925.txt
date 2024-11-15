@@ -1,0 +1,892 @@
+2024-09-25 23:20:13.423 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Create.cshtml'.
+2024-09-25 23:20:13.506 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Edit.cshtml'.
+2024-09-25 23:20:13.508 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Index.cshtml'.
+2024-09-25 23:20:13.509 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/Paging.cshtml'.
+2024-09-25 23:20:13.510 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Aircarf/View.cshtml'.
+2024-09-25 23:20:13.512 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Create.cshtml'.
+2024-09-25 23:20:13.514 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Edit.cshtml'.
+2024-09-25 23:20:13.515 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Index.cshtml'.
+2024-09-25 23:20:13.516 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airline/Paging.cshtml'.
+2024-09-25 23:20:13.517 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Create.cshtml'.
+2024-09-25 23:20:13.518 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Edit.cshtml'.
+2024-09-25 23:20:13.519 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Index.cshtml'.
+2024-09-25 23:20:13.521 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Airport/Paging.cshtml'.
+2024-09-25 23:20:13.522 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Create.cshtml'.
+2024-09-25 23:20:13.524 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Edit.cshtml'.
+2024-09-25 23:20:13.527 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/Index.cshtml'.
+2024-09-25 23:20:13.529 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/IndexSegment.cshtml'.
+2024-09-25 23:20:13.531 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingSegment.cshtml'.
+2024-09-25 23:20:13.535 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/PagingTrip.cshtml'.
+2024-09-25 23:20:13.536 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/FlightSegment/View.cshtml'.
+2024-09-25 23:20:13.550 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Create.cshtml'.
+2024-09-25 23:20:13.551 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Edit.cshtml'.
+2024-09-25 23:20:13.552 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Index.cshtml'.
+2024-09-25 23:20:13.554 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/Paging.cshtml'.
+2024-09-25 23:20:13.556 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Flight/View.cshtml'.
+2024-09-25 23:20:13.558 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-09-25 23:20:13.564 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-09-25 23:20:13.583 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-09-25 23:20:13.586 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Create.cshtml'.
+2024-09-25 23:20:13.588 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Edit.cshtml'.
+2024-09-25 23:20:13.590 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Menu/Index.cshtml'.
+2024-09-25 23:20:13.592 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Create.cshtml'.
+2024-09-25 23:20:13.594 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Edit.cshtml'.
+2024-09-25 23:20:13.596 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Index.cshtml'.
+2024-09-25 23:20:13.598 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Routes/Paging.cshtml'.
+2024-09-25 23:20:13.599 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Aircarf/ShowName.cshtml'.
+2024-09-25 23:20:13.602 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airline/ShowName.cshtml'.
+2024-09-25 23:20:13.604 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Airport/ShowName.cshtml'.
+2024-09-25 23:20:13.606 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Menu/Default.cshtml'.
+2024-09-25 23:20:13.608 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/Routes/ShowName.cshtml'.
+2024-09-25 23:20:13.610 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Default.cshtml'.
+2024-09-25 23:20:13.611 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/User/Setting.cshtml'.
+2024-09-25 23:20:13.613 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-09-25 23:20:13.614 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Panigation/Panigation.cshtml'.
+2024-09-25 23:20:13.616 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-09-25 23:20:13.620 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Create.cshtml'.
+2024-09-25 23:20:13.622 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Edit.cshtml'.
+2024-09-25 23:20:13.624 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Zone/Index.cshtml'.
+2024-09-25 23:20:13.626 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-09-25 23:20:13.628 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-09-25 23:20:13.629 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-09-25 23:20:13.663 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-25 23:20:14.022 +07:00 [DBG] Hosting starting
+2024-09-25 23:20:14.296 +07:00 [INF] User profile is available. Using 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-25 23:20:14.381 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-0deeedc3-7046-4815-9f93-7e3609acaf5b.xml'.
+2024-09-25 23:20:14.439 +07:00 [DBG] Reading data from file 'C:\Users\thaic\AppData\Local\ASP.NET\DataProtection-Keys\key-f216b99b-84f9-479a-b3d8-611eef3d090a.xml'.
+2024-09-25 23:20:14.670 +07:00 [DBG] Found key {0deeedc3-7046-4815-9f93-7e3609acaf5b}.
+2024-09-25 23:20:14.680 +07:00 [DBG] Found key {f216b99b-84f9-479a-b3d8-611eef3d090a}.
+2024-09-25 23:20:14.721 +07:00 [DBG] Considering key {0deeedc3-7046-4815-9f93-7e3609acaf5b} with expiration date 2024-11-22 14:13:26Z as default key.
+2024-09-25 23:20:14.730 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-25 23:20:14.737 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-25 23:20:14.741 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-25 23:20:14.805 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-25 23:20:14.815 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-25 23:20:14.820 +07:00 [DBG] Using key {0deeedc3-7046-4815-9f93-7e3609acaf5b} as the default key.
+2024-09-25 23:20:14.823 +07:00 [DBG] Key ring with default key {0deeedc3-7046-4815-9f93-7e3609acaf5b} was loaded during application startup.
+2024-09-25 23:20:14.951 +07:00 [INF] Now listening on: http://localhost:5158
+2024-09-25 23:20:14.952 +07:00 [DBG] Loaded hosting startup assembly sys_i
+2024-09-25 23:20:14.954 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-25 23:20:14.956 +07:00 [INF] Hosting environment: Development
+2024-09-25 23:20:14.957 +07:00 [INF] Content root path: C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i
+2024-09-25 23:20:14.958 +07:00 [DBG] Hosting started
+2024-09-25 23:21:10.016 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" accepted.
+2024-09-25 23:21:10.023 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" started.
+2024-09-25 23:21:10.055 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" accepted.
+2024-09-25 23:21:10.057 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" started.
+2024-09-25 23:21:10.120 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/FlightSegment - null null
+2024-09-25 23:21:10.136 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-25 23:21:10.145 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-09-25 23:21:10.156 +07:00 [DBG] The request path /FlightSegment does not match a supported file type
+2024-09-25 23:21:10.238 +07:00 [DBG] 1 candidate(s) found for the request path '/FlightSegment'
+2024-09-25 23:21:10.246 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/FlightSegment'
+2024-09-25 23:21:10.250 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:10.285 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:10.290 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:10.372 +07:00 [INF] Route matched with {action = "Index", controller = "FlightSegment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SysAdmin.Controllers.FlightSegmentController (sys_i).
+2024-09-25 23:21:10.376 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:10.378 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:10.380 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:10.383 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:10.384 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:10.390 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:10.603 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" received FIN.
+2024-09-25 23:21:10.608 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-25 23:21:10.614 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" disconnecting.
+2024-09-25 23:21:10.621 +07:00 [DBG] Connection id "0HN6TFO8FGBN5" stopped.
+2024-09-25 23:21:10.863 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:10.966 +07:00 [DBG] Request was short circuited at action filter 'SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute'.
+2024-09-25 23:21:10.985 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Index],controller=[Login])
+2024-09-25 23:21:10.992 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login and 
+2024-09-25 23:21:10.996 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login
+2024-09-25 23:21:10.998 +07:00 [INF] Executing RedirectResult, redirecting to /Login.
+2024-09-25 23:21:11.004 +07:00 [INF] Executed action SysAdmin.Controllers.FlightSegmentController.Index (sys_i) in 613.9607ms
+2024-09-25 23:21:11.006 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:11.017 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" completed keep alive response.
+2024-09-25 23:21:11.021 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/FlightSegment - 302 0 null 923.358ms
+2024-09-25 23:21:11.026 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Login - null null
+2024-09-25 23:21:11.029 +07:00 [DBG] The request path /Login does not match a supported file type
+2024-09-25 23:21:11.032 +07:00 [DBG] 1 candidate(s) found for the request path '/Login'
+2024-09-25 23:21:11.033 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login'
+2024-09-25 23:21:11.034 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-25 23:21:11.037 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:11.038 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-25 23:21:11.050 +07:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-25 23:21:11.052 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:11.054 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:11.055 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-25 23:21:11.056 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:11.057 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:11.059 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-25 23:21:11.061 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-25 23:21:11.067 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-09-25 23:21:11.072 +07:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-09-25 23:21:11.075 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-09-25 23:21:11.078 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-25 23:21:11.080 +07:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-25 23:21:11.081 +07:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-09-25 23:21:11.084 +07:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-09-25 23:21:11.102 +07:00 [INF] Executing action method SysAdmin.Controllers.LoginController.Index (sys_i) - Validation state: "Valid"
+2024-09-25 23:21:11.115 +07:00 [INF] Executed action method SysAdmin.Controllers.LoginController.Index (sys_i), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.5928ms.
+2024-09-25 23:21:11.128 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'Login'.
+2024-09-25 23:21:11.139 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-25 23:21:11.141 +07:00 [DBG] The view path '/Views/Login/Index.cshtml' was found in 14.2598ms.
+2024-09-25 23:21:11.292 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Login])
+2024-09-25 23:21:11.294 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Login/Login and 
+2024-09-25 23:21:11.296 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Login/Login
+2024-09-25 23:21:11.303 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-25 23:21:11.339 +07:00 [INF] Executed ViewResult - view Index executed in 212.5257ms.
+2024-09-25 23:21:11.341 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Index (sys_i) in 282.1766ms
+2024-09-25 23:21:11.342 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Index (sys_i)'
+2024-09-25 23:21:11.344 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" completed keep alive response.
+2024-09-25 23:21:11.348 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Login - 200 null text/html; charset=utf-8 321.507ms
+2024-09-25 23:21:15.599 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" received FIN.
+2024-09-25 23:21:15.601 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-25 23:21:15.604 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" disconnecting.
+2024-09-25 23:21:15.607 +07:00 [DBG] Connection id "0HN6TFO8FGBN4" stopped.
+2024-09-25 23:21:15.875 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" accepted.
+2024-09-25 23:21:15.877 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" started.
+2024-09-25 23:21:15.883 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/Login/Login - application/x-www-form-urlencoded 221
+2024-09-25 23:21:15.887 +07:00 [DBG] POST requests are not supported
+2024-09-25 23:21:15.889 +07:00 [DBG] 1 candidate(s) found for the request path '/Login/Login'
+2024-09-25 23:21:15.891 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Login/Login'
+2024-09-25 23:21:15.893 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-25 23:21:15.899 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:15.901 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-25 23:21:15.902 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" accepted.
+2024-09-25 23:21:15.905 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" started.
+2024-09-25 23:21:15.917 +07:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SysAdmin.Models.UserRequest) on controller SysAdmin.Controllers.LoginController (sys_i).
+2024-09-25 23:21:15.920 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:15.922 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:15.924 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-25 23:21:15.927 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:15.929 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:15.931 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-25 23:21:15.933 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.LoginController (sys_i)
+2024-09-25 23:21:15.943 +07:00 [DBG] Connection id "0HN6TFO8FGBN6", Request id "0HN6TFO8FGBN6:00000001": started reading request body.
+2024-09-25 23:21:15.945 +07:00 [DBG] Connection id "0HN6TFO8FGBN6", Request id "0HN6TFO8FGBN6:00000001": done reading request body.
+2024-09-25 23:21:15.955 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-25 23:21:15.959 +07:00 [DBG] Attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest' using the name '' in request data ...
+2024-09-25 23:21:15.969 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String' using the name 'email' in request data ...
+2024-09-25 23:21:15.972 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.email' of type 'System.String'.
+2024-09-25 23:21:15.974 +07:00 [DBG] Attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String' using the name 'password' in request data ...
+2024-09-25 23:21:15.977 +07:00 [DBG] Done attempting to bind property 'SysAdmin.Models.UserRequest.password' of type 'System.String'.
+2024-09-25 23:21:15.980 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-25 23:21:15.981 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-25 23:21:15.983 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest' ...
+2024-09-25 23:21:15.990 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'SysAdmin.Models.UserRequest'.
+2024-09-25 23:21:15.992 +07:00 [INF] Executing action method SysAdmin.Controllers.LoginController.Login (sys_i) - Validation state: "Valid"
+2024-09-25 23:21:16.118 +07:00 [INF] Start processing HTTP request POST http://localhost:1001/api/v1/login
+2024-09-25 23:21:16.121 +07:00 [INF] Sending HTTP request POST http://localhost:1001/api/v1/login
+2024-09-25 23:21:16.885 +07:00 [INF] Received HTTP response headers after 758.8423ms - 200
+2024-09-25 23:21:16.887 +07:00 [INF] End processing HTTP request after 772.7813ms - 200
+2024-09-25 23:21:16.937 +07:00 [INF] Executed action method SysAdmin.Controllers.LoginController.Login (sys_i), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 943.7236ms.
+2024-09-25 23:21:16.944 +07:00 [INF] Executing RedirectResult, redirecting to /FlightSegment.
+2024-09-25 23:21:16.947 +07:00 [INF] Executed action SysAdmin.Controllers.LoginController.Login (sys_i) in 1015.3346ms
+2024-09-25 23:21:16.949 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.LoginController.Login (sys_i)'
+2024-09-25 23:21:16.952 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" completed keep alive response.
+2024-09-25 23:21:16.953 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/Login/Login - 302 0 null 1070.0317ms
+2024-09-25 23:21:16.957 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/FlightSegment - null null
+2024-09-25 23:21:16.959 +07:00 [DBG] The request path /FlightSegment does not match a supported file type
+2024-09-25 23:21:16.961 +07:00 [DBG] 1 candidate(s) found for the request path '/FlightSegment'
+2024-09-25 23:21:16.962 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/FlightSegment'
+2024-09-25 23:21:16.963 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:16.964 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:16.965 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:16.966 +07:00 [INF] Route matched with {action = "Index", controller = "FlightSegment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller SysAdmin.Controllers.FlightSegmentController (sys_i).
+2024-09-25 23:21:16.968 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:16.969 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:16.970 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:16.971 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:16.973 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:16.974 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:16.975 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:16.987 +07:00 [INF] User 3 has access to flight_segment with permission Read.
+2024-09-25 23:21:16.988 +07:00 [INF] Executing action method SysAdmin.Controllers.FlightSegmentController.Index (sys_i) - Validation state: "Valid"
+2024-09-25 23:21:16.990 +07:00 [INF] Executed action method SysAdmin.Controllers.FlightSegmentController.Index (sys_i), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7512ms.
+2024-09-25 23:21:16.992 +07:00 [DBG] View lookup cache miss for view 'Index' in controller 'FlightSegment'.
+2024-09-25 23:21:16.994 +07:00 [INF] Executing ViewResult, running view Index.
+2024-09-25 23:21:16.996 +07:00 [DBG] The view path '/Views/FlightSegment/Index.cshtml' was found in 3.988ms.
+2024-09-25 23:21:17.005 +07:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Create],controller=[FlightSegment])
+2024-09-25 23:21:17.007 +07:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /FlightSegment/Create and 
+2024-09-25 23:21:17.008 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /FlightSegment/Create
+2024-09-25 23:21:17.012 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-25 23:21:17.027 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'FlightSegment'.
+2024-09-25 23:21:17.069 +07:00 [DBG] Executing view component sys_i.Component.MenuViewComponent with arguments ([]).
+2024-09-25 23:21:17.356 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-25 23:21:18.492 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-25 23:21:18.546 +07:00 [DBG] Compiling query expression: 
+'DbSet<menu>()
+    .AsNoTracking()
+    .OrderBy(x => x.priority)
+    .ThenBy(x => x.name)
+    .Where(x => x.level > 0 && x.level < 3)'
+2024-09-25 23:21:18.835 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<menu>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: menu.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: menu.action (string) MaxLength(50), 1], [Property: menu.class_name (string) MaxLength(45), 2], [Property: menu.controller (string), 3], [Property: menu.level (int) Required, 4], [Property: menu.name (string) Required MaxLength(250), 5], [Property: menu.parent_id (int?) FK Index, 6], [Property: menu.priority (int) Required, 7], [Property: menu.url (string) Required Index MaxLength(50), 8] }
+        SELECT m.id, m.action, m.class_name, m.controller, m.level, m.name, m.parent_id, m.priority, m.url
+        FROM menu AS m
+        WHERE (m.level > 0) && (m.level < 3)
+        ORDER BY m.priority ASC, m.name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, menu>, 
+    Backend.Data.Db.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-09-25 23:21:18.889 +07:00 [DBG] Creating DbConnection.
+2024-09-25 23:21:18.899 +07:00 [DBG] Created DbConnection. (7ms).
+2024-09-25 23:21:18.917 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:19.144 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:19.154 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-25 23:21:19.165 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-09-25 23:21:19.168 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-09-25 23:21:19.181 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-25 23:21:19.224 +07:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`id`, `m`.`action`, `m`.`class_name`, `m`.`controller`, `m`.`level`, `m`.`name`, `m`.`parent_id`, `m`.`priority`, `m`.`url`
+FROM `menu` AS `m`
+WHERE (`m`.`level` > 0) AND (`m`.`level` < 3)
+ORDER BY `m`.`priority`, `m`.`name`
+2024-09-25 23:21:19.244 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:19.259 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 22ms reading results.
+2024-09-25 23:21:19.266 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:19.277 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (10ms).
+2024-09-25 23:21:19.542 +07:00 [DBG] 'Context' disposed.
+2024-09-25 23:21:19.547 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:19.549 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (2ms).
+2024-09-25 23:21:19.557 +07:00 [DBG] Executed view component sys_i.Component.MenuViewComponent in 2481.8233ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-25 23:21:19.562 +07:00 [DBG] View lookup cache miss for view 'Components/Menu/Default' in controller 'FlightSegment'.
+2024-09-25 23:21:19.584 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Default"]).
+2024-09-25 23:21:19.588 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 2.3776ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-25 23:21:19.589 +07:00 [DBG] View lookup cache miss for view 'Components/User/Default' in controller 'FlightSegment'.
+2024-09-25 23:21:19.595 +07:00 [DBG] Executing view component sys_i.Component.UserViewComponent with arguments (["Setting"]).
+2024-09-25 23:21:19.597 +07:00 [DBG] Executed view component sys_i.Component.UserViewComponent in 0.5214ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-09-25 23:21:19.599 +07:00 [DBG] View lookup cache miss for view 'Components/User/Setting' in controller 'FlightSegment'.
+2024-09-25 23:21:19.623 +07:00 [INF] Executed ViewResult - view Index executed in 2631.5229ms.
+2024-09-25 23:21:19.635 +07:00 [INF] Executed action SysAdmin.Controllers.FlightSegmentController.Index (sys_i) in 2660.5743ms
+2024-09-25 23:21:19.636 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.FlightSegmentController.Index (sys_i)'
+2024-09-25 23:21:19.638 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" completed keep alive response.
+2024-09-25 23:21:19.639 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/FlightSegment - 200 null text/html; charset=utf-8 2682.1062ms
+2024-09-25 23:21:19.692 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/_main.js - null null
+2024-09-25 23:21:19.696 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/flightTrip.js - null null
+2024-09-25 23:21:19.705 +07:00 [INF] The file /_main.js was not modified
+2024-09-25 23:21:19.707 +07:00 [DBG] Handled. Status code: 304 File: /_main.js
+2024-09-25 23:21:19.708 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" completed keep alive response.
+2024-09-25 23:21:19.709 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/_main.js - 304 null text/javascript 17.745ms
+2024-09-25 23:21:19.751 +07:00 [INF] Sending file. Request path: '/flightTrip.js'. Physical path: 'C:\Users\thaic\Desktop\Backup\sys_air\sys_i\sys_i\wwwroot\flightTrip.js'
+2024-09-25 23:21:19.753 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" completed keep alive response.
+2024-09-25 23:21:19.754 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/flightTrip.js - 200 3940 text/javascript 58.598ms
+2024-09-25 23:21:20.252 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5158/FlightSegment/PagingTrip - multipart/form-data; boundary=----WebKitFormBoundaryeMCvBiWvJRj9BR0x 922
+2024-09-25 23:21:20.257 +07:00 [DBG] POST requests are not supported
+2024-09-25 23:21:20.259 +07:00 [DBG] 1 candidate(s) found for the request path '/FlightSegment/PagingTrip'
+2024-09-25 23:21:20.262 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/FlightSegment/PagingTrip'
+2024-09-25 23:21:20.266 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i)'
+2024-09-25 23:21:20.268 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:20.270 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i)'
+2024-09-25 23:21:20.332 +07:00 [INF] Route matched with {action = "PagingTrip", controller = "FlightSegment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PagingTrip(Backend.Service.ViewModel.FlightTripPagingResponse) on controller SysAdmin.Controllers.FlightSegmentController (sys_i).
+2024-09-25 23:21:20.335 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:20.338 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:20.341 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-25 23:21:20.347 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:20.351 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:20.353 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:20.356 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:20.366 +07:00 [DBG] Connection id "0HN6TFO8FGBN7", Request id "0HN6TFO8FGBN7:00000002": started reading request body.
+2024-09-25 23:21:20.368 +07:00 [DBG] Connection id "0HN6TFO8FGBN7", Request id "0HN6TFO8FGBN7:00000002": done reading request body.
+2024-09-25 23:21:20.391 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse' ...
+2024-09-25 23:21:20.394 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse' using the name '' in request data ...
+2024-09-25 23:21:20.401 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripPagingResponse.PagingResponse' of type 'Backend.Service.ViewModel.FlightTripResponse' using the name 'PagingResponse' in request data ...
+2024-09-25 23:21:20.407 +07:00 [DBG] Could not bind to model of type 'Backend.Service.ViewModel.FlightTripResponse' as there were no values in the request for any of the properties.
+2024-09-25 23:21:20.411 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripPagingResponse.PagingModel' of type 'Backend.Service.ViewModel.FlightTripRequest' using the name 'PagingModel' in request data ...
+2024-09-25 23:21:20.417 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.key' of type 'System.String' using the name 'PagingModel.key' in request data ...
+2024-09-25 23:21:20.421 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.key' of type 'System.String'.
+2024-09-25 23:21:20.425 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.Idx' of type 'System.Int32' using the name 'PagingModel.Idx' in request data ...
+2024-09-25 23:21:20.429 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.Idx' of type 'System.Int32'.
+2024-09-25 23:21:20.434 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.Size' of type 'System.Int32' using the name 'PagingModel.Size' in request data ...
+2024-09-25 23:21:20.440 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.Size' of type 'System.Int32'.
+2024-09-25 23:21:20.442 +07:00 [DBG] Attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.total' of type 'System.Int32' using the name 'PagingModel.total' in request data ...
+2024-09-25 23:21:20.448 +07:00 [DBG] Could not find a value in the request with name 'PagingModel.total' for binding property 'Backend.Service.ViewModel.FlightTripRequest.total' of type 'System.Int32'.
+2024-09-25 23:21:20.454 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.FlightTripRequest.total' of type 'System.Int32'.
+2024-09-25 23:21:20.461 +07:00 [DBG] Done attempting to bind property 'Backend.Service.ViewModel.FlightTripPagingResponse.PagingModel' of type 'Backend.Service.ViewModel.FlightTripRequest'.
+2024-09-25 23:21:20.466 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse'.
+2024-09-25 23:21:20.469 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse'.
+2024-09-25 23:21:20.471 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse' ...
+2024-09-25 23:21:20.477 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Backend.Service.ViewModel.FlightTripPagingResponse'.
+2024-09-25 23:21:20.480 +07:00 [INF] Executing action method SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i) - Validation state: "Invalid"
+2024-09-25 23:21:20.540 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-25 23:21:20.547 +07:00 [DBG] Compiling query expression: 
+'DbSet<flight_segment>()'
+2024-09-25 23:21:20.564 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<flight_segment>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: flight_segment.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: flight_segment.air_id (int) Required FK Index, 1], [Property: flight_segment.ar_time (DateTime) Required, 2], [Property: flight_segment.base_price (decimal) Required, 3], [Property: flight_segment.code (string), 4], [Property: flight_segment.de_time (DateTime) Required, 5], [Property: flight_segment.fromCity (string), 6], [Property: flight_segment.note (string), 7], [Property: flight_segment.order (int?), 8], [Property: flight_segment.previousSegmentId (int?) FK Index, 9], [Property: flight_segment.r_bseats (int?), 10], [Property: flight_segment.r_eseats (int?), 11], [Property: flight_segment.route_id (int) Required FK Index, 12], [Property: flight_segment.status (int) Required, 13], [Property: flight_segment.toCity (string), 14] }
+        SELECT f.id, f.air_id, f.ar_time, f.base_price, f.code, f.de_time, f.fromCity, f.note, f.order, f.previousSegmentId, f.r_bseats, f.r_eseats, f.route_id, f.status, f.toCity
+        FROM flight_segment AS f), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, flight_segment>, 
+    Backend.Data.Db.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-09-25 23:21:20.570 +07:00 [DBG] Creating DbConnection.
+2024-09-25 23:21:20.571 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-25 23:21:20.573 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:20.594 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:20.597 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-25 23:21:20.599 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-25 23:21:20.601 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-09-25 23:21:20.603 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`id`, `f`.`air_id`, `f`.`ar_time`, `f`.`base_price`, `f`.`code`, `f`.`de_time`, `f`.`fromCity`, `f`.`note`, `f`.`order`, `f`.`previousSegmentId`, `f`.`r_bseats`, `f`.`r_eseats`, `f`.`route_id`, `f`.`status`, `f`.`toCity`
+FROM `flight_segment` AS `f`
+2024-09-25 23:21:20.610 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" received FIN.
+2024-09-25 23:21:20.612 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-25 23:21:20.615 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" disconnecting.
+2024-09-25 23:21:20.617 +07:00 [DBG] Connection id "0HN6TFO8FGBN6" stopped.
+2024-09-25 23:21:20.627 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`id`, `f`.`air_id`, `f`.`ar_time`, `f`.`base_price`, `f`.`code`, `f`.`de_time`, `f`.`fromCity`, `f`.`note`, `f`.`order`, `f`.`previousSegmentId`, `f`.`r_bseats`, `f`.`r_eseats`, `f`.`route_id`, `f`.`status`, `f`.`toCity`
+FROM `flight_segment` AS `f`
+2024-09-25 23:21:20.631 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:20.633 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 2ms reading results.
+2024-09-25 23:21:20.635 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:20.637 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (2ms).
+2024-09-25 23:21:20.640 +07:00 [DBG] 'Context' disposed.
+2024-09-25 23:21:20.642 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:20.643 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-25 23:21:20.649 +07:00 [INF] Executed action method SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 166.4788ms.
+2024-09-25 23:21:20.653 +07:00 [DBG] View lookup cache miss for view 'PagingTrip' in controller 'FlightSegment'.
+2024-09-25 23:21:20.657 +07:00 [INF] Executing PartialViewResult, running view PagingTrip.
+2024-09-25 23:21:20.659 +07:00 [DBG] The partial view path '/Views/FlightSegment/PagingTrip.cshtml' was found in 5.6069ms.
+2024-09-25 23:21:20.676 +07:00 [DBG] View lookup cache miss for view 'Panigation/Panigation' in controller 'FlightSegment'.
+2024-09-25 23:21:20.689 +07:00 [INF] Executed PartialViewResult - view null executed in 35.9596ms.
+2024-09-25 23:21:20.692 +07:00 [INF] Executed action SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i) in 338.3155ms
+2024-09-25 23:21:20.694 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.FlightSegmentController.PagingTrip (sys_i)'
+2024-09-25 23:21:20.696 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" completed keep alive response.
+2024-09-25 23:21:20.699 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5158/FlightSegment/PagingTrip - 200 null text/html; charset=utf-8 447.552ms
+2024-09-25 23:21:22.218 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/FlightSegment/Create - null null
+2024-09-25 23:21:22.220 +07:00 [DBG] The request path /FlightSegment/Create does not match a supported file type
+2024-09-25 23:21:22.224 +07:00 [DBG] 1 candidate(s) found for the request path '/FlightSegment/Create'
+2024-09-25 23:21:22.225 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.FlightSegmentController.Create (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/FlightSegment/Create'
+2024-09-25 23:21:22.227 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.FlightSegmentController.Create (sys_i)'
+2024-09-25 23:21:22.229 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:22.230 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.FlightSegmentController.Create (sys_i)'
+2024-09-25 23:21:22.235 +07:00 [INF] Route matched with {action = "Create", controller = "FlightSegment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller SysAdmin.Controllers.FlightSegmentController (sys_i).
+2024-09-25 23:21:22.237 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:22.239 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:22.240 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:22.243 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:22.245 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:22.247 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:22.248 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.FlightSegmentController (sys_i)
+2024-09-25 23:21:22.250 +07:00 [INF] User 3 has access to flight_segment with permission Read.
+2024-09-25 23:21:22.251 +07:00 [INF] Executing action method SysAdmin.Controllers.FlightSegmentController.Create (sys_i) - Validation state: "Valid"
+2024-09-25 23:21:22.253 +07:00 [INF] Executed action method SysAdmin.Controllers.FlightSegmentController.Create (sys_i), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 0.7537ms.
+2024-09-25 23:21:22.256 +07:00 [DBG] View lookup cache miss for view 'Create' in controller 'FlightSegment'.
+2024-09-25 23:21:22.259 +07:00 [INF] Executing PartialViewResult, running view Create.
+2024-09-25 23:21:22.260 +07:00 [DBG] The partial view path '/Views/FlightSegment/Create.cshtml' was found in 4.3668ms.
+2024-09-25 23:21:22.268 +07:00 [DBG] An antiforgery cookie token was reused.
+2024-09-25 23:21:22.281 +07:00 [INF] Executed PartialViewResult - view null executed in 25.4776ms.
+2024-09-25 23:21:22.283 +07:00 [INF] Executed action SysAdmin.Controllers.FlightSegmentController.Create (sys_i) in 35.6818ms
+2024-09-25 23:21:22.284 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.FlightSegmentController.Create (sys_i)'
+2024-09-25 23:21:22.285 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" completed keep alive response.
+2024-09-25 23:21:22.287 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/FlightSegment/Create - 200 null text/html; charset=utf-8 68.7283ms
+2024-09-25 23:21:22.292 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/flightsegment.js - null null
+2024-09-25 23:21:22.295 +07:00 [INF] The file /flightsegment.js was not modified
+2024-09-25 23:21:22.296 +07:00 [DBG] Handled. Status code: 304 File: /flightsegment.js
+2024-09-25 23:21:22.297 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" completed keep alive response.
+2024-09-25 23:21:22.299 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/flightsegment.js - 304 null text/javascript 7.1599ms
+2024-09-25 23:21:24.036 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5158/Aircarf/Search/?_=1727281279675 - null null
+2024-09-25 23:21:24.039 +07:00 [DBG] The request path /Aircarf/Search/ does not match a supported file type
+2024-09-25 23:21:24.041 +07:00 [DBG] 1 candidate(s) found for the request path '/Aircarf/Search/'
+2024-09-25 23:21:24.042 +07:00 [DBG] Endpoint 'SysAdmin.Controllers.AircarfController.Search (sys_i)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Aircarf/Search/'
+2024-09-25 23:21:24.045 +07:00 [DBG] Request matched endpoint 'SysAdmin.Controllers.AircarfController.Search (sys_i)'
+2024-09-25 23:21:24.047 +07:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-09-25 23:21:24.049 +07:00 [INF] Executing endpoint 'SysAdmin.Controllers.AircarfController.Search (sys_i)'
+2024-09-25 23:21:24.059 +07:00 [INF] Route matched with {action = "Search", controller = "Aircarf"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String) on controller SysAdmin.Controllers.AircarfController (sys_i).
+2024-09-25 23:21:24.062 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-25 23:21:24.064 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-25 23:21:24.066 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:24.069 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-25 23:21:24.071 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","SysAdmin.Service.AuthorizeAttribute+ValidateModuleAttribute (Order: 0)"]
+2024-09-25 23:21:24.074 +07:00 [DBG] Executing controller factory for controller SysAdmin.Controllers.AircarfController (sys_i)
+2024-09-25 23:21:24.077 +07:00 [DBG] Executed controller factory for controller SysAdmin.Controllers.AircarfController (sys_i)
+2024-09-25 23:21:24.084 +07:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2024-09-25 23:21:24.086 +07:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name '' in request data ...
+2024-09-25 23:21:24.089 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'key' of type 'System.String'.
+2024-09-25 23:21:24.091 +07:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-09-25 23:21:24.093 +07:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-09-25 23:21:24.095 +07:00 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2024-09-25 23:21:24.098 +07:00 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2024-09-25 23:21:24.103 +07:00 [INF] User 3 has access to air_carf with permission Read.
+2024-09-25 23:21:24.105 +07:00 [INF] Executing action method SysAdmin.Controllers.AircarfController.Search (sys_i) - Validation state: "Invalid"
+2024-09-25 23:21:24.201 +07:00 [DBG] Entity Framework Core 8.0.7 initialized 'Context' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.21-mysql 
+2024-09-25 23:21:24.211 +07:00 [DBG] Compiling query expression: 
+'DbSet<aircarf>()
+    .AsNoTracking()
+    .Where(x => x.type.Contains(__safeKey_0))'
+2024-09-25 23:21:24.298 +07:00 [DBG] Generated query execution expression: 
+'queryContext => 
+{
+    queryContext.AddParameter(
+        name: "__safeKey_0_contains", 
+        value: (object)Invoke(queryContext => MySqlStringComparisonMethodTranslator.ConstructLikePatternParameter(
+            queryContext: queryContext, 
+            baseParameterName: "__safeKey_0", 
+            methodType: Contains), queryContext));
+    return new SingleQueryingEnumerable<aircarf>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: aircarf.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: aircarf.airline_id (int) Required FK Index, 1], [Property: aircarf.businessseats (int) Required, 2], [Property: aircarf.code (string) Required MaxLength(250), 3], [Property: aircarf.economySeats (int) Required, 4], [Property: aircarf.price_per_km (decimal) Required, 5], [Property: aircarf.status (int) Required, 6], [Property: aircarf.totalSeats (int?), 7], [Property: aircarf.type (string) Required MaxLength(250), 8] }
+            SELECT a.id, a.airline_id, a.businessseats, a.code, a.economySeats, a.price_per_km, a.status, a.totalSeats, a.type
+            FROM aircarf AS a
+            WHERE a.type LIKE @__safeKey_0_contains), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, aircarf>, 
+        Backend.Data.Db.Context, 
+        False, 
+        False, 
+        True
+    );
+}'
+2024-09-25 23:21:24.311 +07:00 [DBG] Creating DbConnection.
+2024-09-25 23:21:24.313 +07:00 [DBG] Created DbConnection. (1ms).
+2024-09-25 23:21:24.316 +07:00 [DBG] Opening connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:24.325 +07:00 [DBG] Opened connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:24.327 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-25 23:21:24.328 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-25 23:21:24.357 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (30ms).
+2024-09-25 23:21:24.366 +07:00 [DBG] Executing DbCommand [Parameters=[@__safeKey_0_contains='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`airline_id`, `a`.`businessseats`, `a`.`code`, `a`.`economySeats`, `a`.`price_per_km`, `a`.`status`, `a`.`totalSeats`, `a`.`type`
+FROM `aircarf` AS `a`
+WHERE `a`.`type` LIKE @__safeKey_0_contains
+2024-09-25 23:21:24.443 +07:00 [INF] Executed DbCommand (83ms) [Parameters=[@__safeKey_0_contains='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`id`, `a`.`airline_id`, `a`.`businessseats`, `a`.`code`, `a`.`economySeats`, `a`.`price_per_km`, `a`.`status`, `a`.`totalSeats`, `a`.`type`
+FROM `aircarf` AS `a`
+WHERE `a`.`type` LIKE @__safeKey_0_contains
+2024-09-25 23:21:24.449 +07:00 [DBG] Closing data reader to 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:24.451 +07:00 [DBG] A data reader for 'db_sys_booking' on server 'localhost' is being disposed after spending 4ms reading results.
+2024-09-25 23:21:24.454 +07:00 [DBG] Closing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:24.457 +07:00 [DBG] Closed connection to database 'db_sys_booking' on server 'localhost' (2ms).
+2024-09-25 23:21:24.465 +07:00 [DBG] 'Context' disposed.
+2024-09-25 23:21:24.467 +07:00 [DBG] Disposing connection to database 'db_sys_booking' on server 'localhost'.
+2024-09-25 23:21:24.469 +07:00 [DBG] Disposed connection to database 'db_sys_booking' on server 'localhost' (1ms).
+2024-09-25 23:21:24.471 +07:00 [INF] Executed action method SysAdmin.Controllers.AircarfController.Search (sys_i), returned result Microsoft.AspNetCore.Mvc.JsonResult in 364.2669ms.
+2024-09-25 23:21:24.476 +07:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Backend.Service.ViewModel.AircrarfViewModel, Backend.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-25 23:21:24.566 +07:00 [INF] Executed action SysAdmin.Controllers.AircarfController.Search (sys_i) in 492.2603ms
+2024-09-25 23:21:24.568 +07:00 [INF] Executed endpoint 'SysAdmin.Controllers.AircarfController.Search (sys_i)'
+2024-09-25 23:21:24.569 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" completed keep alive response.
+2024-09-25 23:21:24.571 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5158/Aircarf/Search/?_=1727281279675 - 200 null application/json; charset=utf-8 535.0339ms
+2024-09-25 23:21:30.622 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" received FIN.
+2024-09-25 23:21:30.624 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-25 23:21:30.626 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" disconnecting.
+2024-09-25 23:21:30.632 +07:00 [DBG] Connection id "0HN6TFO8FGBN7" stopped.
+2024-09-25 23:23:10.427 +07:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-09-25 23:23:20.432 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:23:20.438 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0513ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:23:30.454 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:23:30.457 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:23:40.462 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:23:40.465 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0082ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:23:50.479 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:23:50.481 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0067ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:00.493 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:00.495 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0086ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:10.515 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:10.518 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:20.524 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:20.528 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.01ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:30.547 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:30.549 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0091ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:40.560 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:40.561 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0076ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:24:50.570 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:24:50.572 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0091ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:00.577 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:00.580 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0084ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:10.587 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:10.588 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0067ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:20.592 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:20.594 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:30.599 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:30.601 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0083ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:40.616 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:40.619 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0098ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:25:50.628 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:25:50.631 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0115ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:00.649 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:00.652 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.2072ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:10.664 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:10.667 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0076ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:20.672 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:20.674 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0075ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:30.677 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:30.679 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0072ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:40.683 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:40.685 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0076ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:26:50.690 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:26:50.692 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:00.701 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:00.703 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:10.717 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:10.720 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0094ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:20.738 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:20.740 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0087ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:30.746 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:30.749 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0069ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:40.764 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:40.766 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0097ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:27:50.780 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:27:50.783 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:00.792 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:00.794 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0069ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:10.809 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:10.811 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0187ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:20.827 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:20.830 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0154ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:30.847 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:30.850 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:40.868 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:40.869 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:28:50.883 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:28:50.886 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0064ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:00.888 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:00.891 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:10.896 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:10.898 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:20.903 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:20.904 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:30.905 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:30.907 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:40.916 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:40.919 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:29:50.937 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:29:50.939 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:00.946 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:00.949 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:10.963 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:10.965 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:20.980 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:20.983 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:30.989 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:30.992 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0064ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:40.999 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:41.001 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:30:51.003 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:30:51.005 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:01.009 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:01.011 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:11.018 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:11.021 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0068ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:21.032 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:21.034 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0067ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:31.047 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:31.049 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:41.058 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:41.061 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:31:51.076 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:31:51.078 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:01.092 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:01.094 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:11.097 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:11.100 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.006ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:21.115 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:21.117 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:31.126 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:31.128 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:41.141 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:41.143 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:32:51.146 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:32:51.148 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:01.158 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:01.161 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:11.166 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:11.168 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.168ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:21.171 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:21.173 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:31.188 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:31.190 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:41.199 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:41.201 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:33:51.206 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:33:51.207 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:01.217 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:01.220 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:11.219 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:11.223 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:21.234 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:21.236 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:31.245 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:31.248 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:41.254 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:41.256 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:34:51.264 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:34:51.267 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:01.277 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:01.278 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:11.289 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:11.291 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:21.300 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:21.302 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:31.313 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:31.315 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:41.323 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:41.325 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:35:51.328 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:35:51.330 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:01.341 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:01.343 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:11.352 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:11.354 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:21.359 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:21.361 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:31.369 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:31.371 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:41.371 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:41.374 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:36:51.383 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:36:51.385 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:01.386 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:01.389 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:11.404 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:11.407 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:21.418 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:21.420 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:31.432 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:31.434 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:41.438 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:41.441 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:37:51.451 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:37:51.453 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:01.465 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:01.468 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:11.484 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:11.486 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:21.495 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:21.497 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:31.506 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:31.508 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:41.514 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:41.517 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:38:51.524 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:38:51.527 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:01.537 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:01.539 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:11.543 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:11.545 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:21.560 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:21.561 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:31.578 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:31.580 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:41.586 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:41.587 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:39:51.597 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:39:51.598 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:01.612 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:01.614 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:11.628 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:11.631 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:21.643 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:21.645 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:31.645 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:31.647 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:41.659 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:41.661 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:40:51.665 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:40:51.667 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:01.676 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:01.678 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:11.690 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:11.693 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:21.706 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:21.712 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:31.720 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:31.722 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:41.726 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:41.728 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:41:51.742 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:41:51.744 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:01.762 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:01.764 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:11.770 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:11.773 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:21.789 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:21.791 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:31.799 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:31.800 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:41.816 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:41.818 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:42:51.826 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:42:51.828 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:01.831 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:01.833 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:11.843 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:11.845 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:21.853 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:21.855 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:31.863 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:31.864 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:41.871 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:41.874 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:43:51.877 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:43:51.879 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:01.883 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:01.885 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:11.896 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:11.898 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:21.915 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:21.916 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:31.926 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:31.928 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:41.929 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:41.931 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:44:51.930 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:44:51.932 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:01.938 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:01.940 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:11.949 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:11.951 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:21.966 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:21.968 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:31.980 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:31.982 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:41.996 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:41.998 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:45:51.999 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:45:52.001 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:02.002 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:02.004 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:12.010 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:12.012 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:22.021 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:22.024 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:32.027 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:32.029 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:42.038 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:42.040 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:46:52.046 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:46:52.048 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:02.053 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:02.055 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0236ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:12.064 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:12.065 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:22.072 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:22.075 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:32.080 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:32.081 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:42.089 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:42.090 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:47:52.100 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:47:52.102 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:02.115 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:02.118 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:12.133 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:12.135 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:22.140 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:22.142 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:32.150 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:32.152 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:42.157 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:42.160 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:48:52.162 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:48:52.164 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:02.179 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:02.181 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:12.189 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:12.192 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:22.198 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:22.200 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:32.202 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:32.204 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:42.221 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:42.223 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:49:52.227 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:49:52.229 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:02.233 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:02.236 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:12.244 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:12.245 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:22.257 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:22.259 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:32.258 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:32.260 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:42.268 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:42.270 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:50:52.271 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:50:52.273 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:02.285 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:02.286 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:12.303 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:12.305 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:22.315 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:22.317 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:32.323 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:32.325 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:42.330 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:42.332 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:51:52.343 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:51:52.345 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:02.358 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:02.359 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:12.376 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:12.379 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:22.393 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:22.395 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:32.400 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:32.401 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:42.417 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:42.419 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:52:52.427 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:52:52.429 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:02.431 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:02.432 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:12.449 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:12.450 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:22.459 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:22.460 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:32.474 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:32.477 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:42.489 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:42.490 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:53:52.499 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:53:52.500 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:02.504 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:02.506 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:12.514 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:12.516 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:22.525 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:22.527 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:32.535 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:32.537 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:42.554 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:42.556 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:54:52.567 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:54:52.571 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:02.581 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:02.582 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:12.586 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:12.589 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:22.588 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:22.590 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:32.594 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:32.596 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:42.607 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:42.609 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:55:52.618 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:55:52.620 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:56:02.628 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:56:02.629 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:56:12.641 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:56:12.643 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2024-09-25 23:56:22.653 +07:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-25 23:56:22.664 +07:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items

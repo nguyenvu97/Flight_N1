@@ -1,0 +1,54 @@
+@model Backend.Service.ViewModel.AirlinePagingResponse
+@{
+    var counter = 0;
+}
+@if (Model.PagingResponse.Items != null && Model.PagingResponse.Items.Any())
+{
+    <table id="add-row" class="display table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.PagingResponse.Items)
+        {
+        counter++;
+        <tr data-id="@item.id">
+            <td>@counter</td>
+            <td>@item.name</td>
+            <td>@item.code</td>
+            <td>
+                <div class="form-button-action">
+                    <button type="button" data-bs-toggle="tooltip" title="Edit Task" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task" onclick="viewEdit(@item.id)">
+                        <i class="fa fa-edit"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" title="Remove" class="btn btn-link btn-danger" data-original-title="Remove" onclick="onDelete(@item.id)">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    @* <button type="button" data-bs-toggle="tooltip" title="View" class="btn btn-link btn-primary btn-lg" data-original-title="Remove" onclick="view(@item.id)"> *@
+                    @*     <i class="fa-solid fa-circle-info"></i> *@
+                    @* </button> *@
+                </div>
+            </td>
+        </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info text-center">
+        No data available
+    </div>
+}
+
+@await Html.PartialAsync("Panigation/Panigation", new PaginationModel { TotalItems = Model.PagingResponse.total, PageSize = Model.PagingModel.Size, CurrentPageIndex = Model.PagingModel.Idx, CurrentResultCount = Model.PagingResponse.Items.Count })
+
+<script type="text/javascript" src="~/airline.js" defer></script>
+<script type="text/javascript">
+    setPageConfig('@Model.PagingModel.total', '@Model.PagingModel.Idx', '@Model.PagingModel.Size');
+</script>

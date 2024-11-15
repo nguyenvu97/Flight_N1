@@ -1,0 +1,69 @@
+@model Backend.Service.ViewModel.AirportPagingResponse
+
+<div class="row">
+    <!-- Table -->
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h4 class="card-title">Danh sách</h4>
+                <div>
+                    <button
+                        class="btn btn-sm btn-primary ms-2"
+                        onclick='loadModuleModal("@Url.Action("Create")")'>
+                        <i class="fa fa-plus"></i>
+                        Thêm mới
+                    </button>
+                    <!-- Button to toggle advanced filter -->
+                    <a href="javascript:toggleDiv('.advanced-filter')" class="btn btn-sm btn-light ms-2">
+                        Lọc <i class="fa fa-caret-down"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "search-form", enctype = "multipart/form-data" }))
+            {
+            @Html.HiddenFor(x => x.PagingModel.Idx)
+            @Html.HiddenFor(x => x.PagingModel.Size)
+            @Html.HiddenFor(x => x.PagingModel.key)
+            @Html.Hidden("PagingModel.airline_id")
+
+            <div class="card-body">
+                <div class="advanced-filter d-none">
+                    <div class="row">
+                        <div class="form-group col-sm-3">
+                            <input type="text" class="search-display form-control" id="key" name="key" placeholder="Search ..." onchange="changeTarget(this,'PagingModel_key')" />
+                        </div>
+
+                        <div class="form-group col-sm-3">
+                            <select id="select_airlineIndex" class="form-control" style="width: 100%;" onchange="changeTarget(this,'PagingModel_airline_id')"></select>
+                        </div>
+                        <p class="clearfix"></p>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-info btn-sm"onclick="dofilter(1)">
+                                Lọc <i class="fa fa-search"></i>
+                            </button>
+                            <a href="javascript:;" onclick='exportToExcel()' class="pull-right btn btn-info btn-sm">
+                                <i class="fa fa-file-excel-o"></i> Xuất Excel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+
+            <div class="card-body">
+                <div class="table-responsive" id="object-list"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/aircarf.js" defer></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(function () {
+            doPaging();
+        }, 300);
+    });
+</script>

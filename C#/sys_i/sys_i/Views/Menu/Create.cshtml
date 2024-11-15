@@ -1,0 +1,90 @@
+@model Backend.Service.ViewModel.MenuViewModel
+@{
+    var isSelected = Model.id == Model.parent_id;
+}
+<div class="modal-content">
+    <div class="modal-header border-0">
+        <h5 class="modal-title">
+            @if (Model?.parent_id != null)
+            {
+                <span class="fw-mediumbold">Thêm mới con</span>
+            }
+            else
+            {
+                <span class="fw-mediumbold">Thêm mới cha</span>
+            }
+           
+        </h5>
+    </div>
+    <div class="modal-body">
+        <form id="form" method="post" enctype="multipart/form-data">
+            <div class="row">
+
+                @if (Model?.parent_id != null)
+                {
+                    <div class="col-sm-12">
+                        <div class="form-group form-group-default">
+                            @Html.Hidden("parent_id")
+                            <label>Menu cha</label>
+                            <select id="select_menu" style="width: 100%;" onchange="changeTarget(this,'parent_id')">
+                                <option value="@Model.parent_id">@Model.parent.name</option>
+                            </select>
+                        </div>
+                    </div>
+                }
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Tên menu</label>
+                        <input id="name" name="name" type="text" class="form-control" placeholder="Nhập tên menu" value="@Model?.name">
+                    </div>
+                </div>
+                
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Controller</label>
+                        <input id="controller" name="controller" type="text" class="form-control" placeholder="Nhập tên controller" value="@Model?.controller">
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Action</label>
+                        <input id="action" name="action" type="text" class="form-control" placeholder="Nhập tên action" value="@Model?.action">
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Ưu tiên</label>
+                        <input id="priority" name="priority" type="number" class="form-control" placeholder="Nhập ưu tiên" value="@Model?.priority">
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Cấp độ</label>
+                        <input id="level" name="level" type="number" class="form-control" placeholder="Nhập cấp độ" value="@Model?.level">
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group form-group-default">
+                        <label>Class Name</label>
+                        <input id="class_name" name="class_name" type="text" class="form-control" placeholder="Nhập class name" value="@Model?.class_name">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer border-0">
+        <button type="button" id="addRowButton" class="btn btn-primary" onclick="doCreate(this)">
+            Lưu
+        </button>
+        <button type="button" class="btn btn-danger" id="closeModal" data-dismiss="modal" onclick="closeModal('#ctrModal')">
+            Hủy
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/menu.js" defer=""></script>

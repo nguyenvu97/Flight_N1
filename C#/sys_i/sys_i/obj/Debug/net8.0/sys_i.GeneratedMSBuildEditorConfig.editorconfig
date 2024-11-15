@@ -1,0 +1,223 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = sys_i
+build_property.RootNamespace = sys_i
+build_property.ProjectDir = /Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i
+build_property._RazorSourceGeneratorDebug = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Aircarf/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlyY2FyZi9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Aircarf/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlyY2FyZi9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Aircarf/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlyY2FyZi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Aircarf/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlyY2FyZi9QYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Aircarf/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlyY2FyZi9WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airline/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlybGluZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airline/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlybGluZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airline/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlybGluZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airline/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlybGluZS9QYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airport/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlycG9ydC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airport/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlycG9ydC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlycG9ydC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Airport/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWlycG9ydC9QYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Flight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Flight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Flight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Flight/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L1BhZ2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Flight/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/IndexSegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9JbmRleFNlZ21lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/PagingSegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9QYWdpbmdTZWdtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/PagingTrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9QYWdpbmdUcmlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/FlightSegment/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VnbWVudC9WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVudS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVudS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVudS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Routes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm91dGVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Routes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm91dGVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Routes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm91dGVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Routes/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm91dGVzL1BhZ2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/Aircarf/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWlyY2FyZi9TaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/Airline/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWlybGluZS9TaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/Airport/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWlycG9ydC9TaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTWVudS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/Routes/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUm91dGVzL1Nob3dOYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/User/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVXNlci9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Components/User/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVXNlci9TZXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/Panigation/Panigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhbmlnYXRpb24vUGFuaWdhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Zone/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWm9uZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Zone/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWm9uZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Zone/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWm9uZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/projectK4_t4/sys_air-1/sys_i/sys_i/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4179i3p3m0

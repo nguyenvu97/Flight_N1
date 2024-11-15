@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = sys_i
+build_property.RootNamespace = sys_i
+build_property.ProjectDir = C:\Users\thaic\Desktop\Air_Plan_SYS\sys_air\sys_i\sys_i\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\thaic\Desktop\Air_Plan_SYS\sys_air\sys_i\sys_i
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Aircarf/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlyY2FyZlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Aircarf/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlyY2FyZlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Aircarf/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlyY2FyZlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Aircarf/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlyY2FyZlxQYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Aircarf/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlyY2FyZlxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airline/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airline/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airline/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airline/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZVxQYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airport/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airport/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Airport/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxQYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Flight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Flight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Flight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Flight/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XFBhZ2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Flight/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Menu/_MenuItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxfTWVudUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Routes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Routes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Routes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Routes/Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVzXFBhZ2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Components/Aircarf/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWlyY2FyZlxTaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Components/Airline/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWlybGluZVxTaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Components/Airport/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWlycG9ydFxTaG93TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Components/Routes/ShowName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUm91dGVzXFNob3dOYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/Panigation/Panigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhbmlnYXRpb25cUGFuaWdhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thaic/Desktop/Air_Plan_SYS/sys_air/sys_i/sys_i/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r8w4oowxlv
