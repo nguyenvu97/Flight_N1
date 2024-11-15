@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "1c7631671a765a1eeb66a16ebd042df60291e193a1d4dfe9be13ab5a16fc11fc"
+build_start_time: [1730779956, 614766000]
+build_end_time: [1730779967, 185026000]
+inputs:
+  "/Volumes/Extreme SSD/Flutter/Flutter_Project_k4/macos/Flutter/GeneratedPluginRegistrant.swift": [1730779913, 0]
+  "/Volumes/Extreme SSD/Flutter/Flutter_Project_k4/macos/Runner/AppDelegate.swift": [1700081686, 0]
+  "/Volumes/Extreme SSD/Flutter/Flutter_Project_k4/macos/Runner/MainFlutterWindow.swift": [1700081686, 0]

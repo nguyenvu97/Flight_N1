@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "b2cdf09d83935a2e7e15ac1e3bb3d9dd754ee6245ca9d0f561108363492a8db0"
+build_start_time: [1730779931, 804755000]
+build_end_time: [1730779931, 848377000]
+inputs:
+  ? "/Users/khacvu/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/darwin/path_provider_foundation/Sources/path_provider_foundation/PathProviderPlugin.swift"
+  : !private [1721662920, 132492010]
+  ? "/Users/khacvu/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/darwin/path_provider_foundation/Sources/path_provider_foundation/messages.g.swift"
+  : !private [1721662920, 133311384]

@@ -1,0 +1,66 @@
+Câu 2.Quy trình dự án
+    a. Nhánh Chính (Main hoặc Master) 
+    b.Nhánh Phát triển (Development)
+    c.Nhánh Tính năng (Feature Branches)
+    d.Nhánh Sửa lỗi (Bugfix Branches)
+    e.Nhánh Phát hành (Release Branches)
+
+1.Các bước để phát triển một mô-đun mới
+Thu thập yêu cầu
+
+2.Tập hợp yêu cầu chi tiết từ các bên liên quan.
+Thiết kế
+
+3.Tạo tài liệu thiết kế và wireframe.
+Tạo nhánh
+
+4.Tạo một nhánh tính năng cho mô-đun.
+Phát triển
+
+5.Thực hiện chức năng theo thiết kế.
+Kiểm tra Đơn vị
+
+6.Viết và thực hiện các bài kiểm tra đơn vị cho mô-đun mới.
+Xem xét Mã
+
+7.Tiến hành xem xét mã với các thành viên trong nhóm.
+Gộp vào Nhánh Phát triển
+
+8.Khi đã được phê duyệt, gộp nhánh tính năng trở lại nhánh phát triển.
+Kiểm tra Tích hợp
+
+9.Thực hiện các bài kiểm tra tích hợp để đảm bảo mô-đun mới hoạt động với mã hiện có.
+Chuẩn bị Phát hành
+
+10.Tạo nhánh phát hành và thực hiện kiểm tra cuối cùng.
+
+Triển khai lên môi trường sản xuất và theo dõi.
+
+Câu 3 :
+    a. unit Testing    
+    b. func Testing 
+    c. Regression Testing
+    d. UI Testing 
+    e. Automation Testing
+    f. Performance && load Testing
+    g. security Testing
+
+Kiểm thử đơn vị  : là quá trình kiểm thử đơn vị chức năng nhỏ nhất của mã.
+Kiểm thử phần mềm giúp đảm bảo chất lượng mã và là một phần không thể thiếu trong phát triển phần mềm.
+Đây là phương pháp hay nhất trong phát triển phần mềm để viết phần mềm dưới dạng các đơn vị chức năng nhỏ, sau đó viết kiểm thử đơn vị cho mỗi đơn vị mã. Đầu tiên,
+bạn có thể viết các kiểm thử đơn vị dưới dạng mã. Sau đó, tự động chạy mã kiểm thử đó mỗi khi bạn thực hiện thay đổi trong mã phần mềm. Bằng cách này, nếu kiểm thử thất bại, bạn có thể nhanh chóng tách riêng khu vực mã có lỗi hoặc sai sót. Kiểm thử đơn vị thực thi các mô hình tư duy mô-đun và cải thiện phạm vi cũng như chất lượng kiểm thử.
+Kiểm thử đơn vị tự động giúp đảm bảo rằng bạn hoặc nhà phát triển của bạn có nhiều thời gian tập trung vào viết mã hơn.
+
+
+Kiểm thử tích hợp được sử dụng  : Kiểm thử tích hợp xảy ra sau kiểm thử đơn vị (Unit Test) và trước kiểm thử xác nhận.
+Kiểm thử tích hợp nhận các môđun đầu vào đã được kiểm thử đơn vị, nhóm chúng vào các tập hợp lớn hơn, áp dụng các ca kiểm thử đã được định nghĩa trong kế hoạch kiểm thử tích hợp vào tập hợp đó,
+và cung cấp đầu ra cho hệ thống tích hợp.
+
+ những bước nào từ khi bắt đầu khi Kiểm thử :
+    1.Requirement Analysis (Phân tích yêu cầu)
+    2.Test Planning (Lập kế hoạch kiểm thử)
+    3.Test Case Development (Phát triển kịch bản kiểm thử)
+    4.Environment Setup (Thiết lập môi trường kiểm thử)
+    5.Test Execution (Thực hiện kiểm thử)
+    6.Test Cycle Closure (Kết thúc chu kỳ kiểm thử)
+

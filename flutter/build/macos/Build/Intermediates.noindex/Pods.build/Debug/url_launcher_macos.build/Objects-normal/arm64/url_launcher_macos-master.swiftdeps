@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "7ae2174fe2260902cc72882db17662fe540f031161c25be1909c3630cb2441c7"
+build_start_time: [1730779931, 561815000]
+build_end_time: [1730779938, 694560000]
+inputs:
+  ? "/Users/khacvu/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.0/macos/url_launcher_macos/Sources/url_launcher_macos/UrlLauncherPlugin.swift"
+  : [1721706005, 940213334]
+  ? "/Users/khacvu/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.0/macos/url_launcher_macos/Sources/url_launcher_macos/messages.g.swift"
+  : [1721706005, 940838662]
