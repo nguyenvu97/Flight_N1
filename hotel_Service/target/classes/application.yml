@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: ticket_Service
+
+  datasource:
+    url: jdbc:mysql://localhost:3300/projectK4
+    username: root
+    password: Vu123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
+server:
+  port: 1004
+uploading:
+  videoSaveFolder: /Volumes/Extreme SSD/javaCode/projectK4/hotel/src/main/resources/static
+appConfig:
+  default-page-size: 10
+  default-page-number: 0
+  default-numberPeople : 2
+  default-numberRoom : 1
+

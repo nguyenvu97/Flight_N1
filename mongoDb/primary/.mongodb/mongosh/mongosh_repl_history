@@ -1,0 +1,4 @@
+exit
+db.createCollection("myCollection");
+exit
+db

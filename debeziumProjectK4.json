@@ -1,0 +1,16 @@
+{
+  "name": "my-sink-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+    "tasks.max": "1",
+    "database.hostname": "Mysql",
+    "database.port": "3306",
+    "database.user": "root",
+    "database.password": "Vu123456",
+    "database.server.id": "184054",
+    "topic.prefix": "dbserver2",
+    "database.include.list": "projectK4,keycloak",
+    "schema.history.internal.kafka.bootstrap.servers": "kafka:9092",
+    "schema.history.internal.kafka.topic": "db1_schema_history"
+  }
+}
