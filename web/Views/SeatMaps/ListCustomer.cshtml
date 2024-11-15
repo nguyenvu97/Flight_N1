@@ -1,0 +1,32 @@
+@{
+    var cus = ViewBag.BookingData as List<Customer>;
+    var selectedSeatMapId = ViewBag.NexFlight ?? null;
+    var lastId = ViewBag.IsLast ?? false;
+    if (selectedSeatMapId != null)
+    {
+        var id = selectedSeatMapId;
+    }
+}
+@Html.Hidden("currentIdInlist", selectedSeatMapId ?? "", new { id = "currentIdInlist" })
+@for (var i = 0; i < cus.Count(); i++)
+{
+    @Html.Hidden($"CustomerInlist_{i}", cus[i].fullName)
+
+    <li class="card-review-customer customer-item" id="customer-item-@i">
+        <a href="javascript:void(0);" class="customer-item-wrap" onclick="changeCustomer(this)">
+            <div class="card-title-review icon-customer">
+                <div class="card-title title-customer-card">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="customer-item-information">
+                <div class="customer-name" style="color: #005f6e; font-weight: 700;">
+                    @cus[i].aliases : @cus[i].fullName
+                </div>
+            </div>
+        </a>
+    </li>
+}
+<script type="text/javascript">
+   
+</script>

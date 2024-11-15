@@ -1,0 +1,60 @@
+@{
+    // Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+    // var rs = ViewBag.SelectedResults as BidingModel;
+    var number = ViewBag.SearchNumber as int?;
+    var searchFlight = ViewBag.SearchFlight as SearchFlight;
+}
+
+<nav class="d-flex summary-panel-wrapper">
+    <div class="d-flex left">
+        <div class="d-flex flex-column flight-recap">
+            <div class="d-flex flight-recap-flights-codes">
+                <div class="from-code">@searchFlight.departure</div>
+                @if (number == 1)
+                {
+                    <p> ------------------> </p>
+                }
+                else
+                {
+                    <p> <------------------> </p>
+                }
+                <div class="to-code">@searchFlight.arrival</div>
+            </div>
+            <div class="d-flex justify-content-between flight-recap-flights-locations">
+                <div class="from-locations">@searchFlight.departure</div>
+                <div class="to-locations">@searchFlight.arrival</div>
+            </div>
+        </div>
+        <div class="d-flex date-with-person">
+            <div class="d-flex light-recap-date">
+                <div class="d-flex flex-column depart">
+                    <div class="title">Chuyến đi</div>
+                    <div class="date">@searchFlight.startDate</div>
+                </div>
+                @if (!string.IsNullOrEmpty(searchFlight?.arrival))
+                {
+                    <div class="d-flex flex-column return">
+                        <div class="title">Chuyến về</div>
+                        <div class="date">@searchFlight.endDate</div>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+        <div class="light-recap-persons">
+            <div class="title">Hành khách</div>
+            <div class="icon-recap">
+                @(searchFlight.adultQuantity + searchFlight.childQuantity)<i class="fa-solid fa-person"></i>
+            </div>
+        </div>
+    </div>
+    <div class="your-booking">
+        <div class="d-flex flex-column btn-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button class="flex-column float-right btn-your-booking">
+                Thông tin đặt chỗ
+            </button>
+        </div>
+    </div>
+</nav>

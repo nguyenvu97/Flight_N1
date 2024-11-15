@@ -1,0 +1,49 @@
+@{
+    var rsdata = ViewBag.BookingData as List<Customer>;
+}
+
+@if (rsdata != null && rsdata != null && rsdata.Count > 0)
+{
+    var firstCustomer = rsdata.First();
+
+    <li class="card-review customer-item">
+        <div class="card-title-review icon-customer">
+            <div class="card-title title-customer-card">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+        <div class="customer-item-information">
+            <div class="customer-name" style="color: #005f6e; font-weight: 700;">
+                @firstCustomer.aliases : @firstCustomer.fullName
+            </div>
+            <div class="customer-email">
+                @firstCustomer.email <!-- Hiển thị email của phần tử đầu tiên -->
+            </div>
+            <div class="customer-phone">
+                @firstCustomer.phone
+            </div>
+            <div class="customer-type">
+                @firstCustomer.customType
+            </div>
+        </div>
+    </li>
+
+    foreach (var customer in rsdata.Skip(1))
+    {
+        <li class="card-review customer-item">
+            <div class="card-title-review icon-customer">
+                <div class="card-title title-customer-card">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="customer-item-information">
+                <div class="customer-name" style="color: #005f6e; font-weight: 700;">
+                    @customer.aliases : @customer.fullName
+                </div>
+                <div class="customer-type">
+                    @customer.customType
+                </div>
+            </div>
+        </li>
+    }
+}

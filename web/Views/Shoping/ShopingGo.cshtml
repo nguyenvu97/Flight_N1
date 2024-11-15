@@ -1,0 +1,249 @@
+@using BookingFlyWebApp.Common
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var rs = ViewBag.SelectedResults as BidingModel;
+}
+
+@functions {
+
+}
+
+
+@if (rs.flightSelectGo != null)
+{
+    <div class="card-review">
+        <div class="card-title-review">
+            <div class="card-title">
+                @rs.flightSelectGo.flight_go.fromCity đến @rs.flightSelectGo.flight_go.toCity - @rs.flightSelectGo.flight_go.departureTime.ToString("HH:mm")
+            </div>
+        </div>
+        <div class="d-flex card-title-content">
+            <div class="card-content1">
+                <div class="d-flex basic-flight-card-layout-left-top-section-container">
+
+                    <div class="bound-departure">
+                        <div class="bound-departure-time">
+                            <span> @rs.flightSelectGo.flight_go.departureTime.ToString("HH:mm")</span>
+                        </div>
+                        <div class="bound-departure-location">
+                            <span> @rs.flightSelectGo.flight_go.fromCity</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex type-departure">
+                        <div class="type-departure">
+                            -----------------------
+                            <div class="d-flex flex-column type">
+                                @if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                                {
+                                    <div class="segment-type">
+                                        @rs.flightSelectGo.flight_go.flights.Count();
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="segment-type">
+
+                                    </div>
+                                }
+                            </div>
+                            ------------------------
+                        </div>
+                    </div>
+
+                    <div class="bound-arrival">
+                        <div class="bound-arrival-time">
+                            @if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                            {
+                                foreach (var rs_go in rs.flightSelectGo.flight_go.flights)
+                                {
+                                    <span> @rs_go.arrivalTime.ToString("HH:mm")</span>
+                                }
+                            }
+
+                            else
+                            {
+                                <span> @rs.flightSelectGo.flight_go.arrivalTime.ToString("HH:mm")</span>
+                            }
+                        </div>
+                        <div class="bound-arrival-location">
+
+                            @if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                            {
+                                foreach (var rs_go in rs.flightSelectGo.flight_go.flights)
+                                {
+                                    <span> @rs_go.toCity</span>
+                                }
+                            }
+
+                            else
+                            {
+                                <span> @rs.flightSelectGo.flight_go.toCity</span>
+                            }
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content2">
+                <div class="flight-card-door">
+                    <div class="ng-star-inserted">
+                        <div class="flight-info">
+                            <div class="d-flex ">
+                                <div class="d-flex align-items-center duration-text">
+                                    <svg class="svg-inline--fa fa-clock" aria-hidden="true" focusable="false" data-prefix="far" data-icon="clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor" d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path>
+                                    </svg><!-- <i class="fa-regular fa-clock"></i> Font Awesome fontawesome.com -->
+                                    <span class="duration-label">
+                                        <span class="flight-number">
+                                            Thời
+                                            gian bay
+                                        </span>
+                                    </span>
+
+                                    @if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                                    {
+                                        foreach (var rs_go in rs.flightSelectGo.flight_go.flights)
+                                        {
+                                            var duration = rs_go.arrivalTime - rs.flightSelectGo.flight_go.departureTime;
+                                            <span aria-hidden="true" class="duration-value">
+                                                @($"{(int)duration.TotalHours} giờ {(int)duration.TotalMinutes % 60} phút")
+                                            </span>
+                                        }
+                                    }
+
+                                    else
+                                    {
+                                        var duration = rs.flightSelectGo.flight_go.arrivalTime - rs.flightSelectGo.flight_go.departureTime;
+                                        <span aria-hidden="true" class="duration-value">
+                                            @($"{(int)duration.TotalHours} giờ {(int)duration.TotalMinutes % 60} phút")
+                                        </span>
+                                    }
+
+
+                                </div>
+                            </div>
+                            <div class="refx-caption d-flex operating-airlines">
+                                <div class=" d-flex ">
+                                    <div class="d-flex align-items-center operating-text-multiline">
+                                        <svg class="svg-inline--fa fa-telegram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                            <path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"></path>
+                                        </svg><!-- <i class="fa-brands fa-telegram"></i> Font Awesome fontawesome.com -->
+                                        <span class="refx-caption operating-airline-multiline">
+                                            <span class="flight-number">
+                                                VN 661<span class="flight-operating"> Khai thác bởi </span>
+                                                Vietnam Airlines
+                                            </span>
+                                        </span><img alt="" aria-hidden="true" class="operating-airline-logo " src="/statics/applications/booking/dynamicContent/1.0.78/assets/img/airlines/icon-VN.svg"><!----><!----><!----><!---->
+                                    </div>
+                                    <div class="additional-badges "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex refx-caption ">
+                            <a href="javascript:void(0);" class="itin-details-link" data-toggle="modal" data-target="#flightDetailsModal-@rs.flightSelectGo.flight_go.id">Chi tiết hành trình</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content3">
+                <a href="">
+                    Phổ thông linh hoạt
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    @if (rs.flightSelectGo.flight_go != null)
+    {
+        <div class="modal fade" id="flightDetailsModal-@rs.flightSelectGo.flight_go.id" tabindex="-1" aria-labelledby="flightDetailsLabel-@rs.flightSelectGo.flight_go.id" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    @{
+                        var finalDestination = rs.flightSelectGo.flight_go.toCity;
+                        if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                        {
+                            var lastSegment = rs.flightSelectGo.flight_go.flights.Last();
+                            finalDestination = lastSegment.toCity;
+                        }
+                    }
+
+                    <div class="modal-header ">
+                        <h5 class="modal-title" id="flightDetailsLabel">@rs.flightSelectGo.flight_go.fromCity - @finalDestination</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- Nội dung của Modal -->
+                    <div class="modal-body">
+                        <div class="flight-segment border rounded p-3 mb-3">
+                            <h5>
+                                <strong>@rs.flightSelectGo.flight_go.fromCity - @rs.flightSelectGo.flight_go.toCity</strong>
+                            </h5>
+                            <h6>
+                                <strong>Khởi hành:</strong> @rs.flightSelectGo.flight_go.departureTime.ToString("dd/MM/yyyy HH:mm")
+                            </h6>
+                            <p>
+                                <strong>Đến:</strong> @rs.flightSelectGo.flight_go.arrivalTime.ToString("HH:mm")
+                            </p>
+                            <p>
+                                <strong>Tổng thời gian:</strong> @Converter.CalculateDuration(rs.flightSelectGo.flight_go.departureTime, rs.flightSelectGo.flight_go.arrivalTime)
+                            </p>
+                        </div>
+
+
+                        @if (rs.flightSelectGo.flight_go.flights != null && rs.flightSelectGo.flight_go.flights.Count > 0)
+                        {
+                            <h5 class="mb-3">
+                                <strong>
+
+
+                                </strong>
+                            </h5>
+                            @foreach (var segment in rs.flightSelectGo.flight_go.flights)
+                            {
+                                <h3>
+                                    Điểm dừng: @rs.flightSelectGo.flight_go.toCity -
+                                    @{
+                                        var totalDepartureTime = rs.flightSelectGo.flight_go.arrivalTime;
+                                        var lastArrivalTime = segment.departureTime;
+                                        @Converter.CalculateDuration(totalDepartureTime, lastArrivalTime)
+                                    }
+                                </h3>
+
+                                <div class="flight-segment border rounded p-3 mb-3">
+                                    <h5>
+                                        <strong>@segment.fromCity - @segment.toCity</strong>
+                                    </h5>
+                                    <h6>
+                                        <strong>Khởi hành:</strong> @segment.departureTime.ToString("dd/MM/yyyy HH:mm")
+                                    </h6>
+                                    <p>
+                                        <strong>Đến:</strong> @segment.arrivalTime.ToString("HH:mm")
+                                    </p>
+                                    <p>
+                                        <strong>Hãng hàng không:</strong> @segment.airline
+                                    </p>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                Không có chặng nối tiếp.
+                            </div>
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

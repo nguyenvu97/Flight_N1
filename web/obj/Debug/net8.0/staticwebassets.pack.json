@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/obj/Debug/net8.0/scopedcss/projectbundle/BookingFlyWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BookingFlyWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootrap/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/bootrap/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootrap/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/bootrap/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootrap/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/bootrap/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/bootrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootrap/bootstrap.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/bootrap/bootstrap.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootstrap-datepicker/css/daterangepicker.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/bootstrap-datepicker/css/daterangepicker.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/bootstrap-datepicker/js/daterangepicker.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/bootstrap-datepicker/js/daterangepicker.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/fontwesome/all.min.css",
+      "PackagePath": "staticwebassets/assets/flugins/fontwesome/all.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/fontwesome/all.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/fontwesome/all.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/flugins/jqeury/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/assets/flugins/jqeury/jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/1.jpeg",
+      "PackagePath": "staticwebassets/assets/image/1.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/2.jpeg",
+      "PackagePath": "staticwebassets/assets/image/2.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/2_1.jpg",
+      "PackagePath": "staticwebassets/assets/image/2_1.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/3.jpeg",
+      "PackagePath": "staticwebassets/assets/image/3.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/4.jpeg",
+      "PackagePath": "staticwebassets/assets/image/4.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/5.jpeg",
+      "PackagePath": "staticwebassets/assets/image/5.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/Avatar-Teaser-Poster.jpg",
+      "PackagePath": "staticwebassets/assets/image/Avatar-Teaser-Poster.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/VNA_logo_vn.webp",
+      "PackagePath": "staticwebassets/assets/image/VNA_logo_vn.webp"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/air-travel-plane-tickets-booking-banner-design-template-airplane-flies-blue-sky-vector-d-isometric-illustration-international-191913089.webp",
+      "PackagePath": "staticwebassets/assets/image/air-travel-plane-tickets-booking-banner-design-template-airplane-flies-blue-sky-vector-d-isometric-illustration-international-191913089.webp"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/banner.jpg",
+      "PackagePath": "staticwebassets/assets/image/banner.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/download.jpg",
+      "PackagePath": "staticwebassets/assets/image/download.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/flight.jpg",
+      "PackagePath": "staticwebassets/assets/image/flight.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/hotel1.jpeg",
+      "PackagePath": "staticwebassets/assets/image/hotel1.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/image.jpg",
+      "PackagePath": "staticwebassets/assets/image/image.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/images (1).jpeg",
+      "PackagePath": "staticwebassets/assets/image/images (1).jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/momo_icon_square_pinkbg_RGB.png",
+      "PackagePath": "staticwebassets/assets/image/momo_icon_square_pinkbg_RGB.png"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/phuquoc.jpg",
+      "PackagePath": "staticwebassets/assets/image/phuquoc.jpg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/room2.jpeg",
+      "PackagePath": "staticwebassets/assets/image/room2.jpeg"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/tokyo.webp",
+      "PackagePath": "staticwebassets/assets/image/tokyo.webp"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/tokyo1.webp",
+      "PackagePath": "staticwebassets/assets/image/tokyo1.webp"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/assets/image/vnpayLogo.png",
+      "PackagePath": "staticwebassets/assets/image/vnpayLogo.png"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/flightsearch.js",
+      "PackagePath": "staticwebassets/js/flightsearch.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/home.js",
+      "PackagePath": "staticwebassets/js/home.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/informationCutomer.js",
+      "PackagePath": "staticwebassets/js/informationCutomer.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/payment.js",
+      "PackagePath": "staticwebassets/js/payment.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/seatMap.js",
+      "PackagePath": "staticwebassets/js/seatMap.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/js/shopingcart.js",
+      "PackagePath": "staticwebassets/js/shopingcart.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BookingFlyWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BookingFlyWebApp.props",
+      "PackagePath": "build\\BookingFlyWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BookingFlyWebApp.props",
+      "PackagePath": "buildMultiTargeting\\BookingFlyWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BookingFlyWebApp.props",
+      "PackagePath": "buildTransitive\\BookingFlyWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+    var rs = ViewBag.SelectFlight as BidingModel; 
+}
+@if (ViewBag.HasData == false)
+{
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="text-center">
+            <div class="alert-icon">
+                <i class="fa fa-times-circle" aria-hidden="true"></i>
+            </div>
+            <div class="alert-message">
+                <strong>Yêu cầu không được thực hiện</strong><br>
+                @ViewBag.ErrorMessage
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container-fluid body-content-booking">
+    <div class="justify-content-center expansion-panel">
+        <div class="justify-content-center title-card">
+            <div class="title-content">
+                <h1>Lựa chọn của Quý khách</h1>
+                <p>Hà Nội đến SINGAPORE</p>
+            </div>
+        </div>
+
+        <div class="title-content-body">
+            <h1>Các chuyến bay</h1>
+        </div>
+        <div class="card-wraper">
+            @if (rs != null) 
+            {
+                @Html.Partial("CartReviewGo", rs.flightSelectGo)
+                if (rs.flightSelectBack != null)
+                {
+                    @Html.Partial("CartReviewBack", rs.flightSelectGo)
+                }
+            }
+            else
+            {
+                <p>Không có thông tin chuyến bay.</p>
+            }
+
+            <div class="card-review-btn">
+                <div class="btn-wraper">
+                    @if (rs.flightSelectBack != null)
+                    {
+                        <div class="total-money">Tổng số tiền:@((@rs.flightSelectGo.totalPrice + @rs.flightSelectBack.totalPrice).ToString("N0"))</div>
+                    }
+                    else
+                    {
+                        <div class="total-money">Tổng số tiền:@((@rs.flightSelectGo.totalPrice).ToString("N0"))</div>
+                    }
+
+                    <div class="card-review-btn-wraper">
+                        <div class="flight-card-button-wraper-btn-review">
+                            <button class="flight-card-button-wigget btn-review-back">
+                                <span class="mat-button-wrapper">
+                                    Quay lại
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="flight-card-button-wraper-btn-review">
+                            <button class="flight-card-button-wigget btn-review-continue"   onclick="location.href='@Url.Action("InformationCustomer", "Information")'">
+                                <span class="mat-button-wrapper">
+                                    Tiếp tục
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+}
+
+<script>
+    var airports = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(rs));
+    localStorage.setItem("cart-booking", JSON.stringify(airports));
+</script>

@@ -1,0 +1,134 @@
+@model SeatMap
+@{
+    var selectedSeatMapId = ViewBag.NexFlight ?? null;
+    var cus = ViewBag.Custom;
+    var lastId = ViewBag.IsLast ?? false;
+    if (selectedSeatMapId != null)
+    {
+        var id = selectedSeatMapId;
+    }
+}
+@Html.Hidden("currentIdp", selectedSeatMapId ?? "", new { id = "currentIdp" })
+@Html.Hidden("customerp", cus, new { id = "customerp" })
+@if (Model.AvailableSeats?.Any() == true)
+{
+    <div class="plane-layout">
+        <h3>Sơ đồ ghế - từ @Model.fromCity đến @Model.toCity</h3>
+
+        <div class="seat-layout">
+            <div class="seats">
+                @if (Model.economySeats > 0)
+                {
+                    for (var i = 1; i <= Model.economySeats / 4; i++)
+                    {
+                        <div class="seat-row">
+                            @foreach (var row in new[] { 'A', 'B', 'C', 'D' })
+                            {
+                                var seatNumber = $"{row}{i}";
+                                var seat = Model.AvailableSeats.FirstOrDefault(s => s.Number == seatNumber);
+                                var isBooked = seat != null && seat.IsBooked;
+                                var isSelected = seat != null && seat.IsSelected;
+                                var isLocked = seat != null && seat.IsLocked;
+                                <div class="seat @(isBooked ? "booked" : isSelected ? "selected" : isLocked ? "locked" : "available")" data-seat-id="@seatNumber" @(isBooked ? "style='pointer-events: none;'" : "") onclick="selectSeat('@seatNumber')">
+                                    @if (seat != null && !string.IsNullOrEmpty(seat.cusname))
+                                    {
+                                        var names = seat.cusname.Split(' ');
+                                        if (names.Length > 1)
+                                        {
+                                            var firstInitial = names[names.Length - 1][0];
+                                            var lastInitial = names[0][0];
+
+                                            var shortName = $"{firstInitial.ToString().ToUpper()}{lastInitial.ToString().ToUpper()}";
+                                            <span class="selected-user-initial">@shortName</span>
+                                        }
+                                        else
+                                        {
+                                            var singleInitial = names[0][0];
+                                            <span class="selected-user-initial">@singleInitial.ToString().ToUpper()</span>
+                                            ;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="seat-number">@seatNumber</span>
+                                    }
+                                    @Html.Hidden($"seatNumber_{row}{i}", seatNumber)
+                                </div>
+                            }
+                        </div>
+                    }
+                }
+
+                @if (Model.businessSeats > 0)
+                {
+                    for (var i = 1; i <= Model.businessSeats / 3; i++)
+                    {
+                        <div class="seat-row business-class">
+                            @foreach (var row in new[] { 'V', 'I', 'P' })
+                            {
+                                var seatNumber = $"{row}{i}";
+                                var seat = Model.AvailableSeats.FirstOrDefault(s => s.Number == seatNumber);
+                                var isBooked = seat != null && seat.IsBooked;
+                                var isSelected = seat != null && seat.IsSelected;
+                                var isLocked = seat != null && seat.IsLocked;
+                                <div class="seat @(isBooked ? "booked" : isSelected ? "selected" : isLocked ? "locked" : "available")" data-seat-id="@seatNumber" @(isBooked ? "style='pointer-events: none;'" : "") onclick="selectSeat('@seatNumber')">
+                                    @if (seat != null && !string.IsNullOrEmpty(seat.cusname))
+                                    {
+                                        var names = seat.cusname.Split(' ');
+                                        if (names.Length > 1)
+                                        {
+                                            var firstInitial = names[names.Length - 1][0];
+                                            var lastInitial = names[0][0];
+
+                                            var shortName = $"{firstInitial.ToString().ToUpper()}{lastInitial.ToString().ToUpper()}";
+                                            <span class="selected-user-initial">@shortName</span>
+                                        }
+                                        else
+                                        {
+                                            var singleInitial = names[0][0];
+                                            <span class="selected-user-initial">@singleInitial.ToString().ToUpper()</span>
+                                            ;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="seat-number">@seatNumber</span>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p>Không có dữ liệu ghế để hiển thị.</p>
+}
+
+<!-- Modal xác nhận chọn ghế -->
+<div class="modal fade" id="seatConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="seatConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="seatConfirmationModalLabel">Xác Nhận Chọn Ghế</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn chọn ghế <strong id="selectedSeatNumber"></strong> không?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="cancelSeatButton" data-dismiss="modal" onclick="cancelSeat()">Hủy</button>
+                <button type="button" class="btn btn-primary" id="confirmSeatButton" onclick="confirmSeat(); ">Xác Nhận</button>
+            </div>
+        </div>
+    </div>
+</div>
+@* <script> *@
+@*     sessionStorage.setItem("selectedCustomer", '@Html.Raw(cus)'); *@
+@*     *@
+@* </script> *@

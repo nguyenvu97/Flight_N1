@@ -1,0 +1,156 @@
+﻿@{
+    var flights = ViewBag.Flight as List<SeatMap>;
+    var bookingData = ViewBag.Booking as BookingData;
+    var bookedSeatsPerFlight = new Dictionary<int, int>();
+    var totalPeople = 0;
+
+    if (bookingData != null && bookingData.customers != null)
+    {
+        totalPeople = bookingData.customers.Count;
+        foreach (var customer in bookingData.customers)
+        {
+            foreach (var seat in customer.seats_go)
+            {
+                var flightId = seat.Key;
+                if (seat.Value != null)
+                {
+                    if (!bookedSeatsPerFlight.ContainsKey(flightId))
+                    {
+                        bookedSeatsPerFlight[flightId] = 0;
+                    }
+
+                    bookedSeatsPerFlight[flightId] += 1;
+                }
+            }
+
+            foreach (var seat in customer.seats_back)
+            {
+                var flightId = seat.Key;
+                if (seat.Value != null)
+                {
+                    if (!bookedSeatsPerFlight.ContainsKey(flightId))
+                    {
+                        bookedSeatsPerFlight[flightId] = 0;
+                    }
+
+                    bookedSeatsPerFlight[flightId] += 1;
+                }
+            }
+
+            foreach (var seat in customer.seats_go_child)
+            {
+                var flightId = seat.Key;
+                if (seat.Value != null)
+                {
+                    if (!bookedSeatsPerFlight.ContainsKey(flightId))
+                    {
+                        bookedSeatsPerFlight[flightId] = 0;
+                    }
+
+                    bookedSeatsPerFlight[flightId] += 1;
+                }
+            }
+
+            foreach (var seat in customer.seats_back_child)
+            {
+                var flightId = seat.Key;
+                if (seat.Value != null)
+                {
+                    if (!bookedSeatsPerFlight.ContainsKey(flightId))
+                    {
+                        bookedSeatsPerFlight[flightId] = 0;
+                    }
+
+                    bookedSeatsPerFlight[flightId] += 1;
+                }
+            }
+        }
+    }
+}
+
+
+@if (flights != null)
+{
+    foreach (var fl in flights)
+    {
+        @Html.Hidden($"fl_{fl.id}", fl.id)
+        <li class="d-flex flex-column sels">
+            <div class="d-flex card-title title-customer-card">
+                <div class="customer-name" style="color: #005f6e; font-weight: 700; width: 30%;">
+                    <span>@fl.fromCity - @fl.toCity</span>
+                </div>
+                <div class="customer-email">
+                    @if (bookedSeatsPerFlight.ContainsKey(fl.id))
+                    {
+                        var bookedCount = bookedSeatsPerFlight[fl.id];
+                        <span>@bookedCount / @totalPeople người đã đặt ghế</span>
+                    }
+                    else
+                    {
+                        <span>0 người đã đặt ghế</span>
+                    }
+                </div>
+                <div class="icon_togle">
+                    <div onclick="toggleDetails(this)">
+                        <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                    </div>
+                </div>
+            </div>
+            <ul class="asd hidden">
+                <li class="flex-column set-seat">
+                    <div class="d-flex info_select">
+                        @foreach (var customer in bookingData.customers)
+                        {
+                            var seatGo = customer.seats_go.Where(s => s.Key == fl.id).ToList();
+                            var seatBack = customer.seats_back.Where(s => s.Key == fl.id).ToList();
+                            var seatGoChild = customer.seats_go_child.Where(s => s.Key == fl.id).ToList();
+                            var seatBackChild = customer.seats_back_child.Where(s => s.Key == fl.id).ToList();
+
+                            var hasSeats = seatGo.Any() || seatBack.Any() || seatGoChild.Any() || seatBackChild.Any();
+
+                            if (!hasSeats)
+                            {
+                                <div class="customer-n">
+                                    <span>@customer.fullName</span>: <span>Chưa đặt ghế</span>
+                                </div>
+                            }
+                            else
+                            {
+                                foreach (var seat in seatGo)
+                                {
+                                    <div class="customer-n">
+                                        <span>@customer.fullName</span>: <span>@seat.Value</span>
+                                    </div>
+                                }
+
+                                foreach (var seat in seatBack)
+                                {
+                                    <div class="customer-n">
+                                        <span>@customer.fullName</span>: <span>@seat.Value</span>
+                                    </div>
+                                }
+
+                                foreach (var seat in seatGoChild)
+                                {
+                                    <div class="customer-n">
+                                        <span>@customer.fullName</span>: <span>@seat.Value</span>
+                                    </div>
+                                }
+
+                                foreach (var seat in seatBackChild)
+                                {
+                                    <div class="customer-n">
+                                        <span>@customer.fullName</span>: <span>@seat.Value</span>
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                </li>
+                <div class="btn-change">
+                    <button class="btn btn-primary" style="background-color:  #005f6e;" onclick="location.href='@Url.Action("SeatMap", "SeatMaps", new { fl.id })'">Thay đổi</button>
+                </div>
+            </ul>
+        </li>
+    }
+}

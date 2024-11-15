@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BookingFlyWebApp
+build_property.RootNamespace = BookingFlyWebApp
+build_property.ProjectDir = /Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/BookingCart/CartReviewBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ0NhcnQvQ2FydFJldmlld0JhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/BookingCart/CartReviewGo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ0NhcnQvQ2FydFJldmlld0dvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/BookingCart/ViewDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ0NhcnQvVmlld0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/FlightSearch/FlightBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VhcmNoL0ZsaWdodEJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/FlightSearch/FlightGo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VhcmNoL0ZsaWdodEdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/FlightSearch/FlightSearchFormBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VhcmNoL0ZsaWdodFNlYXJjaEZvcm1Cb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/FlightSearch/IndexBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VhcmNoL0luZGV4QmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/FlightSearch/IndexGo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0U2VhcmNoL0luZGV4R28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Home/FlightSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9GbGlnaHRTZWFyY2hGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Information/ContactCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYXRpb24vQ29udGFjdEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Information/InformationCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYXRpb24vSW5mb3JtYXRpb25DdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Information/InputformCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYXRpb24vSW5wdXRmb3JtQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Payment/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudC9QYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/SeatMaps/ListCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhdE1hcHMvTGlzdEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/SeatMaps/SeatMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhdE1hcHMvU2VhdE1hcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/SeatMaps/SeatMapPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VhdE1hcHMvU2VhdE1hcFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shared/Components/Search/ShowSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2VhcmNoL1Nob3dTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shared/_LayoutBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nQmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingBagge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nQmFnZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shoping/ShopingGo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcGluZy9TaG9waW5nR28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Extreme SSD/BookingFlyWebApp/BookingFlyWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-a5ofeuhpmp

@@ -1,0 +1,76 @@
+@{
+    var rs = ViewBag.SelectedResults as BidingModel;
+}
+
+@if (rs.flightSelectGo != null)
+{
+    <form id="form-input" style="width: 100%">
+        @for (var i = 1; i <= rs.flightSelectGo.adultQuantyti; i++)
+        {
+            @Html.Hidden($"adultAliases_{i}")
+            <div class="card-review p-4">
+                <h2 class="text-center">Thông tin người lớn @i</h2>
+                <div class="row mb-3">
+                    <!-- Danh xưng và Họ tên trên cùng một dòng -->
+                    <div class="col-md-2">
+                        <label for="salutation_@i" class="form-label">Danh xưng</label>
+                        <select class="form-control" id="salutation_@i" name="salutation_@i" data-alias="adultAliases_@i" onchange="changeTarget(this, 'adultAliases_@i')" required>
+                            <option value="">Chọn</option>
+                            <option value="Ông">Ông</option>
+                            <option value="Bà">Bà</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-10">
+                        <label for="fullName_@i" class="form-label">Họ và Tên</label>
+                        <input type="text" class="form-control" id="fullName_@i" name="fullName_@i" placeholder="Nhập họ và tên" required>
+                    </div>
+                </div>
+
+                <!-- Ngày sinh -->
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="birthDate_@i" class="form-label">Ngày sinh</label>
+                        <input type="date" class="form-control" id="birthDate_@i" name="birthDate_@i" required>
+                    </div>
+                </div>
+            </div>
+        }
+
+        @if (rs.flightSelectGo.childtQuantyti > 0)
+        {
+            @for (var j = 1; j <= rs.flightSelectGo.childtQuantyti; j++)
+            {
+                @Html.Hidden($"childAliases_{j}")
+                <div class="card-review p-4">
+                    <h2 class="text-center">Thông tin trẻ em @j</h2>
+                    <div class="row mb-3">
+                        <!-- Danh xưng và Họ tên trên cùng một dòng -->
+                        <div class="col-md-2">
+                            <label for="salutation_@j" class="form-label">Danh xưng</label>
+                            <select class="form-control" id="salutation-child_@j" name="salutation-child_@j" data-alias="childAliases_@j" onchange="changeTarget(this, 'childAliases_@j')" required>
+                                <option value="">Chọn</option>
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-10">
+                            <label for="fullName_@j" class="form-label">Họ và Tên</label>
+                            <input type="text" class="form-control" id="fullName-child_@j" name="fullName-child_@j" placeholder="Nhập họ và tên" required>
+                        </div>
+                    </div>
+
+                    <!-- Ngày sinh -->
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="birthDate_@j" class="form-label">Ngày sinh</label>
+                            <input type="date" class="form-control" id="birthDate-child_@j" name="birthDate-child_@j" required>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </form>
+}
+<script type="text/javascript" src="/js/informationCutomer.js"></script>

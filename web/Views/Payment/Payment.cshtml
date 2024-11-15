@@ -1,0 +1,395 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+    var searchFlight = ViewBag.SearchFlight as SearchFlight;
+    var number = ViewBag.SearchNumber as int?;
+    var ticket = ViewBag.Ticket as TicketDto;
+    decimal amount_flight = 0;
+    decimal additional_costs = 0;
+    decimal amout_adult = 0;
+    decimal amout_child = 0;
+    var count_adult = 0;
+    var count_child = 0;
+    if (ticket != null)
+    {
+        foreach (var t in ticket.customers)
+        {
+            amount_flight += t.amountTotal - (t.bag_go + t.bag_back) * 500000m;
+            additional_costs += (t.bag_go + t.bag_back) * 500000m;
+
+            if (t.customType.Equals("Người lớn"))
+            {
+                count_adult++;
+                amout_adult += t.amountTotal - (t.bag_go + t.bag_back) * 500000m;
+            }
+
+            if (t.customType.Equals("Trẻ em"))
+            {
+                count_child++;
+                amout_child += t.amountTotal - (t.bag_go + t.bag_back) * 500000m;
+            }
+        }
+    }
+}
+
+@functions
+{
+
+}
+
+
+@await Component.InvokeAsync("Search", new { action = "ShowSearch", pr1 = searchFlight, number })
+
+<div class="container-fluid body-content-booking">
+<div class=" justify-content-center expansion-panel">
+<div class="justify-content-center title-card">
+    <div class="title-content">
+        <h1>Thanh toán</h1>
+
+    </div>
+</div>
+
+
+<div class="card-wraper">
+<div class="card-review size-payment">
+    <div class="wrapper_payment">
+        <div class="toggle_payment" style="padding: 1.5rem 1.5rem 0 1.5rem ;" id="info" onclick="togglePayment('#info', '#infohiden')">
+            <div class="card-title-review">
+                <div class="card-title"
+                     style="font-size: 30px; font-weight: 700; color: #005f6e;">
+                    Tổng tiền thanh toán: @((amount_flight + additional_costs).ToString("N0"))
+                </div>
+                <div class="card-title" style="font-size: 16px; font-weight: 500;">
+                    Tổng giá cho tất cả hành khách
+                </div>
+            </div>
+            <div class="icon_togle">
+                <div >
+                    <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden" style="padding: 1.5rem 1.5rem 0 1.5rem ;margin-top: 0.5rem" id="infohiden">
+            <ul class="sasv">
+                <li class="d-flex flex-column sels">
+                    <div class="d-flex card-title title-customer-card "
+                         style="margin-top: 0.5rem;" id="adult_payment" onclick="togglePayment('#adult_payment',' #adult_paymenthiden')">
+                        <div class="customer-name"
+                             style="color: #005f6e; font-weight: 700; width: 30%;">
+                            @count_adult người lớn
+                        </div>
+                        <div class="d-flex amount_payment">
+                            <span class="amount_span">@amout_adult.ToString("N0")</span>
+                            <div >
+                                <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="info_payment hidden" id="adult_paymenthiden">
+                        <li>
+                            <div class="d-flex person_amount">
+                                <div>Tổng giá mỗi người lớn</div>
+                                <div class="amount_per">@((amout_adult / count_adult).ToString("N0"))</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex person_amount">
+                                <div>X @count_adult Người lớn</div>
+                                <div class="amount_per">@(amout_adult.ToString("N0"))</div>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </li>
+                @if (count_child > 0)
+                {
+                    <li class="d-flex flex-column sels">
+                        <div class="d-flex card-title title-customer-card "
+                             style="margin-top: 0.5rem;" id="child_payment" onclick="togglePayment('#child_payment', '#child_paymenthiden')">
+                            <div class="customer-name"
+                                 style="color: #005f6e; font-weight: 700; width: 30%;">
+                                @count_child trẻ em
+                            </div>
+                            <div class="d-flex amount_payment">
+                                <span class="amount_span">@amout_child.ToString("N0")</span>
+                                <div>
+                                    <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <ul class="info_payment hidden" id="child_paymenthiden">
+                            <li>
+                                <div class="d-flex person_amount">
+                                    <div>Tổng giá mỗi trẻ em</div>
+                                    <div class="amount_per">@((amout_child / count_child).ToString("N0"))</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex person_amount">
+                                    <div>X @count_child trẻ em</div>
+                                    <div class="amount_per">@(amout_child.ToString("N0"))</div>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </li>
+                }
+
+                @if (additional_costs > 0)
+                {
+                    <li class="d-flex flex-column sels">
+                        <div class="d-flex card-title title-customer-card "
+                             style="margin-top: 0.5rem;" id="addition" onclick="togglePayment('#addition', '#additionhiden')">
+                            <div class="customer-name"
+                                 style="color: #005f6e; font-weight: 700; width: 30%;">
+                                Dịch vụ bổ sung
+                            </div>
+                            <div class="d-flex amount_payment">
+                                <span class="amount_span">@(additional_costs.ToString("N0"))</span>
+                                <div >
+                                    <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="info_payment hidden" id="additionhiden">
+                            @foreach (var c in ticket.customers)
+                            {
+                                if (c.bag_go + c.bag_back > 0)
+                                {
+                                    <li>
+                                        <div class="d-flex flex-column lk">
+                                            <div style="font-weight: bold">@c.aliases @c.fullName</div>
+                                            @if (number == 1)
+                                            {
+                                                <div class="d-flex">
+                                                    <div>
+                                                        @searchFlight.departure -> @searchFlight.arrival | @(c.bag_back + c.bag_go) Hành lý trả trước
+                                                    </div>
+                                                    <div class="amount_per">
+                                                        @(((c.bag_go + c.bag_back) * 500000).ToString("N0"))
+                                                    </div>
+                                                </div>
+                                            }
+
+                                            else
+                                            {
+                                                <div class="d-flex">
+                                                    <div>
+                                                        @searchFlight.departure <-> @searchFlight.arrival | @(c.bag_back + c.bag_go) Hành lý trả trước
+                                                    </div>
+                                                    <div class="amount_per">
+                                                        @(((c.bag_go + c.bag_back) * 500000).ToString("N0"))
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </li>
+                                }
+                            }
+                        </ul>
+
+                    </li>
+                }
+
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<ul class="customer-list"
+    style="    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.2), 0 4px 4px rgba(0, 0, 0, 0.2), -4px 0 4px rgba(0, 0, 0, 0.2), 4px 0 4px rgba(0, 0, 0, 0.2);">
+
+
+    <li class="card-review customer-item flex-column" id="" style="box-shadow: none;"
+        onclick="togglePayment(this)">
+        <div class="card-review" style="padding: 0;">
+            <div class="card-review customer-item"
+                 style="box-shadow: none; border-bottom: 1px solid;" id="vnpay" onclick="togglePayment('#vnpay', '#vnpayhiden')">
+                <div class="card-title-review icon-customer">
+                    <div class="d-flex align-items-center card-title title-customer-card vnpay">
+                        <div class="vpay_logo" style="color: #005f6e; font-weight: 700;">
+                            <img src="/assets/image/vnpayLogo.png" alt="" class="logo-payment">
+                        </div>
+                        <div class="vpay_logo"
+                             style="color: #005f6e; font-size: 1.5rem; font-weight: 700;">
+                            <span>VN QR Pay and Internet banking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center icon_togle">
+                    <div>
+                        <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about_payment hidden" id="vnpayhiden">
+                <div class="title_payment">
+                    <span>
+                        Quý khách sẽ được chuyển sang trang của VNPAY để thanh toán. VNPAY là
+                        cổng thanh toán nội địa của Vietnam Airlines. Các hình thức thanh toán
+                        qua cổng thanh toán VNPAY bao gồm:
+                    </span>
+                </div>
+                <div class="title_payment">
+                    <span>
+                        - Sử dụng tính năng QR PAY trên Mobile Banking App của Ngân hàng, quét
+                        mã QR để thanh toán.
+                    </span>
+                </div>
+                <div class="title_payment">
+                    <span>- Thanh toán bằng Internet Banking và tài khoản ngân hàng.</span>
+                </div>
+                <div class="checkbox_payment">
+                    <div class="type_check">
+                        <input type="checkbox" id="termsCheckboxVNPay" style="width: 20px; height: 20px;">
+                    </div>
+                    <span>
+                        Tôi đã đọc và đồng ý với Điều kiện, Chính sách bảo mật, Điều lệ vận
+                        chuyển, Điều kiện đặt vé trực tuyến.
+                    </span>
+                </div>
+                <div class="btn_payment">
+                    <div class="btn_payment_wraper">
+                        <button class="btn pay" onclick="handlePayment('VNPay', '@ticket.orderNo')">Thanh Toán: @((amount_flight + additional_costs).ToString("N0"))</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+    <li class="card-review customer-item flex-column" style="box-shadow: none;">
+        <div class="card-review" style="padding: 0;">
+            <div class="card-review customer-item"
+                 style="box-shadow: none; border-bottom: 1px solid;" id="momo" onclick="togglePayment('#momo', '#momohiden')">
+                <div class="card-title-review icon-customer">
+                    <div class="d-flex align-items-center card-title title-customer-card vnpay">
+                        <div class="vpay_logo" style="color: #005f6e; font-weight: 700;">
+                            <img src="/assets/image/momo_icon_square_pinkbg_RGB.png" alt=""
+                                 class="logo-payment">
+                        </div>
+                        <div class="vpay_logo"
+                             style="color: #005f6e; font-size: 1.5rem; font-weight: 700;">
+                            <span>Ví điện tử Momo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center icon_togle">
+                    <div>
+                        <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                    </div>
+                </div>
+            </div >
+            <div class="about_payment hidden" id="momohiden">
+                <div class="title_payment">
+                    <span>
+                        Quý khách sẽ được chuyển sang trang của VNPAY để thanh toán. VNPAY là
+                        cổng thanh toán nội địa của Vietnam Airlines. Các hình thức thanh toán
+                        qua cổng thanh toán VNPAY bao gồm:
+                    </span>
+                </div>
+                <div class="title_payment">
+                    <span>
+                        - Sử dụng tính năng QR PAY trên Mobile Banking App của Ngân hàng, quét
+                        mã QR để thanh toán.
+                    </span>
+                </div>
+                <div class="title_payment">
+                    <span>- Thanh toán bằng Internet Banking và tài khoản ngân hàng.</span>
+                </div>
+                <div class="checkbox_payment">
+                    <div class="type_check">
+                        <input type="checkbox" style="width: 20px; height: 20px;">
+                    </div>
+                    <span>
+                        Tôi đã đọc và đồng ý với Điều kiện, Chính sách bảo mật, Điều lệ vận
+                        chuyển, Điều kiện đặt vé trực tuyến.
+                    </span>
+                </div>
+                <div class="btn_payment">
+                    <div class="btn_payment_wraper">
+                        <button class="btn pay">Thanh Toán: @((amount_flight + additional_costs).ToString("N0"))</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- <li class="card-review customer-item flex-column" style="box-shadow: none;">
+        <div class="card-review" style="padding: 0; ">
+            <div class="card-review customer-item"
+                 style="    box-shadow: none; border-bottom: 1px solid;">
+                <div class="card-title-review icon-customer">
+                    <div class="d-flex align-items-center card-title title-customer-card vnpay">
+                        <div class="vpay_logo" style="color: #005f6e; font-weight: 700;">
+                            <img src="/assets/image/shoppee.jpg" alt="" class="logo-payment">
+                        </div>
+                        <div class="vpay_logo"
+                             style="color: #005f6e; font-size: 1.5rem ; font-weight: 700;">
+                            <span>Shopee Pay</span>
+                        </div>
+
+                    </div>
+                    <div class="d-flex align-items-center icon_togle">
+                        <div onclick="togglePayment(this)">
+                            <i class="fa-solid fa-angle-down toggle-icon1"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about_payment hidden">
+                <div class="title_payment">
+                    <span>Quý khách sẽ được chuyển sang trang của VNPAY để thanh toán. VNPAY là
+                        cổng thanh toán nội địa của Vietnam Airlines. Các hình thức thanh toán
+                        qua cổng thanh toán VNPAY bao gồm:</span>
+                </div>
+                <div class="title_payment">
+                    <span>- Sử dụng tính năng QR PAY trên Mobile Banking App của Ngân hàng, quét
+                        mã QR để thanh toán.</span>
+                </div>
+                <div class="title_payment">
+                    <span>- Thanh toán bằng Internet Banking và tài khoản ngân hàng.</span>
+                </div>
+                <div class="checkbox_payment">
+                    <div class="type_check">
+                        <input type="checkbox" style="width: 20px; height: 20px;">
+                    </div>
+                    <span>
+                        Tôi đã đọc và đồng ý với Điều kiện, Chính sách bảo mật, Điều lệ vận
+                        chuyển, Điều kiện đặt vé trực tuyến.</span>
+                </div>
+                <div class="btn_payment">
+                    <div class="btn_payment_wraper">
+                        <button class="btn pay">
+                            Thanh Toán: 4000
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </li>
+
+
+    -->
+
+
+</ul>
+
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="/js/payment.js"></script>
+@* <script type="text/javascript"> *@
+@*     history.pushState({ page: "Payment" }, "Payment Page", location.href); *@
+@* </script> *@

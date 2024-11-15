@@ -1,0 +1,187 @@
+﻿@using Newtonsoft.Json
+@{
+    var search = ViewBag.SearchFlight as SearchFlight;
+    var cus = ViewBag.Customer as List<Customer>;
+    var booking = ViewBag.Booking as BookingData;
+    
+    var number = ViewBag.SearchNumber as int?;
+    var count = 0;
+}
+
+<li class="card-review customer-item flex-column">
+    <div class="card-review" style="padding: 0; box-shadow: none;">
+        <div class="card-review customer-item" style="box-shadow: none; border-bottom: 1px solid;">
+            <div class="card-title-review icon-customer">
+                <div class="card-title title-customer-card">
+                    <div class="customer-name" style="color: #005f6e; font-weight: 700;">
+                        Hành lý
+                    </div>
+                    <div class="customer-email">
+                        Mua thêm hành lý ký gửi với mức giá ưu đãi
+                    </div>
+                </div>
+            </div>
+            <div class="item-togle">
+                <div class="card-review-btn-wraper">
+                    <div class="flight-card-button-wraper-btn-review">
+                        <button class="flight-card-button-wigget btn-review-continue" onclick="toggleBaggage(this)">
+                            <span class="mat-button-wrapper">
+                                Thêm hành lý
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="baggage-section hidden" style="margin-top: 1rem; padding: 1.5rem;">
+            <ul class="bagge_fl">
+                @if (number == 1)
+                {
+                    <li class="lop_">
+                        <div class="title-flight-wrapper">
+                            <div class="title-flight">
+                                <span style="color: #005f6e; font-weight: 500;">Hành lý</span>
+                                <span class="style">@search.departure đến @search.arrival</span>
+                            </div>
+                        </div>
+                        <ul class="change_bagge">
+                            @foreach (var c in booking.customers)
+                            {
+                                count++;
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span class="style_name">@c.aliases @c.fullName</span>
+                                        </div>
+                                        <div class="input-bagge">
+                                            <button type="button" id="increase-bag-@c.fullName" class="bag-button" data-change="1" data-customer="@c.fullName" data-bagtype="bag_go" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', 1, 'bag_go')">+</button>
+                                            @Html.Hidden($"customerName_go_{count}", c.fullName)
+                                            <input type="number" id="bag_go_@c.fullName.Replace(" ", "_")" name="bag_go_@c.fullName.Replace(" ", "_")" value="@c.bag_go" min="0">
+                                            <button type="button" id="decrease-bag-@c.fullName" class="bag-button" data-change="-1" data-customer="@c.fullName" data-bagtype="bag_go" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', -1, 'bag_go')">-</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            <li class="d-flex">
+                                <div class="monney_bagge">
+                                    <span>Tổng cộng: <span class="total-bag-bag_go">0</span> VND</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                }
+
+                @if (number == 2)
+                {
+                    <li class="lop_">
+                        <div class="title-flight-wrapper">
+                            <div class="title-flight">
+                                <span style="color: #005f6e; font-weight: 500;">Hành lý</span>
+                                <span class="style">@search.departure đến @search.arrival</span>
+                            </div>
+                        </div>
+                        <ul class="change_bagge">
+                            @foreach (var c in booking.customers)
+                            {
+                                count++;
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span class="style_name">@c.aliases @c.fullName</span>
+                                        </div>
+                                        <div class="input-bagge">
+                                            <button type="button" id="increase-bag-@c.fullName" class="bag-button" data-change="1" data-customer="@c.fullName" data-bagtype="bag_go" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', 1, 'bag_go')">+</button>
+                                            @Html.Hidden($"customerName_go_{count}", c.fullName)
+                                            <input type="number" id="bag_go_@c.fullName.Replace(" ", "_")" name="bag_go_@c.fullName.Replace(" ", "_")" value="@c.bag_go" min="0">
+                                            <button type="button" id="decrease-bag-@c.fullName" class="bag-button" data-change="-1" data-customer="@c.fullName" data-bagtype="bag_go" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', -1, 'bag_go')">-</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            <li class="d-flex">
+                                <div class="monney_bagge">
+                                    <span>Tổng cộng: <span class="total-bag-bag_go">0</span> VND</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <span class="line-fl"></span>
+
+                    <li class="lop_">
+                        <div class="title-flight-wrapper">
+                            <div class="title-flight">
+                                <span style="color: #005f6e; font-weight: 500;">Hành lý</span>
+                                <span class="style">@search.arrival đến @search.departure</span>
+                            </div>
+                        </div>
+                        <ul class="change_bagge">
+                            @foreach (var c in booking.customers)
+                            {
+                                count++;
+                                <li>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span class="style_name">@c.aliases @c.fullName</span>
+                                        </div>
+                                        <div class="input-bagge">
+                                            <button type="button" id="increase-bag-@c.fullName" class="bag-button" data-change="1" data-customer="@c.fullName" data-bagtype="bag_back" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', 1, 'bag_back')">+</button>
+                                            @Html.Hidden($"customerName_back_{count}", c.fullName)
+                                            <input type="number" id="bag_back_@c.fullName.Replace(" ", "_")" name="bag_back_@c.fullName.Replace(" ", "_")" value="@c.bag_back" min="0">
+                                            <button type="button" id="decrease-bag-@c.fullName" class="bag-button" data-change="-1" data-customer="@c.fullName" data-bagtype="bag_back" onclick="updateBaggageCount('@c.fullName.Replace(" ", "_")', -1, 'bag_back')">-</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            <li class="d-flex">
+                                <div class="monney_bagge">
+                                    <span>Tổng cộng: <span class="total-bag-bag_back">0</span> VND</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                }
+
+                <li class="total-price-wrapper">
+                    <span class="total-price">Tổng tiền: 0 VND</span>
+                    <button class="confirm-button" onclick="confirmBaggageSelection()">Xác nhận</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<script>
+
+    var customers = @Html.Raw(JsonConvert.SerializeObject(booking.customers));
+    sessionStorage.setItem("Customers", JSON.stringify(customers));
+   
+    
+    function calculateBaggageCosts() {
+        const pricePerBag = 500000;
+        let totalGoCount = 0;
+        let totalBackCount = 0
+        const customerData = JSON.parse(sessionStorage.getItem('Customers')) || [];
+
+        customerData.forEach(customer => {
+            totalGoCount += customer.bag_go || 0;
+            totalBackCount += customer.bag_back || 0;
+        });
+        const totalGoPrice = totalGoCount * pricePerBag;
+        const totalBackPrice = totalBackCount * pricePerBag;
+        const grandTotal = totalGoPrice + totalBackPrice;
+
+        $('.total-bag-bag_go').text(totalGoPrice.toLocaleString());
+        $('.total-bag-bag_back').text(totalBackPrice.toLocaleString() );
+        $('.total-price').text('Tổng tiền: ' + grandTotal.toLocaleString());
+
+        console.log('Total Go Price:', totalGoPrice);
+        console.log('Total Back Price:', totalBackPrice);
+        console.log('Grand Total:', grandTotal);
+    }
+
+    calculateBaggageCosts();
+
+    updateOverallBaggageSummary();
+</script>

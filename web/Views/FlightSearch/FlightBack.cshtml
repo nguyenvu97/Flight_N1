@@ -1,0 +1,297 @@
+﻿@model FlightResponse
+@{
+    var flightResults = ViewBag.FlightResults as FlightResponse;
+    var searchFlight = ViewBag.SearchFlight as SearchFlight;
+    var number = ViewBag.SearchNumber as int?;
+    var adult = searchFlight.adultQuantity;
+    var child = searchFlight.childQuantity;
+    var economy = "economy";
+    var bussiness = "business";
+    if (flightResults != null && flightResults.flight_go != null)
+    {
+        foreach (var flight in flightResults.flight_go)
+        {
+            var moneyBackBusiness = flight.flights != null && flight.flights.Count > 0
+                ? flight.basePrice * 0.3m + flight.flights.Last().basePrice * 0.3m
+                : flight.basePrice * 0.3m;
+
+            var moneyBackeconomy = flight.flights != null && flight.flights.Count > 0
+                ? flight.basePrice * 0.3m + flight.flights.Last().basePrice * 0.3m
+                : flight.basePrice * 0.3m;
+        }
+    }
+}
+
+@functions {
+
+    public string CalculateDuration(DateTime departureTime, DateTime arrivalTime)
+    {
+        var duration = arrivalTime - departureTime;
+        return $"{duration.Hours} giờ {duration.Minutes} phút";
+    }
+
+}
+
+
+@foreach (var flight in flightResults.flight_back)
+{
+    <div class="flight-card-container">
+        <div class="d-flex flight-card-wraper">
+            <div class="flight-card-left-section">
+                <div class="flight-card-left-section-layout-row">
+                    <div class="d-flex basic-flight-card-layout-left-top-section-container">
+
+                        <div class="bound-departure">
+                            <div class="bound-departure-time">
+                                <span>@flight.departureTime.ToString("HH:mm")</span>
+                            </div>
+                            <div class="bound-departure-location">
+                                <span>@flight.fromCity</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex type-departure">
+                            <div class="type-departure">
+                                ------------------
+                                <div class="d-flex flex-column type">
+                                    <div class="segment-type">
+                                        @if (flight.flights != null && flight.flights.Count > 0)
+                                        {
+                                            @flight.flights.Count
+                                        }
+                                    </div>
+                                </div>
+                                ------------------
+                            </div>
+
+                        </div>
+
+
+                        <div class="bound-arrival">
+                            <div class="bound-arrival-time">
+                                @if (flight.flights != null && flight.flights.Count > 0)
+                                {
+                                    <span>@flight.flights.Last().arrivalTime.ToString("HH:mm")</span>
+                                }
+                                else
+                                {
+                                    <span>@flight.arrivalTime.ToString("HH:mm")</span>
+                                }
+                            </div>
+                            <div class="bound-arrival-location">
+                                <span>
+                                    @if (flight.flights != null && flight.flights.Count > 0)
+                                    {
+                                        @flight.flights.Last().toCity
+                                    }
+                                    else
+                                    {
+                                        @flight.toCity
+                                    }
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flight-card-door">
+                        <div class="ng-star-inserted">
+                            <div class="flight-info">
+                                <div class="d-flex align-items-center duration-text">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span class="duration-label">Thời gian bay</span>
+                                    <span class="duration-value">
+                                        <span class="duration-value">
+                                            @if (flight.flights != null && flight.flights.Count > 0)
+                                            {
+                                                var totalDepartureTime = flight.departureTime;
+                                                var lastArrivalTime = flight.flights.Last().arrivalTime;
+                                                @CalculateDuration(totalDepartureTime, lastArrivalTime)
+                                            }
+                                            else
+                                            {
+                                                @CalculateDuration(flight.departureTime, flight.arrivalTime)
+                                            }
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="refx-caption d-flex operating-airlines">
+                                <div class="d-flex align-items-center operating-text-multiline">
+                                    <i class="fa-brands fa-telegram"></i>
+                                    <span class="flight-number">Khai thác bởi @flight.airline</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex refx-caption ">
+                            <a href="javascript:void(0);" class="itin-details-link" data-toggle="modal" data-target="#flightDetailsModal-@flight.id">Chi tiết hành trình</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="flight-card-right-section">
+                <div class="d-flex flight-card-button">
+                    <div class="flight-card-button-wraper">
+                        <button class="flight-card-button-wigget economy-type" onclick="selectFlightBack(@flight.id,@number, '@economy',@adult, @child)">
+                            <span class="mat-button-wrapper">
+                                <div class="flight-card-button-name">
+                                    Phổ thông
+                                </div>
+                                <div class="d-flex flex-column flight-card-button-price">
+                                    <div>từ</div>
+                                    <div class="price-per-person">
+                                        @if (flight.flights != null && flight.flights.Count > 0)
+                                        {
+                                            var lastprice = flight.flights.Last().basePrice;
+                                            var totalPrice = flight.basePrice * 1.5m * adult + flight.basePrice * 1.5m * child;
+                                            @((flight.basePrice * 1.5m + lastprice * 1.5m).ToString("N0"))
+                                            <input type="hidden" id="money-back-economy" name="money-back-economy" value="@totalPrice"/>
+                                        }
+                                        else
+                                        {
+                                            var totalPrice = flight.basePrice * 1.5m * adult + flight.basePrice * 1.5m * child;
+                                            @((flight.basePrice * 1.5m).ToString("N0"))
+                                            <input type="hidden" id="money-back-economy" name="money-back-economy" value="@totalPrice"/>
+                                        }
+                                    </div>
+                                    <div class="price-per">
+                                        VND
+                                    </div>
+                                    <div>
+                                        mỗi hành khách
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="flight-card-button-wraper">
+                        <button class="flight-card-button-wigget bussiness-type" onclick="selectFlightBack(@flight.id,@number, '@bussiness',@adult, @child)">
+                            <span class="mat-button-wrapper">
+                                <div class="flight-card-button-name">
+                                    Thương gia
+                                </div>
+                                <div class="d-flex flex-column flight-card-button-price">
+                                    <div>từ</div>
+                                    <div class="price-per-person">
+                                        @if (flight.flights != null && flight.flights.Count > 0)
+                                        {
+                                            var lastprice = flight.flights.Last().basePrice;
+                                            var totalPrice = (flight.basePrice * 2m + lastprice * 2m) * adult + (flight.basePrice * 2m + lastprice * 2m) * child;
+                                            @((flight.basePrice * 2m + lastprice * 2m).ToString("N0"))
+                                            <input type="hidden" id="money-back-business" name="money-back-business" value=" @totalPrice"/>
+                                        }
+                                        else
+                                        {
+                                            var totalPrice = flight.basePrice * 2m * adult + flight.basePrice * 2m * child;
+                                            @((flight.basePrice * 2m).ToString("N0"))
+                                            <input type="hidden" id="money-back-business" name="money-back-business" value=" @totalPrice"/>
+                                        }
+                                    </div>
+                                    <div class="price-per">
+                                        VND
+                                    </div>
+                                    <div>
+                                        mỗi hành khách
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @foreach (var flightdetail in flightResults.flight_back)
+    {
+        <div class="modal fade" id="flightDetailsModal-@flightdetail.id" tabindex="-1" aria-labelledby="flightDetailsLabel-@flightdetail.id" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    @{
+                        var finalDestination = flightdetail.toCity;
+                        if (flightdetail.flights != null && flightdetail.flights.Count > 0)
+                        {
+                            var lastSegment = flightdetail.flights.Last();
+                            finalDestination = lastSegment.toCity;
+                        }
+                    }
+
+                    <div class="modal-header ">
+                        <h5 class="modal-title" id="flightDetailsLabel">@flightdetail.fromCity - @finalDestination</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- Nội dung của Modal -->
+                    <div class="modal-body">
+                        <div class="flight-segment border rounded p-3 mb-3">
+                            <h5>
+                                <strong>@flightdetail.fromCity - @flightdetail.toCity</strong>
+                            </h5>
+                            <h6>
+                                <strong>Khởi hành:</strong> @flightdetail.departureTime.ToString("dd/MM/yyyy HH:mm")
+                            </h6>
+                            <p>
+                                <strong>Đến:</strong> @flightdetail.arrivalTime.ToString("HH:mm")
+                            </p>
+                            <p>
+                                <strong>Tổng thời gian:</strong> @CalculateDuration(flightdetail.departureTime, flightdetail.arrivalTime)
+                            </p>
+                        </div>
+
+
+                        @if (flightdetail.flights != null && flightdetail.flights.Count > 0)
+                        {
+                            <h5 class="mb-3">
+                                <strong>
+
+
+                                </strong>
+                            </h5>
+                            @foreach (var segment in flightdetail.flights)
+                            {
+                                <h3>
+                                    Điểm dừng: @flightdetail.toCity -
+                                    @{
+                                        var totalDepartureTime = flightdetail.arrivalTime;
+                                        var lastArrivalTime = flightdetail.flights.Last().departureTime;
+                                        @CalculateDuration(lastArrivalTime, totalDepartureTime)
+                                    }
+                                </h3>
+
+                                <div class="flight-segment border rounded p-3 mb-3">
+                                    <h5>
+                                        <strong>@segment.fromCity - @segment.toCity</strong>
+                                    </h5>
+                                    <h6>
+                                        <strong>Khởi hành:</strong> @segment.departureTime.ToString("dd/MM/yyyy HH:mm")
+                                    </h6>
+                                    <p>
+                                        <strong>Đến:</strong> @segment.arrivalTime.ToString("HH:mm")
+                                    </p>
+                                    <p>
+                                        <strong>Hãng hàng không:</strong> @segment.airline
+                                    </p>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                Không có chặng nối tiếp.
+                            </div>
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+}

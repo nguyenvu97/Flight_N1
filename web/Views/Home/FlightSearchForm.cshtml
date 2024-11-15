@@ -1,0 +1,154 @@
+﻿@using Newtonsoft.Json
+@model Dictionary<string, List<AirportViewModel>>
+@{
+    var airports = ViewBag.Airports as Dictionary<string, List<AirportViewModel>>;
+}
+<div class="overlay-content">
+    <ul class="d-flex nav-tabs nav-tabs-overley">
+        <li class="navtab">
+            <a href="#navtab01">
+                <p>MUA VÉ</p>
+            </a>
+        </li>
+        <li class="navtab">
+            <a href="#navtab02">
+                <p>QUẢN LÝ ĐẶT CHỖ</p>
+            </a>
+        </li>
+        <li class="navtab">
+            <a href="#navtab03">
+                <p>LÀM THỦ TỤC</p>
+            </a>
+        </li>
+    </ul>
+
+    @using (Html.BeginForm("null", "null", FormMethod.Post, new { id = "form", onsubmit = "return false;" }))
+    {
+        @Html.Hidden("adultQuantity", 1)
+        @Html.Hidden("childQuantity", 0)
+        <div class="nav-overley">
+            <div class="d-flex type__booking">
+                <div class="d-flex type">
+                    <input type="radio" name="flightType" id="oneWay" value="oneWay">
+                    <label for="oneWay">Một chiều</label>
+                </div>
+                <div class="d-flex type">
+                    <input type="radio" name="flightType" id="roundTrip" value="roundTrip">
+                    <label for="roundTrip">Khứ hồi</label>
+                </div>
+                <div class="d-flex type">
+                    <input type="radio" name="flightType" id="multiCity" value="multiCity">
+                    <label for="multiCity">Nhiều chặng</label>
+                </div>
+            </div>
+            <ul class="d-flex sub-tab sub-tab-range">
+                <li class="sub-tab-item">
+                    <div class="input-container">
+                        <input type="text" placeholder="Từ" name="departure" id="departure" readonly>
+                        <div class="d-flex flex-column sub-tab-item-icon">
+                            <i class="fa-solid fa-sort"></i>
+                        </div>
+                    </div>
+                    <div class="dropdown-container" id="dropdown-container-from" style="display: block;">
+                        <div class="d-flex wraper-drop">
+                            <div class="col-md-4 arena">
+                                <ul id="region-list-from" class="list-group region-list">
+                                    <!-- Danh sách khu vực sẽ được tạo từ JavaScript -->
+                                </ul>
+                            </div>
+                            <div class="location">
+                                <ul id="location-list-from" class="list-group location-list">
+                                    <!-- Danh sách địa điểm sẽ được hiển thị ở đây -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <i class="fa-solid fa-arrows-left-right"></i>
+
+                <li class="sub-tab-item">
+                    <div class="input-container">
+                        <input type="text" placeholder="Đến" name="arrival" id="arrival" readonly>
+                        <div class="d-flex flex-column sub-tab-item-icon">
+                            <i class="fa-solid fa-sort"></i>
+                        </div>
+                    </div>
+                    <div class="dropdown-container" id="dropdown-container-to" style="display: none;">
+                        <div class="d-flex wraper-drop">
+                            <div class="col-md-4 arena">
+                                <ul id="region-list-to" class="list-group region-list">
+                                    <!-- Danh sách khu vực sẽ được tạo từ JavaScript -->
+                                </ul>
+                            </div>
+                            <div class="location">
+                                <ul id="location-list-to" class="list-group location-list">
+                                    <!-- Danh sách địa điểm sẽ được hiển thị ở đây -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sub-tab-item">
+                    <div class="input-container">
+                        <input type="text" name="startDate" id="startDate" placeholder="Ngày đi" readonly>
+                        <div class="sub-tab-item-icon">
+                            <i class="fa-solid fa-calendar-alt calendar-icon"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="sub-tab-item" id="return-date-container" style="display:none;">
+                    <div class="input-container">
+                        <input type="text" name="endDate" id="endDate" placeholder="Ngày về" readonly>
+                        <div class="sub-tab-item-icon">
+                            <i class="fa-solid fa-calendar-alt calendar-icon"></i>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+            <ul class="d-flex sub-tab sub-tab-range">
+                <li class="sub-tab-item sub-tab-item-person">
+                    <div class="input-container">
+                        <input type="text" name="passenger" id="passenger" placeholder="Hành khách" readonly>
+                        <div class="sub-tab-item-icon">
+                            <i class="fa-solid fa-person"></i>
+                        </div>
+                        <div class="dropdown-container" id="dropdown-container-passenger" style="display: none; width: 100%">
+                            <div class="dropdown-item">
+                                <span>Người lớn</span>
+                                <div class="d-flex justify-content-center align-content-center quantity-control">
+                                    <button type="button" class="decrease" onclick="changeQuantity('adult', -1)">-</button>
+                                    <input type="number" id="adult-quantity" value="1" min="0" readonly>
+                                    <button class="increase" onclick="changeQuantity('adult', 1)">+</button>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <span>Trẻ em</span>
+                                <div class="d-flex justify-content-center align-content-center quantity-control">
+                                    <button type="button" class="decrease" onclick="changeQuantity('child', -1)">-</button>
+                                    <input type="number" id="child-quantity" value="0" min="0" readonly>
+                                    <button class="increase" onclick="changeQuantity('child', 1)">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <button type="button" class="btn btn-search" style="margin-bottom: 10px" onclick="doSearch()">Tìm chuyến bay</button>
+        </div>
+    }
+</div>
+
+<script src="/js/home.js"></script>
+<script>
+    var airports = @Html.Raw(JsonConvert.SerializeObject(airports));
+    sessionStorage.setItem("airports", JSON.stringify(airports));
+    initialize();
+    console.log($('#child-quantity').val());
+    console.log($('#adult-quantity').val());
+    console.log($("#adult-quantity")); 
+    console.log($("#child-quantity"));
+</script>

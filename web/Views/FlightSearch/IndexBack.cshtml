@@ -1,0 +1,122 @@
+@model FlightResponse
+@{
+    Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+    var flightResults = ViewBag.FlightResults as FlightResponse;
+    var searchFlight = ViewBag.SearchFlight as SearchFlight;
+    var number = ViewBag.SearchNumber as int?;
+    var isShowflightBack = ViewBag.ShowFlightBack = true;
+}
+
+@if (ViewBag.HasData == false)
+{
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="text-center">
+            <div class="alert-icon">
+                <i class="fa fa-times-circle" aria-hidden="true"></i>
+            </div>
+            <div class="alert-message">
+                <strong>Yêu cầu không được thực hiện</strong><br>
+                @ViewBag.ErrorMessage
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <nav class="d-flex summary-panel-wrapper">
+        <div class="d-flex left">
+            <div class="d-flex flex-column flight-recap">
+                <div class="d-flex flight-recap-flights-codes">
+                    <div class="from-code">@searchFlight.departure</div>
+                    @if (number == 1)
+                    {
+                        <p> ------------------> </p>
+                    }
+                    else
+                    {
+                        <p> <------------------> </p>
+                    }
+                    <div class="to-code">@searchFlight.arrival</div>
+                </div>
+                <div class="d-flex justify-content-between flight-recap-flights-locations">
+                    <div class="from-locations">@searchFlight.departure</div>
+                    <div class="to-locations">@searchFlight.arrival</div>
+                </div>
+            </div>
+            <div class="d-flex date-with-person">
+                <div class="d-flex light-recap-date">
+                    <div class="d-flex flex-column depart">
+                        <div class="title">Chuyến đi</div>
+                        <div class="date">@searchFlight.startDate</div>
+                    </div>
+                    @if (flightResults.flight_back != null)
+                    {
+                        <div class="d-flex flex-column return">
+                            <div class="title">Chuyến về</div>
+                            <div class="date">@searchFlight.endDate</div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+
+            <div class="light-recap-persons">
+                <div class="title">Hành khách</div>
+                <div class="icon-recap">
+                    @(searchFlight.adultQuantity + searchFlight.childQuantity)<i class="fa-solid fa-person"></i>
+                </div>
+            </div>
+        </div>
+        <div class="your-booking">
+            <div class="d-flex flex-column btn-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class="flex-column float-right btn-your-booking">
+                    Thông tin đặt chỗ
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    @await Html.PartialAsync("FlightSearchFormBooking")
+
+    <div class="d-flex justify-content-center align-items-center placeholder-invoice">
+        <div>
+            <b>Tra cứu thông tin hành lý <a>tại đây.</a></b>
+            <br>
+            <b>
+                Lưu ý: Giá dưới đây đã bao gồm thuế, phí
+            </b>
+            <br><a>+ Phí Dịch Vụ Đặc Biệt</a><br><a>+ Thuế, Phí, Lệ phí &amp; Phụ thu </a>
+            <br>Đồng tiền thanh toán hiển thị theo “Quốc gia/Vùng” đã chọn, Quý khách kiểm tra kỹ đồng tiền trước khi thanh toán.
+        </div>
+    </div>
+
+
+    <!-- ////date -->
+    <div class="calendar-expansion-panel">
+        <div class="d-flex justify-content-center align-items-center expansion-header-wraper">
+            <button
+                class="d-flex justify-content-center justify-items-center align-items-center expansion-header"
+                id="expansion-header-btn" onclick="togglePanel()">
+                <p>Ẩn ngày</p>
+                <i class="fa-solid fa-angle-up toggle-icon-expansion-panel"></i>
+            </button>
+        </div>
+        <div class="calendar-content" id="calendar-content" style="display: block;">
+            <div class="price-legend-container">
+                <div class="price-legend">Giá mỗi hành khách</div>
+            </div>
+            <div class="carousel-container">
+                <ul class="carousel">
+                    <!-- render form js -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" id="flight-go">
+        @await Html.PartialAsync("FlightBack", flightResults)
+    </div>
+}
+
+<script src="/js/flightsearch.js"></script>

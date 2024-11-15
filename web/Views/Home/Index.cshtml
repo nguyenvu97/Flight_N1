@@ -1,0 +1,160 @@
+﻿@using Newtonsoft.Json
+@{
+    var airports = ViewBag.Airports as Dictionary<string, List<AirportViewModel>>;
+}
+
+<div class="page__banner">
+    <img src="/assets/image/banner.jpg" alt="">
+</div>
+<!-- search form//////////////////// -->
+<div class="d-flex flex-column main-functions">
+    <nav class="navbartab">
+        <ul class="d-flex nav-tabs">
+            <li class="navtab">
+                <a href="#navtab01">
+                    <p>MUA VÉ</p>
+                </a>
+            </li>
+            <li class="navtab">
+                <a href="#navtab01">
+                    <p>QUẢN LÝ ĐẶT CHỖ</p>
+                </a>
+            </li>
+            <li class="navtab">
+                <a href="#navtab01">
+                    <p>LÀM THỦ TỤC</p>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="d-flex sub-tab">
+            <li class="sub-tab-item">
+                <div class="input-container">
+                    <input type="text" id="departure_index" placeholder="Từ">
+                </div>
+            </li>
+            <i class="fa-solid fa-arrows-left-right"></i>
+            <li class="sub-tab-item">
+                <div class="input-container">
+                    <input type="text" id="arrival_index" placeholder="Đến">
+                </div>
+            </li>
+            <li class="sub-tab-item">
+                <div class="input-container">
+                    <input type="text" name="startDate_index" id="startDate_index" placeholder="Ngày đi" readonly>
+                    <div class="sub-tab-item-icon">
+                        <i class="fa-solid fa-calendar-alt calendar-icon"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="sub-tab-item">
+                <div class="input-container">
+                    <input type="text" name="endDate_index" id="endDate_index" placeholder="Ngày về" readonly>
+                    <div class="sub-tab-item-icon">
+                        <i class="fa-solid fa-calendar-alt calendar-icon"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</div>
+
+<div class="col-sm-12 col-xs-12 col-md-8 d-flex flex-column justify-content-center container-fluid travel-container">
+    <div class=" nav-traval">
+        <h2>KHÁM PHÁ ĐIỂM ĐẾN</h2>
+    </div>
+    <div class="row d-flex travel-content">
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/1.jpeg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/phuquoc.jpg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/tokyo.webp');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/hotel1.jpeg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/2_1.jpg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/2.jpeg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/3.jpeg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 d-flex flex-column nav-travel-tab" style="position: relative;">
+            <div class="image-travel" style="background-image: url('/assets/image/4.jpeg');">
+                <div class="d-flex flex-column card-body">
+                    <a href="" class="nav-link">
+                        <p>Tokyo - Thủ đô của hiện đại và truyền thống</p>
+                        <button class="btn btn-tra">Khám phá ngay</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* //overley *@
+
+<div class="overlay d-none" id="overlay">
+    @await Html.PartialAsync("FlightSearchForm")
+</div>
+<script>
+    var airports = @Html.Raw(JsonConvert.SerializeObject(airports));
+    localStorage.setItem("airports", JSON.stringify(airports));
+    $("#dropdown-container-from").show();
+</script>

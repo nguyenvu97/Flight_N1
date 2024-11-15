@@ -1,0 +1,171 @@
+@{
+    Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+    var rs = ViewBag.SelectedResults as BidingModel;
+    var number = ViewBag.SearchNumber as int?;
+    var searchFlight = ViewBag.SearchFlight as SearchFlight;
+    var booking = ViewBag.Booking as BookingData;
+    var isSelected = ViewBag.IsSelect as bool? ?? false;
+}
+
+@functions{
+
+    public string GetFirstFlight(string flightString)
+    {
+        var flights = flightString.Split(',');
+        return flights[0];
+    }
+
+    public decimal CalculateTotalBags()
+    {
+        var booking = ViewBag.Booking as BookingData;
+        var totalBagsGo = 0;
+        var totalBagsBack = 0;
+
+        if (booking.customers != null)
+        {
+            foreach (var customer in booking.customers)
+            {
+                totalBagsGo += customer.bag_go;
+                totalBagsBack += customer.bag_back;
+            }
+        }
+
+        return (totalBagsGo + totalBagsBack) * 500000;
+    }
+
+}
+
+@await Component.InvokeAsync("Search", new { action = "ShowSearch", pr1 = searchFlight, number })
+
+<div class="container-fluid body-content-booking">
+    <div class=" justify-content-center expansion-panel">
+        <div class="justify-content-center title-card">
+            <div class="title-content">
+                <h1>Lựa chọn của Quý khách</h1>
+
+            </div>
+        </div>
+
+        <div class="title-content-body">
+            <h1>Các chuyến bay</h1>
+        </div>
+        <div class="card-wraper">
+            @if (rs != null)
+            {
+                @Html.Partial("ShopingGo", rs.flightSelectGo)
+
+                if (rs.flightSelectBack != null)
+                {
+                    @Html.Partial("ShopingBack", rs.flightSelectGo)
+                }
+            }
+
+            <div class="card-review-btn">
+                <div class="btn-wraper">
+                    @if (rs.flightSelectBack != null)
+                    {
+                        <div class="total-money">Tổng số tiền:@((rs.flightSelectGo.totalPrice + rs.flightSelectBack.totalPrice).ToString("N0"))</div>
+                    }
+                    else
+                    {
+                        <div class="total-money">Tổng số tiền:@rs.flightSelectGo.totalPrice.ToString("N0")</div>
+                    }
+                </div>
+
+            </div>
+
+            <div class="justify-content-center align-items-center d-flex" style="width: 100%">
+                <h2 style="color: #005f6e;">Hành khách</h2>
+            </div>
+
+            <ul class="customer-list">
+                @Html.Partial("ShopingCustomer")
+            </ul>
+
+
+            <ul class="customer-list">
+                <li class="card-review customer-item flex-column">
+                    <div class="" style="padding: 0;">
+                        <div class="card-review customer-item"
+                             style="    box-shadow: none; border-bottom: 1px solid;">
+                            <div class="card-title-review icon-customer">
+                                <div class="card-title title-customer-card">
+                                    <div class="customer-name" style="color: #005f6e; font-weight: 700;">
+                                        Chọn chỗ ngồi
+                                    </div>
+                                    <div class="customer-email">
+                                        Chọn chỗ ngồi và thoải mái tận hưởng hành trình
+                                    </div>
+                                    <div class="customer-phone">
+                                        Từ 0VND
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-togle">
+                                <div class="card-review-btn-wraper">
+                                    <div class="flight-card-button-wraper-btn-review">
+                                        <button class="flight-card-button-wigget btn-review-continue" onclick="location.href='@Url.Action("SeatMap", "SeatMaps", new { id = GetFirstFlight(rs.flightSelectGo.FlightIds) })'">
+                                            <span class="mat-button-wrapper">
+                                                Chọn chỗ ngồi
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        @if (isSelected)
+                        {
+                            <div style="margin-top: 1rem; padding: 1.5rem;">
+                                <ul class="sasv">
+                                    @Html.Partial("ShopingDetail")
+                                </ul>
+                            </div>
+                        }
+
+
+                    </div>
+
+                </li>
+
+                @Html.Partial("ShopingBagge")
+            </ul>
+
+        </div>
+        <div class="card-review-btn">
+            <div class="btn-wraper" style="padding: 1rem">
+                @if (rs.flightSelectBack != null)
+                {
+                    <div class="total-money">Tổng số tiền:@((rs.flightSelectGo.totalPrice + rs.flightSelectBack.totalPrice + CalculateTotalBags()).ToString("N0"))</div>
+                }
+                else
+                {
+                    <div class="total-money">Tổng số tiền:@((rs.flightSelectGo.totalPrice + CalculateTotalBags()).ToString("N0"))</div>
+                }
+
+                <div class="card-review-btn-wraper">
+                    <div class="flight-card-button-wraper-btn-review">
+                        <button class="flight-card-button-wigget btn-review-back">
+                            <span class="mat-button-wrapper">
+                                Quay lại
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="flight-card-button-wraper-btn-review">
+                        <button class="flight-card-button-wigget btn-review-continue" onclick="confirmTicket ()">
+                            <span class="mat-button-wrapper">
+                                Tiếp tục
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/shopingcart.js"></script>
